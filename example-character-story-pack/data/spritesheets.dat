@@ -1,0 +1,9 @@
+[
+    {
+        "columns": 5,
+        "filename": "mage_items.png",
+        "scale": 0.5,
+        "name": "mage_items",
+        "y_offset": 0.25
+    }
+]
