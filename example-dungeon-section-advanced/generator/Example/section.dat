@@ -1,0 +1,31 @@
+{  
+   "difficultyLevel":1,
+   "sortOrder":1,
+   "name":"Sci-Fi Example",
+   "floors":1,
+   "levelTemplates":[  
+      {  
+         "class":"com.interrupt.dungeoneer.game.Level",
+         "darkness":1,
+         "fogStart":2,
+         "fogEnd":18,
+         "theme":"Example",
+         "generated":true,
+         "roomGeneratorType":"DUNGEON_ROOMS",
+         "roomGeneratorChance":0.0,
+         "music":"01_call_of_adventure.mp3,Nathan-1.mp3",
+         "actionMusic":"chase_sewers.mp3,DK-5.mp3",
+         "ambientSound":"env_indoor.mp3",
+         "ambientSoundVolume":"0.15",
+         "spawnRates":{  
+            "monsters":0.7,
+            "lights":0.9,
+            "loot":1.0,
+            "decor":1.0
+         },
+         "traps":[  
+
+         ]
+      }
+   ]
+}

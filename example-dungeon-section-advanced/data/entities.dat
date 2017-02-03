@@ -1,0 +1,142 @@
+{
+    entities: {
+        "Example Meshes": {
+            "Railing": {
+                class: com.interrupt.dungeoneer.entities.Model,
+                meshFile: meshes/Example/railing_straight.obj,
+                collision: {
+                    x: 0.5,
+                    y: 0.0625,
+                    z: 0.5
+                },
+                isSolid: true,
+                isDynamic: false,
+                textureFile: textures/Example/railing.png,
+            },
+            "Railing Corner": {
+                class: com.interrupt.dungeoneer.entities.Group,
+                entities: [
+                    {
+                        class: com.interrupt.dungeoneer.entities.areas.Area,
+                        collision: {
+                            x: 0.0625,
+                            y: 0.28125,
+                            z: 0.5
+                        },
+                        isSolid: true,
+                        tex: 19,
+                        y: 0.21709347
+                    },
+                    {
+                        class: com.interrupt.dungeoneer.entities.areas.Area,
+                        collision: {
+                            x: 0.28125,
+                            y: 0.0625,
+                            z: 0.5
+                        },
+                        isSolid: true,
+                        tex: 19,
+                        x: 0.21992588
+                    },
+                    {
+                        class: com.interrupt.dungeoneer.entities.Model,
+                        meshFile: meshes/Example/railing_corner.obj,
+                        collision: {
+                            x: 0.5,
+                            y: 0.5,
+                            z: 0.065
+                        },
+                        textureFile: textures/Example/railing.png,
+                        isDynamic: false
+                    }
+                ],
+            },
+            "Floor Lamp": {
+                class: com.interrupt.dungeoneer.entities.Prefab,
+                name: "Floor Lamp On,Floor Lamp On,Floor Lamp On,Floor Lamp On,Floor Lamp Off",
+                category: "Example Meshes"
+            },
+            "Floor Lamp On": {
+                class: com.interrupt.dungeoneer.entities.Group,
+                entities: [
+                    {
+                        class: com.interrupt.dungeoneer.entities.Light,
+                        isDynamic: false,
+                        lightColor: {
+                            a: 1,
+                            b: 0.98,
+                            g: 1,
+                            r: 0.75
+                        }
+                    },
+                    {
+                        class: com.interrupt.dungeoneer.entities.Sprite,
+                        spriteAtlas: example_sprites,
+                        color: {
+                            a: 1
+                        },
+                        collision: {
+                            x: 0.125,
+                            y: 0.125,
+                            z: 0.625
+                        },
+                        isSolid: true,
+                        isDynamic: false
+                    }
+                ]
+            },
+            "Floor Lamp Off": {
+                class: com.interrupt.dungeoneer.entities.Group,
+                entities: [
+                    {
+                        class: com.interrupt.dungeoneer.entities.Sprite,
+                        spriteAtlas: example_sprites,
+                        tex:1,
+                        color: {
+                            a: 1
+                        },
+                        collision: {
+                            x: 0.125,
+                            y: 0.125,
+                            z: 0.625
+                        },
+                        isSolid: true,
+                        isDynamic: false
+                    }
+                ]
+            },
+            "Flickering Floor Lamp": {
+                class: com.interrupt.dungeoneer.entities.Group,
+                entities: [
+                    {
+                        class: com.interrupt.dungeoneer.entities.DynamicLight,
+                        x: 1.2111664E-4,
+                        fullbrite: true,
+                        range: 4.5,
+                        lightColor: {
+                            x: 0.75,
+                            y: 1,
+                            z: 0.98
+                        },
+                        lightType: flicker_off,
+                        y: -8.583069E-6
+                    },
+                    {
+                        class: com.interrupt.dungeoneer.entities.Sprite,
+                        spriteAtlas: example_sprites,
+                        color: {
+                            a: 1
+                        },
+                        collision: {
+                            x: 0.125,
+                            y: 0.125,
+                            z: 0.625
+                        },
+                        isSolid: true,
+                        isDynamic: false
+                    }
+                ]
+            }
+        }
+    }
+}
