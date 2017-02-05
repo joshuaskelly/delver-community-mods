@@ -1,0 +1,49 @@
+{
+   "animations":{
+      "exampleShotgunAttack":{
+         "class":"com.interrupt.dungeoneer.gfx.animation.lerp3d.LerpedAnimation",
+         "actionTime":10,
+         "frames":[
+            {
+               "transform":{
+                  "x":0.1250,
+                  "y":0.0000,
+                  "z":0.0000
+               },
+               "rotation":{
+                  "x":0.0000,
+                  "y":80.0,
+                  "z":0.0000
+               },
+               length: 0.125
+            },
+            {
+               "transform":{
+                  "x":0.1250,
+                  "y":0.0000,
+                  "z":-0.150
+               },
+               "rotation":{
+                  "x":0.0000,
+                  "y":80.0,
+                  "z":0.0000
+               },
+               length: 0.25
+            },
+            {
+               "transform":{
+                  "x":0.1250,
+                  "y":0.0000,
+                  "z":0.0000
+               },
+               "rotation":{
+                  "x":0.0000,
+                  "y":80.0,
+                  "z":0.0000
+               },
+               length: 0
+            }
+         ]
+      }
+   }
+}
