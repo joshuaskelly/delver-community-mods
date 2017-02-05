@@ -1,198 +1,237 @@
 {
     "screens.SplashScreen.pressKeyToStart": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Press any key to start",
-        "comment":"Prompt shown once at the start of the game."
+        "localizedName":"Appuyez sur n'importe quelle touche pour continuer.",
+        "comment":"Prompt shown once at the start of the game.",
+        "localizedState":"done"
     },
     "screens.MainMenuScreen.playButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Play",
-        "comment":"Text for the play button. This will start a new game."
+        "localizedName":"Jouer",
+        "comment":"Text for the play button. This will start a new game.",
+        "localizedState":"done"
     },
     "screens.MainMenuScreen.eraseButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Erase",
-        "comment":"Text for the erase button, which will delete the player's save game."
+        "localizedName":"Effacer",
+        "comment":"Text for the erase button, which will delete the player's save game.",
+        "localizedState":"done"
     },
     "screens.MainMenuScreen.optionsButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Options",
-        "comment":"Text for the options button, which will open the options menu."
+        "comment":"Text for the options button, which will open the options menu.",
+        "localizedState":"done"
     },
     "screens.MainMenuScreen.selectSaveSlot": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Select Save Slot",
-        "comment":"Text prompt indicated the user should click a save slot."
+        "localizedName":"Sélectionnez une **position** de sauvegarde.",
+        "comment":"Text prompt indicated the user should click a save slot.",
+        "localizedState":"review"
     },
     "screens.MainMenuScreen.newGameSaveSlot": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"New Game",
-        "comment":"Text shown on a save slot when the slot is empty."
+        "localizedName":"Nouvelle partie",
+        "comment":"Text shown on a save slot when the slot is empty.",
+        "localizedState":"done"
     },
     "screens.MainMenuScreen.errorSaveSlot": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ERROR",
-        "comment":"Text shown on a save slot when the slot data cannot be loaded."
+        "localizedName":"ERREUR",
+        "comment":"Text shown on a save slot when the slot data cannot be loaded.",
+        "localizedState":"done"
     },
     "screens.MainMenuScreen.infoSaveSlot": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0}   Lvl: {1}",
-        "comment":"Text shown on a save slot. {0} is the name of the dungeon level. {1} is the number of the dungeon level."
+        "localizedName":"{0}   Niv: {1}",
+        "comment":"Text shown on a save slot. {0} is the name of the dungeon level. {1} is the number of the dungeon level.",
+        "localizedState":"review"
     },
     "screens.MainMenuScreen.finishedSaveSlot": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"FINISHED",
-        "comment":"Text shown on a save slot after successfully beating the game."
+        "localizedName":"TERMINÉ",
+        "comment":"Text shown on a save slot after successfully beating the game.",
+        "localizedState":"review"
     },
     "screens.MainMenuScreen.deadSaveSlot": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DEAD",
-        "comment":"Text shown on a save slot when the character is dead."
+        "localizedName":"MORT",
+        "comment":"Text shown on a save slot when the character is dead.",
+        "localizedState":"review"
     },
     "screens.OptionsScreen.graphicsLow": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"LOW",
-        "comment":"Text shown when graphics slider is all the way left."
+        "localizedName":"BAS",
+        "comment":"Text shown when graphics slider is all the way left.",,
+        "localizedState":"review"
     },
     "screens.OptionsScreen.graphicsMedium": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"MEDIUM",
-        "comment":"Text show when the graphics slider is in the middle."
+        "comment":"Text show when the graphics slider is in the middle.",,
+        "localizedState":"review"
     },
     "screens.OptionsScreen.graphicsHigh": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"HIGH",
-        "comment":"Text shown when the graphics slider is all the way right."
+        "localizedName":"ÉLEVÉS",
+        "comment":"Text shown when the graphics slider is all the way right.",
+        "localizedState":"review"
     },
     "screens.OptionsScreen.backButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Back",
-        "comment":"Text for back button, which goes to main menu."
+        "localizedName":"Retour",
+        "comment":"Text for back button, which goes to main menu.",
+        "localizedState":"done"
     },
     "screens.OptionsScreen.inputButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Input",
-        "comment":"Text for input button, which opens the input screen."
+        "localizedName":"Entrée",
+        "comment":"Text for input button, which opens the input screen.",
+        "localizedState":"review"
     },
     "screens.OptionsScreen.headerLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Game Options",
-        "comment":"Text for the screen title."
+        "localizedName":"Options du jeu",
+        "comment":"Text for the screen title.",
+        "localizedState":"done"
     },
     "screens.OptionsScreen.uiSizeLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"UI Size ",
-        "comment":"Label for UI size slider."
+        "localizedName":"Taille de l'interface ",
+        "comment":"Label for UI size slider.",
+        "localizedState":"review"
     },
     "screens.OptionsScreen.musicVolumeLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Music Volume",
-        "comment":"Label for music volume slider."
+        "localizedName":"Volume de la musique",
+        "comment":"Label for music volume slider.",
+        "localizedState":"done"
     },
     "screens.OptionsScreen.soundVolumeLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Sound Volume",
-        "comment":"Label for sound volume slider."
+        "localizedName":"Volume du son",
+        "comment":"Label for sound volume slider.",
+        "localizedState":"done"
     },
     "screens.OptionsScreen.graphicsDetailLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Graphics Detail",
-        "comment":"Label for graphics detail slider."
+        "localizedName":"Détails graphiques",
+        "comment":"Label for graphics detail slider.",
+        "localizedState":"review"
     },
     "screens.OptionsScreen.particleDensityLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Particle Density",
-        "comment":"Label for particle density slider."
+        "localizedName":"Densité des particules",
+        "comment":"Label for particle density slider.",
+        "localizedState":"done"
     },
     "screens.OptionsScreen.fovLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"FOV",
-        "comment":"Label for field of view slider."
+        "localizedName":"Champ de vision",
+        "comment":"Label for field of view slider.",
+        "localizedState":"done"
     },
     "screens.OptionsScreen.fullscreenLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Fullscreen",
-        "comment":"Label for fullscreen toggle."
+        "localizedName":"Plein écran",
+        "comment":"Label for fullscreen toggle.",
+        "localizedState":"done"
     },
     "screens.OptionsInputScreen.backButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Back",
-        "comment":"Text for back button, which goes back to options screen."
+        "localizedName":"Retour",
+        "comment":"Text for back button, which goes back to options screen.",
+        "localizedState":"done"
     },
     "screens.OptionsInputScreen.keysButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Keys",
-        "comment":"Text for the keys button, which opens the key binding screen."
+        "localizedName":"Touches",
+        "comment":"Text for the keys button, which opens the key binding screen.",
+        "localizedState":"done"
     },
     "screens.OptionsInputScreen.gamepadButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":" Gamepad ",
-        "comment":"Text for the gamepad button, which opens the gamepad binding screen."
+        "comment":"Text for the gamepad button, which opens the gamepad binding screen.",
+        "localizedState":"review"
     },
     "screens.OptionsInputScreen.headerLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Input Options",
-        "comment":"Text for the input options screen title."
+        "localizedName":"Options d'entrée",
+        "comment":"Text for the input options screen title.",
+        "localizedState":"review"
     },
     "screens.OptionsScreen.lookXLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Look X",
-        "comment":"Label for the mouse x-axis sensitivity slider."
+        "localizedName":"Regard X",
+        "comment":"Label for the mouse x-axis sensitivity slider.",
+        "localizedState":"review"
     },
     "screens.OptionsScreen.lookYLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Look Y",
-        "comment":"Label for the mouse y-axis sensitivity slider."
+        "localizedName":"Regard Y",
+        "comment":"Label for the mouse y-axis sensitivity slider.",
+        "localizedState":"review"
     },
     "screens.OptionsScreen.invertLookLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Invert Look",
-        "comment":"Label for the invert look toggle."
+        "localizedName":"Renverser le regard",
+        "comment":"Label for the invert look toggle.",
+        "localizedState":"review"
     },
     "screens.OptionsScreen.mouseButton1Label": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Mouse Button 1",
-        "comment":"Label for mouse button. Used for assigning to bindings."
+        "localizedName":"Bouton souris 1",
+        "comment":"Label for mouse button. Used for assigning to bindings.",
+        "localizedState":"review"
     },
     "screens.OptionsScreen.mouseButton2Label": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Mouse Button 2",
-        "comment":"Label for mouse button. Used for assigning to bindings."
+        "localizedName":"Bouton souris 2",
+        "comment":"Label for mouse button. Used for assigning to bindings.",
+        "localizedState":"review"
     },
     "screens.OptionsScreen.mouseButton3Label": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Mouse Button 3",
-        "comment":"Label for mouse button. Used for assigning to bindings."
+        "localizedName":"Bouton souris 3",
+        "comment":"Label for mouse button. Used for assigning to bindings.",
+        "localizedState":"review"
     },
     "screens.OptionsScreen.mouseScrollLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Mouse Scroll",
-        "comment":"Label for scroll wheel toggle."
+        "localizedName":"Défilement souris",
+        "comment":"Label for scroll wheel toggle.",
+        "localizedState":"review"
     },
     "screens.OptionsKeysScreen.backButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Back",
-        "comment":"Text for back button, which goes back to the input options screen."
+        "localizedName":"Retour",
+        "comment":"Text for back button, which goes back to the input options screen.",
+        "localizedState":"done"
     },
     "screens.OptionsKeysScreen.pressKeyLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Press a key for: {0}",
-        "comment":"Message prompt shown when player is rebinding a key. {0} is the action. e.g. USE"
+        "localizedName":"Appuyez sur une touche pour: {0}",
+        "comment":"Message prompt shown when player is rebinding a key. {0} is the action. e.g. USE",
+        "localizedState":"done"
     },
     "screens.OptionsKeysScreen.pressEscToCancelLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Press Esc to cancel",
-        "comment":"Cancel prompt shown when player is rebinding a key."
+        "localizedName":"Appuyez sur ESC./ÉCHAP. pour annuler",
+        "comment":"Cancel prompt shown when player is rebinding a key.",
+        "localizedState":"done"
     },
     "screens.LoadingScreen.loadingLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"LOADING",
-        "comment":"Label shown when game is loading."
+        "localizedName":"Chargement",
+        "comment":"Label shown when game is loading.",
+        "localizedState":"review"
     },
     "screens.LevelChangeScreen.levelChangeLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Changing Floor",
-        "comment":"Label shown when game loading the next level."
+        "localizedName":"Changement de niveau",
+        "comment":"Label shown when game loading the next level.",
+        "localizedState":"review"
     },
     "screens.GameOverScreen.win_text_0": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
