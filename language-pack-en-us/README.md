@@ -33,4 +33,4 @@ The comment property is not used by the Delver engine, but is meant to serve to 
 It is recommended to use a [JSON validator](http://www.google.com/#q=json+validator) to ensure that you have well formed JSON. If your JSON is not well formed the Delver engine may not load your content, and potentially could crash.
 
 ### Additional LocalizedString Properties
-While adding additional JSON properties is still valid JSON, it will cause the Delver engine to crash. If you want to leave translation notes, please feel free to use the comment property.
+While adding additional JSON properties is still valid JSON, it will cause the Delver engine to crash. If you want to leave translation notes please feel free to use the comment property.
