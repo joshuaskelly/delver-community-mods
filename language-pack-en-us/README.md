@@ -29,4 +29,8 @@ The localizedName property is the string that the Delver engine will show. In th
 The comment property is not used by the Delver engine, but is meant to serve to provide context for the translator. In the example above the value for the comment is _"This property is not used by the game. It is meant to help give context for the translator."_. This property can be left blank, which is indicated by two double quotes ("").
 
 ## Troubleshooting
+### Valid JSON
 It is recommended to use a [JSON validator](http://www.google.com/#q=json+validator) to ensure that you have well formed JSON. If your JSON is not well formed the Delver engine may not load your content, and potentially could crash.
+
+### Additional LocalizedString Properties
+While adding additional JSON properties is still valid JSON, it will cause the Delver engine to crash. If you want to leave translation notes, please feel free to use the comment property.
