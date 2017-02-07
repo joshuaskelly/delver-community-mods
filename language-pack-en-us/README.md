@@ -2,7 +2,7 @@
 The English language strings shipped by Delver. Useful as a starting point for a translation.
 
 ## Usage
-The translation table is stored as a [JSON](http://en.wikipedia.org/wiki/JSON) object in [strings.dat](../data/strings.dat) file. Each entry has the form:
+The translation table is stored as a [JSON](http://en.wikipedia.org/wiki/JSON) object in the [strings.dat](./data/strings.dat) file. Each entry has the form:
 
 ```
 "items.ExampleItem.stringIdentifier": {
