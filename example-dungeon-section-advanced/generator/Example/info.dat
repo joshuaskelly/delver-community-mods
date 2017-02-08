@@ -1,31 +1,31 @@
-{  
-   "spawnLights":[  
-      {  
+{
+   "spawnLights":[
+      {
          "class":"com.interrupt.dungeoneer.entities.Torch",
          "texAnimStart":4,
          "texAnimEnd":5,
-         "lightColor":{  
+         "lightColor":{
             "r":1.0,
             "g":0.8,
             "b":0.2,
             "a":1.0
          },
-         "emitter":{  
+         "emitter":{
             "class":"com.interrupt.dungeoneer.entities.ParticleEmitter",
             "z":0.4,
-            "particleVelocity":{  
+            "particleVelocity":{
                "z":0.02
             },
             "particleRandomSpawnInterval":40.0,
             "particleSpawnCount":1,
-            "particleSpread":{  
+            "particleSpread":{
                "x":0.0,
                "y":0.0,
                "z":0.0
             },
             "particleStartScale":1.0,
             "particleEndScale":0.0,
-            "particleRandomVelocity":{  
+            "particleRandomVelocity":{
                "x":0.003,
                "y":0.003,
                "z":0.01
@@ -34,7 +34,7 @@
             "particleLifetime":10.0,
             "particleRandomLifetime":10.0,
             "particleSpawnInterval":80.0,
-            "particleColor":{  
+            "particleColor":{
                "a":1.0,
                "b":0.04,
                "g":0.5,
@@ -46,10 +46,10 @@
          }
       }
    ],
-   "doors":[  
-      {  
+   "doors":[
+      {
          "tex":34,
-         "collision":{  
+         "collision":{
             "x":0.1,
             "y":0.5,
             "z":0.96
@@ -58,20 +58,24 @@
          "doorTexture":"door.png"
       }
    ],
-   "genInfos":[  
-      {  
+   "genInfos":[
+      {
          "class":"com.interrupt.dungeoneer.generator.GenInfo",
-         "comment":"rocks (will spawn on floors with texture 2)",
-         "floorTex":2,
-         "chance":0.11,
-         "clusterCount":4,
-         "clusterSpread":0.4,
-         "performanceControlledClustering":true,
-         "spawns":[  
-            {  
-               "class":"com.interrupt.dungeoneer.entities.Sprite",
-               "tex":0,
-               "isDynamic":false
+         "comment":"Ceiling light",
+         "ceilTex":11,
+         "textureAtlas":"example",
+         "chance":1.00,
+         "spawns":[
+            {
+               "class":"com.interrupt.dungeoneer.entities.Light",
+               "isDynamic":false,
+               "lightColor":{
+                  "r":0.8352941,
+                  "g":0.9254902,
+                  "b":1,
+                  "a":1
+               },
+               "range":3
             }
          ]
       }

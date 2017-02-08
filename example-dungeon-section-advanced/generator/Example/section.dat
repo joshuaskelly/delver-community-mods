@@ -1,15 +1,27 @@
-{  
+{
    "difficultyLevel":1,
    "sortOrder":1,
    "name":"Sci-Fi Example",
    "floors":1,
-   "levelTemplates":[  
-      {  
+   "levelTemplates":[
+      {
          "class":"com.interrupt.dungeoneer.game.Level",
          "darkness":1,
          "fogStart":2,
          "fogEnd":18,
          "theme":"Example",
+         "wallPainter":{
+            "2":[2,2,2,2,2,2,2,2,2,3],
+            "8":[8,8,8,8,8,8,12,12,12,12]
+         },
+         "floorPainter":{
+            "9":[9,9,9,9,9,9,9,10,10,10]
+         },
+         "ceilPainter":{
+             "8":[8,8,8,8,8,8,12,12,12,12],
+             "9":[9,9,9,9,9,9,9,9,9,10],
+            "11":[11,11,11,11,11,11,11,11,15,15]
+         },
          "generated":true,
          "roomGeneratorType":"DUNGEON_ROOMS",
          "roomGeneratorChance":0.0,
@@ -17,13 +29,13 @@
          "actionMusic":"chase_sewers.mp3,DK-5.mp3",
          "ambientSound":"env_indoor.mp3",
          "ambientSoundVolume":"0.15",
-         "spawnRates":{  
+         "spawnRates":{
             "monsters":0.7,
             "lights":0.9,
             "loot":1.0,
             "decor":1.0
          },
-         "traps":[  
+         "traps":[
 
          ]
       }
