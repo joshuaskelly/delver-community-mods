@@ -4,7 +4,7 @@ The English language strings shipped by Delver. Useful as a starting point for a
 ## Usage
 The translation table is stored as a [JSON](http://en.wikipedia.org/wiki/JSON) object in the [strings.dat](./data/strings.dat) file. Each entry has the form:
 
-```
+```json
 "items.ExampleItem.stringIdentifier": {
     "class":"com.interrupt.dungeoneer.game.LocalizedString",
     "localizedName":"Translate this property",
