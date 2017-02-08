@@ -9,7 +9,7 @@ The translation table is stored as a [JSON](http://en.wikipedia.org/wiki/JSON) o
     "class":"com.interrupt.dungeoneer.game.LocalizedString",
     "localizedName":"Translate this property",
     "comment":"This property is not used by the game. It is meant to help give context for the translator."
-},
+}
 ```
 
 ### String Identifier
