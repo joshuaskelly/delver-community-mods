@@ -1,0 +1,9 @@
+[
+    {
+        "columns": 4,
+        "filename": "guns.png",
+        "scale": 0.5,
+        "name": "example_guns",
+        "y_offset": 0.25
+    }
+]

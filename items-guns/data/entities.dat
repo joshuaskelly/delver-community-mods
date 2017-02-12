@@ -1,0 +1,84 @@
+{
+   "entities":{
+      "Example Guns":{
+         "SHOTGUN":{
+            "class":"com.interrupt.dungeoneer.entities.items.Gun",
+            "roll":45,
+            "tex":0,
+            "inventoryTex":0,
+            "heldTex":4,
+            "spriteAtlas":"example_guns",
+            "name":"Shotgun",
+            "attackAnimation":"exampleShotgunAttack",
+            "attackStrongAnimation":"exampleShotgunAttack",
+            "chargeAnimation":"exampleShotgunAttack",
+            "automatic":false,
+            "projectileNum":5,
+            "projectileSpreadX":15,
+            "projectileSpreadY":15,
+            "cycleTime":12,
+            "ammoType":"SHELL",
+            "twoHanded":true,
+            "baseDamage": 2,
+            "randDamage": 2
+         },
+         "SHELLS":{
+            "class":"com.interrupt.dungeoneer.entities.items.ItemStack",
+            "tex":8,
+            "spriteAtlas":"example_guns",
+            "name":"Shells",
+            "count":5,
+            "stackType":"SHELL",
+            "yOffset": 0
+         },
+         "BOX OF SHELLS":{
+            "class":"com.interrupt.dungeoneer.entities.items.ItemStack",
+            "tex":12,
+            "spriteAtlas":"example_guns",
+            "name":"Box of Shells",
+            "count":20,
+            "stackType":"SHELL",
+            "yOffset": 0
+         },
+         "REVOLVER":{
+            "class":"com.interrupt.dungeoneer.entities.items.Gun",
+            "roll":45,
+            "tex":1,
+            "inventoryTex":1,
+            "heldTex":5,
+            "spriteAtlas":"example_guns",
+            "name":"Revolver",
+            "attackAnimation":"exampleShotgunAttack",
+            "attackStrongAnimation":"exampleShotgunAttack",
+            "chargeAnimation":"exampleShotgunAttack",
+            "automatic":false,
+            "projectileNum":1,
+            "projectileSpreadX":1,
+            "projectileSpreadY":1,
+            "cycleTime":2,
+            "ammoType":"BULLET",
+            "twoHanded":true,
+            "baseDamage": 6,
+            "randDamage": 6
+         },
+         "BULLETS":{
+            "class":"com.interrupt.dungeoneer.entities.items.ItemStack",
+            "tex":9,
+            "spriteAtlas":"example_guns",
+            "name":"Bullets",
+            "count":5,
+            "stackType":"BULLET",
+            "yOffset": 0
+         },
+         "BOX OF BULLETS":{
+            "class":"com.interrupt.dungeoneer.entities.items.ItemStack",
+            "tex":13,
+            "spriteAtlas":"example_guns",
+            "name":"Box of Bullets",
+            "count":20,
+            "stackType":"BULLET",
+            "yOffset": 0
+         }
+      }
+   }
+}
