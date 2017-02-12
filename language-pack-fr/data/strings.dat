@@ -1,7 +1,7 @@
 {
     "screens.SplashScreen.pressKeyToStart": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Appuyez sur n'importe quelle touche pour continuer.",
+        "localizedName":"Appuyez sur une touche pour continuer.",
         "comment":"Prompt shown once at the start of the game."
     },
     "screens.MainMenuScreen.playButton": {
@@ -21,7 +21,7 @@
     },
     "screens.MainMenuScreen.selectSaveSlot": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Sélectionnez une **position** de sauvegarde.",
+        "localizedName":"Sélectionnez une sauvegarde.",
         "comment":"Text prompt indicated the user should click a save slot."
     },
     "screens.MainMenuScreen.newGameSaveSlot": {
@@ -66,12 +66,12 @@
     },
     "screens.OptionsScreen.backButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Retour",
+        "localizedName":"Ret.",
         "comment":"Text for back button, which goes to main menu."
     },
     "screens.OptionsScreen.inputButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Entrée",
+        "localizedName":"Contr.",
         "comment":"Text for input button, which opens the input screen."
     },
     "screens.OptionsScreen.headerLabel": {
@@ -116,12 +116,12 @@
     },
     "screens.OptionsInputScreen.backButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Retour",
+        "localizedName":"Ret.",
         "comment":"Text for back button, which goes back to options screen."
     },
     "screens.OptionsInputScreen.keysButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Touches",
+        "localizedName":"Bout.",
         "comment":"Text for the keys button, which opens the key binding screen."
     },
     "screens.OptionsInputScreen.gamepadButton": {
@@ -131,7 +131,7 @@
     },
     "screens.OptionsInputScreen.headerLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Options d'entrée",
+        "localizedName":"Options de souris",
         "comment":"Text for the input options screen title."
     },
     "screens.OptionsScreen.lookXLabel": {
@@ -171,7 +171,7 @@
     },
     "screens.OptionsKeysScreen.backButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Retour",
+        "localizedName":"Ret.",
         "comment":"Text for back button, which goes back to the input options screen."
     },
     "screens.OptionsKeysScreen.pressKeyLabel": {
@@ -236,7 +236,7 @@
     },
     "screens.GameOverScreen.delverEscapedText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"L'AVENTURIER S'EST ÉCHAPPÉ!",
+        "localizedName":"DELVER S'EST ÉCHAPPÉ!",
         "comment":"Shown on the win screen."
     },
     "screens.GameOverScreen.recoveredOrbText": {
@@ -246,7 +246,7 @@
     },
     "screens.GameOverScreen.goodbyeDelverText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"AU REVOIR AVENTURIER",
+        "localizedName":"AU REVOIR DELVER",
         "comment":"Shown on the game over screen."
     },
     "screens.GameOverScreen.betterLuckText": {
@@ -341,12 +341,12 @@
     },
     "overlays.PauseOverlay.backButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Retour",
+        "localizedName":"Ret.",
         "comment":"Text for the back button on the pause screen. Goes back to playing the game."
     },
     "overlays.PauseOverlay.quitButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Quitter",
+        "localizedName":"Quit.",
         "comment":"Text for the quit button on the pause screen. Returns to the main menu."
     },
     "overlays.PauseOverlay.pauseHeader": {
@@ -421,27 +421,27 @@
     },
     "entities.Item.itemConditionBroken": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Brisé",
+        "localizedName":"brisé(e)",
         "comment":""
     },
     "entities.Item.itemConditionWorn": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Usé",
+        "localizedName":"usé(e)",
         "comment":""
     },
     "entities.Item.itemConditionNormal": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Normal",
+        "localizedName":"normal(e)",
         "comment":""
     },
     "entities.Item.itemConditionFine": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Fin",
+        "localizedName":"fin(e)",
         "comment":""
     },
     "entities.Item.itemConditionExcellent": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Excellent",
+        "localizedName":"excellent(e)",
         "comment":""
     },
     "entities.Item.mobileUseMessageText": {
@@ -456,7 +456,7 @@
     },
     "entities.Item.itemNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{1} {2} {0} {3}",
+        "localizedName":"{2} {1} {0} {3}",
         "comment":"Text shown for items. E.g. King's Excellent Sword of the Rabbit. {0} is the prefix enchantment. {1} is the item condition. {2} is the item name. {3} is the postfix enchantment. Note any extra white space will be stripped."
     },
     "entities.Item.unidentifiedIndicatorText": {
@@ -601,7 +601,7 @@
     },
     "items.Food.drinkBoozeText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Vous vous sentez réchauffé",
+        "localizedName":"Vous vous sentez réchauffé(e)",
         "comment":""
     },
     "items.Food.infoText": {
@@ -681,7 +681,7 @@
     },
     "items.Potion.ironSkinDisplayText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Vous vous sentez engourdi",
+        "localizedName":"Vous vous sentez engourdi(e)",
         "comment":"Text shown when potion is drank."
     },
     "items.Potion.ironSkinStatusEffectNameText": {
@@ -691,7 +691,7 @@
     },
     "items.Potion.paralyzeDisplayText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Vous vous sentez coincé",
+        "localizedName":"Vous vous sentez coincé(e)",
         "comment":"Text shown when potion is drank."
     },
     "items.Potion.discoverDisplayText": {
@@ -831,7 +831,7 @@
     },
     "items.Weapon.twoHandedText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"à deux mains",
+        "localizedName":"À deux mains",
         "comment":"Text shown on item information if it is wielded with two hands."
     },
     "statuseffects.BurningEffect.defaultNameText": {
@@ -851,7 +851,7 @@
     },
     "statuseffects.RestoreHealthEffect.defaultNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"donne des points de vie",
+        "localizedName":"points de vie",
         "comment":""
     },
     "statuseffects.SlowEffect.defaultNameText": {
@@ -951,7 +951,7 @@
     },
     "TURN LEFT": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"REGARDER À GAUCGE",
+        "localizedName":"REGARDER À GAUCHE",
         "comment":"Label for key bind action."
     },
     "TURN RIGHT": {
@@ -1656,32 +1656,32 @@
     },
     "Trite": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Anodin",
+        "localizedName":"anodin",
         "comment":""
     },
     "Insipid": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Insipide",
+        "localizedName":"insipide",
         "comment":""
     },
     "Vapid": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Banal",
+        "localizedName":"banal",
         "comment":""
     },
     "Mage's": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Du sage",
+        "localizedName":"du sage",
         "comment":""
     },
     "Wizard's": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Du mage",
+        "localizedName":"du mage",
         "comment":""
     },
     "Sorcerer's": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Du sorcier",
+        "localizedName":"du sorcier",
         "comment":""
     }
 }
