@@ -14,10 +14,10 @@ A collection of example mods for the game Delver.
 5. Submit a pull request.
 
 ## Contributors
-- Chad Cuddigan - [Interrupt](http://github.com/Interrupt)
 - Javier Leal Cortés - [JavierLealCortes](http://github.com/JavierLealCortes)
-- Joshua Skelton - [JoshuaSkelly](http://github.com/JoshuaSkelly)
+- Chad Cuddigan - [Interrupt](http://github.com/Interrupt)
 - Louis Carl Pepin - [louiscarl](http://github.com/louiscarl)
+- Joshua Skelton - [JoshuaSkelly](http://github.com/JoshuaSkelly)
 
 See also the list of [contributors](./CONTRIBUTORS) who participated in this project.
 
