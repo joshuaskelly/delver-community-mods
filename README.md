@@ -15,6 +15,7 @@ A collection of example mods for the game Delver.
 
 ## Contributors
 - Chad Cuddigan - [Interrupt](http://github.com/Interrupt)
+- Javier Leal Cortés - [JavierLealCortes](http://github.com/JavierLealCortes)
 - Joshua Skelton - [JoshuaSkelly](http://github.com/JoshuaSkelly)
 - Louis Carl Pepin - [louiscarl](http://github.com/louiscarl)
 
