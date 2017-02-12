@@ -137,7 +137,17 @@
                     }
                 ]
             },
+            "Greeble":{
+                "class": "com.interrupt.dungeoneer.entities.Prefab",
+                "category": "Example Meshes",
+                "name": "Greeble 0,Greeble 1,Greeble 3"
+            },
             "Greeble 0":{
+                "class":"com.interrupt.dungeoneer.entities.Prefab",
+                "name":"Greeble 0A,Greeble 0B",
+                "category":"Example Meshes"
+            },
+            "Greeble 0A":{
                 "class":"com.interrupt.dungeoneer.entities.Model",
                 "isSolid":true,
                 "collision":{
@@ -147,11 +157,28 @@
                 },
                 "isDynamic":false,
                 "meshFile":"meshes/Example/greeble_0.obj",
-                "textureFile":"textures/Example/greebles_0.png"
+                "textureFile":"textures/Example/greebles_0.png,textures/Example/greebles_1.png"
+            },
+            "Greeble 0B":{
+                "class":"com.interrupt.dungeoneer.entities.Group",
+                "entities":[
+                    {
+                        "class":"com.interrupt.dungeoneer.entities.Prefab",
+                        "category":"Example Meshes",
+                        "name":"Greeble 0A"
+                    },
+                    {
+                        "class":"com.interrupt.dungeoneer.entities.Prefab",
+                        "category":"Example Meshes",
+                        "y":0.12607098,
+                        "z":0.1546365,
+                        "name":"Greeble 2"
+                    }
+                ]
             },
             "Greeble 1":{
                 "class":"com.interrupt.dungeoneer.entities.Prefab",
-                "name":"Greeble 1A,Greeble 1B",
+                "name":"Greeble 1A,Greeble 1B,Greeble 1C",
                 "category":"Example Meshes"
             },
             "Greeble 1A":{
@@ -164,7 +191,7 @@
                 },
                 "isDynamic":false,
                 "meshFile":"meshes/Example/greeble_1.obj",
-                "textureFile":"textures/Example/greebles_0.png"
+                "textureFile":"textures/Example/greebles_0.png,textures/Example/greebles_1.png"
             },
             "Greeble 1B":{
                 "class":"com.interrupt.dungeoneer.entities.Group",
@@ -182,15 +209,39 @@
                         "textureFile":"textures/Example/greebles_0.png"
                     },
                     {
-                        "class": "com.interrupt.dungeoneer.entities.Light",
-                        "isDynamic": false,
-                        "lightColor": {
-                            "r": 0.8352941,
-                            "g": 0.9254902,
-                            "b": 1,
-                            "a": 1
+                        "class":"com.interrupt.dungeoneer.entities.Light",
+                        "isDynamic":false,
+                        "lightColor":{
+                            "r":0.8352941,
+                            "g":0.9254902,
+                            "b":1,
+                            "a":1
                         },
-                        "range": 3
+                        "range":3
+                    }
+                ]
+            },
+            "Greeble 1C":{
+                "class":"com.interrupt.dungeoneer.entities.Group",
+                "entities":[
+                    {
+                        "class":"com.interrupt.dungeoneer.entities.Prefab",
+                        "category":"Example Meshes",
+                        "name":"Greeble 1B"
+                    },
+                    {
+                        "class":"com.interrupt.dungeoneer.entities.Model",
+                        "isSolid":true,
+                        "collision":{
+                            "x":0.25,
+                            "y":0.125,
+                            "z":0.5
+                        },
+                        "y": 0.125,
+                        "z":0.1233865,
+                        "isDynamic":false,
+                        "meshFile":"meshes/Example/greeble_2.obj",
+                        "textureFile":"textures/Example/greebles_1.png"
                     }
                 ]
             },
@@ -204,9 +255,14 @@
                 },
                 "isDynamic":false,
                 "meshFile":"meshes/Example/greeble_2.obj",
-                "textureFile":"textures/Example/greebles_0.png"
+                "textureFile":"textures/Example/greebles_0.png,textures/Example/greebles_1.png"
             },
             "Greeble 3":{
+                "class":"com.interrupt.dungeoneer.entities.Prefab",
+                "name":"Greeble 3A,Greeble 3B,Greeble 3C",
+                "category":"Example Meshes"
+            },
+            "Greeble 3A":{
                 "class":"com.interrupt.dungeoneer.entities.Model",
                 "isSolid":true,
                 "collision":{
@@ -216,7 +272,43 @@
                 },
                 "isDynamic":false,
                 "meshFile":"meshes/Example/greeble_3.obj",
-                "textureFile":"textures/Example/greebles_0.png"
+                "textureFile":"textures/Example/greebles_0.png,textures/Example/greebles_1.png"
+            },
+            "Greeble 3B":{
+                "class":"com.interrupt.dungeoneer.entities.Group",
+                "entities":[
+                    {
+                        "class":"com.interrupt.dungeoneer.entities.Prefab",
+                        "category":"Example Meshes",
+                        "name":"Greeble 3A"
+                    },
+                    {
+                        "class":"com.interrupt.dungeoneer.entities.Prefab",
+                        "category":"Example Meshes",
+                        "x":-0.12641716,
+                        "y":0.12607098,
+                        "z":0.1233865,
+                        "name":"Greeble 2"
+                    }
+                ]
+            },
+            "Greeble 3C":{
+                "class":"com.interrupt.dungeoneer.entities.Group",
+                "entities":[
+                    {
+                        "class":"com.interrupt.dungeoneer.entities.Prefab",
+                        "category":"Example Meshes",
+                        "name":"Greeble 3A"
+                    },
+                    {
+                        "class":"com.interrupt.dungeoneer.entities.Prefab",
+                        "category":"Example Meshes",
+                        "x":0.12641716,
+                        "y":0.12607098,
+                        "z":0.1233865,
+                        "name":"Greeble 2"
+                    }
+                ]
             }
         }
     }
