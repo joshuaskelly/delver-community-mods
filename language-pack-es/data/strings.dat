@@ -106,7 +106,7 @@
     },
     "screens.OptionsScreen.fovLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Campo de visión
+        "localizedName":"Campo de visión",
         "comment":"Label for field of view slider."
     },
     "screens.OptionsScreen.fullscreenLabel": {
@@ -1421,7 +1421,7 @@
 	},
 	"Cheese": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName"Queso",
+		"localizedName":"Queso",
 		"comment":""
 	},
 	"Steak": {
