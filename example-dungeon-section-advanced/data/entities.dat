@@ -1,141 +1,222 @@
 {
-    entities: {
-        "Example Meshes": {
-            "Railing": {
-                class: com.interrupt.dungeoneer.entities.Model,
-                meshFile: meshes/Example/railing_straight.obj,
-                collision: {
-                    x: 0.5,
-                    y: 0.0625,
-                    z: 0.5
+    "entities":{
+        "Example Meshes":{
+            "Railing":{
+                "class":"com.interrupt.dungeoneer.entities.Model",
+                "meshFile":"meshes/Example/railing_straight.obj",
+                "collision":{
+                    "x":0.5,
+                    "y":0.0625,
+                    "z":0.5
                 },
-                isSolid: true,
-                isDynamic: false,
-                textureFile: textures/Example/railing.png,
+                "isSolid":true,
+                "isDynamic":false,
+                "textureFile":"textures/Example/railing.png"
             },
-            "Railing Corner": {
-                class: com.interrupt.dungeoneer.entities.Group,
-                entities: [
+            "Railing Corner":{
+                "class":"com.interrupt.dungeoneer.entities.Group",
+                "entities":[
                     {
-                        class: com.interrupt.dungeoneer.entities.areas.Area,
-                        collision: {
-                            x: 0.0625,
-                            y: 0.28125,
-                            z: 0.5
+                        "class":"com.interrupt.dungeoneer.entities.areas.Area",
+                        "collision":{
+                            "x":0.0625,
+                            "y":0.28125,
+                            "z":0.5
                         },
-                        isSolid: true,
-                        tex: 19,
-                        y: 0.21709347
+                        "isSolid":true,
+                        "tex":19,
+                        "y":0.21709347
                     },
                     {
-                        class: com.interrupt.dungeoneer.entities.areas.Area,
-                        collision: {
-                            x: 0.28125,
-                            y: 0.0625,
-                            z: 0.5
+                        "class":"com.interrupt.dungeoneer.entities.areas.Area",
+                        "collision":{
+                            "x":0.28125,
+                            "y":0.0625,
+                            "z":0.5
                         },
-                        isSolid: true,
-                        tex: 19,
-                        x: 0.21992588
+                        "isSolid":true,
+                        "tex":19,
+                        "x":0.21992588
                     },
                     {
-                        class: com.interrupt.dungeoneer.entities.Model,
-                        meshFile: meshes/Example/railing_corner.obj,
-                        collision: {
-                            x: 0.5,
-                            y: 0.5,
-                            z: 0.065
+                        "class":"com.interrupt.dungeoneer.entities.Model",
+                        "meshFile":"meshes/Example/railing_corner.obj",
+                        "collision":{
+                            "x":0.5,
+                            "y":0.5,
+                            "z":0.065
                         },
-                        textureFile: textures/Example/railing.png,
-                        isDynamic: false
+                        "textureFile":"textures/Example/railing.png",
+                        "isDynamic":false
                     }
-                ],
+                ]
             },
-            "Floor Lamp": {
-                class: com.interrupt.dungeoneer.entities.Prefab,
-                name: "Floor Lamp On,Floor Lamp On,Floor Lamp On,Floor Lamp On,Floor Lamp Off",
-                category: "Example Meshes"
+            "Floor Lamp":{
+                "class":"com.interrupt.dungeoneer.entities.Prefab",
+                "name":"Floor Lamp On,Floor Lamp On,Floor Lamp On,Floor Lamp On,Floor Lamp Off",
+                "category":"Example Meshes"
             },
-            "Floor Lamp On": {
-                class: com.interrupt.dungeoneer.entities.Group,
-                entities: [
+            "Floor Lamp On":{
+                "class":"com.interrupt.dungeoneer.entities.Group",
+                "entities":[
                     {
-                        class: com.interrupt.dungeoneer.entities.Light,
-                        isDynamic: false,
-                        lightColor: {
-                            a: 1,
-                            b: 0.98,
-                            g: 1,
-                            r: 0.75
+                        "class":"com.interrupt.dungeoneer.entities.Light",
+                        "isDynamic":false,
+                        "lightColor":{
+                            "a":1,
+                            "b":0.98,
+                            "g":1,
+                            "r":0.75
                         }
                     },
                     {
-                        class: com.interrupt.dungeoneer.entities.Sprite,
-                        spriteAtlas: example_sprites,
-                        color: {
-                            a: 1
+                        "class":"com.interrupt.dungeoneer.entities.Sprite",
+                        "spriteAtlas":"example_sprites",
+                        "color":{
+                            "a":1
                         },
-                        collision: {
-                            x: 0.125,
-                            y: 0.125,
-                            z: 0.625
+                        "collision":{
+                            "x":0.125,
+                            "y":0.125,
+                            "z":0.625
                         },
-                        isSolid: true,
-                        isDynamic: false
+                        "isSolid":true,
+                        "isDynamic":false
                     }
                 ]
             },
-            "Floor Lamp Off": {
-                class: com.interrupt.dungeoneer.entities.Group,
-                entities: [
+            "Floor Lamp Off":{
+                "class":"com.interrupt.dungeoneer.entities.Group",
+                "entities":[
                     {
-                        class: com.interrupt.dungeoneer.entities.Sprite,
-                        spriteAtlas: example_sprites,
-                        tex:1,
-                        color: {
-                            a: 1
+                        "class":"com.interrupt.dungeoneer.entities.Sprite",
+                        "spriteAtlas":"example_sprites",
+                        "tex":1,
+                        "color":{
+                            "a":1
                         },
-                        collision: {
-                            x: 0.125,
-                            y: 0.125,
-                            z: 0.625
+                        "collision":{
+                            "x":0.125,
+                            "y":0.125,
+                            "z":0.625
                         },
-                        isSolid: true,
-                        isDynamic: false
+                        "isSolid":true,
+                        "isDynamic":false
                     }
                 ]
             },
-            "Flickering Floor Lamp": {
-                class: com.interrupt.dungeoneer.entities.Group,
-                entities: [
+            "Flickering Floor Lamp":{
+                "class":"com.interrupt.dungeoneer.entities.Group",
+                "entities":[
                     {
-                        class: com.interrupt.dungeoneer.entities.DynamicLight,
-                        x: 1.2111664E-4,
-                        fullbrite: true,
-                        range: 4.5,
-                        lightColor: {
-                            x: 0.75,
-                            y: 1,
-                            z: 0.98
+                        "class":"com.interrupt.dungeoneer.entities.DynamicLight",
+                        "x":0,
+                        "fullbrite":true,
+                        "range":4.5,
+                        "lightColor":{
+                            "x":0.75,
+                            "y":1,
+                            "z":0.98
                         },
-                        lightType: flicker_off,
-                        y: -8.583069E-6
+                        "lightType":"flicker_off",
+                        "y":0
                     },
                     {
-                        class: com.interrupt.dungeoneer.entities.Sprite,
-                        spriteAtlas: example_sprites,
-                        color: {
-                            a: 1
+                        "class":"com.interrupt.dungeoneer.entities.Sprite",
+                        "spriteAtlas":"example_sprites",
+                        "color":{
+                            "a":1
                         },
-                        collision: {
-                            x: 0.125,
-                            y: 0.125,
-                            z: 0.625
+                        "collision":{
+                            "x":0.125,
+                            "y":0.125,
+                            "z":0.625
                         },
-                        isSolid: true,
-                        isDynamic: false
+                        "isSolid":true,
+                        "isDynamic":false
                     }
                 ]
+            },
+            "Greeble 0":{
+                "class":"com.interrupt.dungeoneer.entities.Model",
+                "isSolid":true,
+                "collision":{
+                    "x":0.25,
+                    "y":0.125,
+                    "z":0.875
+                },
+                "isDynamic":false,
+                "meshFile":"meshes/Example/greeble_0.obj",
+                "textureFile":"textures/Example/greebles_0.png"
+            },
+            "Greeble 1":{
+                "class":"com.interrupt.dungeoneer.entities.Prefab",
+                "name":"Greeble 1A,Greeble 1B",
+                "category":"Example Meshes"
+            },
+            "Greeble 1A":{
+                "class":"com.interrupt.dungeoneer.entities.Model",
+                "isSolid":true,
+                "collision":{
+                    "x":0.375,
+                    "y":0.125,
+                    "z":0.75
+                },
+                "isDynamic":false,
+                "meshFile":"meshes/Example/greeble_1.obj",
+                "textureFile":"textures/Example/greebles_0.png"
+            },
+            "Greeble 1B":{
+                "class":"com.interrupt.dungeoneer.entities.Group",
+                "entities":[
+                    {
+                        "class":"com.interrupt.dungeoneer.entities.Model",
+                        "isSolid":true,
+                        "collision":{
+                            "x":0.375,
+                            "y":0.125,
+                            "z":0.75
+                        },
+                        "isDynamic":false,
+                        "meshFile":"meshes/Example/greeble_1.obj",
+                        "textureFile":"textures/Example/greebles_0.png"
+                    },
+                    {
+                        "class": "com.interrupt.dungeoneer.entities.Light",
+                        "isDynamic": false,
+                        "lightColor": {
+                            "r": 0.8352941,
+                            "g": 0.9254902,
+                            "b": 1,
+                            "a": 1
+                        },
+                        "range": 3
+                    }
+                ]
+            },
+            "Greeble 2":{
+                "class":"com.interrupt.dungeoneer.entities.Model",
+                "isSolid":true,
+                "collision":{
+                    "x":0.25,
+                    "y":0.125,
+                    "z":0.5
+                },
+                "isDynamic":false,
+                "meshFile":"meshes/Example/greeble_2.obj",
+                "textureFile":"textures/Example/greebles_0.png"
+            },
+            "Greeble 3":{
+                "class":"com.interrupt.dungeoneer.entities.Model",
+                "isSolid":true,
+                "collision":{
+                    "x":0.5,
+                    "y":0.125,
+                    "z":0.75
+                },
+                "isDynamic":false,
+                "meshFile":"meshes/Example/greeble_3.obj",
+                "textureFile":"textures/Example/greebles_0.png"
             }
         }
     }
