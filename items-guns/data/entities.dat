@@ -16,11 +16,11 @@
             "projectileNum":5,
             "projectileSpreadX":15,
             "projectileSpreadY":15,
-            "cycleTime":12,
+            "cycleTime":48,
             "ammoType":"SHELL",
             "twoHanded":true,
-            "baseDamage": 2,
-            "randDamage": 2
+            "baseDamage": 1,
+            "randDamage": 1
          },
          "SHELLS":{
             "class":"com.interrupt.dungeoneer.entities.items.ItemStack",
@@ -55,11 +55,11 @@
             "projectileNum":1,
             "projectileSpreadX":1,
             "projectileSpreadY":1,
-            "cycleTime":2,
+            "cycleTime":12,
             "ammoType":"BULLET",
             "twoHanded":true,
-            "baseDamage": 6,
-            "randDamage": 6
+            "baseDamage": 4,
+            "randDamage": 4
          },
          "BULLETS":{
             "class":"com.interrupt.dungeoneer.entities.items.ItemStack",
