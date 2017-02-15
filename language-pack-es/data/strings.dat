@@ -36,7 +36,7 @@
     },
     "screens.MainMenuScreen.infoSaveSlot": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0}   Niv: {1}",
+        "localizedName":"{0}   Nivel: {1}",
         "comment":"Text shown on a save slot. {0} is the name of the dungeon level. {1} is the number of the dungeon level."
     },
     "screens.MainMenuScreen.finishedSaveSlot": {
@@ -96,7 +96,7 @@
     },
     "screens.OptionsScreen.graphicsDetailLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Detalle gráco",
+        "localizedName":"Detalle gráfico",
         "comment":"Label for graphics detail slider."
     },
     "screens.OptionsScreen.particleDensityLabel": {
@@ -261,7 +261,7 @@
     },
     "screens.GameOverScreen.killsStatLabel": {
     	"class":"com.interrupt.dungeoneer.game.LocalizedString",
-    	"localizedName": "MONSTRUOS MUERTOS: ",
+    	"localizedName": "MONSTRUOS ELIMINADOS: ",
     	"comment":""
     },
     "screens.GameOverScreen.damageStatLabel": {
@@ -271,7 +271,7 @@
     },
     "screens.GameOverScreen.potionsStatLabel": {
     	"class":"com.interrupt.dungeoneer.game.LocalizedString",
-    	"localizedName": "POCIONES TOMADAS: ",
+    	"localizedName": "POCIONES USADAS: ",
     	"comment":""
     },
     "screens.GameOverScreen.foodStatLabel": {
@@ -422,11 +422,23 @@
     "entities.Item.itemConditionBroken": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"rota",
+        "forms":{
+            "feminine singular":"rota",
+            "feminine plural":"rotas",
+            "masculine singular":"roto",
+            "masculine plural":"rotos"
+        },		
         "comment":""
     },
     "entities.Item.itemConditionWorn": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"gastada",
+        "localizedName":"dañada",
+        "forms":{
+            "feminine singular":"dañada",
+            "feminine plural":"dañadas",
+            "masculine singular":"dañado",
+            "masculine plural":"dañados"
+        },		
         "comment":""
     },
     "entities.Item.itemConditionNormal": {
@@ -436,12 +448,24 @@
     },
     "entities.Item.itemConditionFine": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"buena",
+        "localizedName":"superior",
+        "forms":{
+            "feminine singular":"superior",
+            "feminine plural":"superiores",
+            "masculine singular":"superior",
+            "masculine plural":"superiores"
+        },		
         "comment":""
     },
     "entities.Item.itemConditionExcellent": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"excelente",
+        "forms":{
+            "feminine singular":"excelente",
+            "feminine plural":"excelentes",
+            "masculine singular":"excelente",
+            "masculine plural":"excelentes"
+        },		
         "comment":""
     },
     "entities.Item.mobileUseMessageText": {
@@ -581,7 +605,7 @@
     },
     "items.Bow.rangeText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Distancia {0}",
+        "localizedName":"Alcance {0}",
         "comment":"{0} length of the range in world units."
     },
     "items.Elixer.defaultNameText": {
@@ -611,7 +635,7 @@
     },
     "items.Gun.defaultNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ARMA",
+        "localizedName":"Arma",
         "comment":""
     },
     "items.Gun.infoText": {
@@ -621,17 +645,17 @@
     },
     "items.ItemStack.defaultNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"STACK",
+        "localizedName":"Flecha",
         "comment":""
     },
     "items.ItemStack.infoText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"x {0}",
+        "localizedName":"x{0}",
         "comment":"Text shown for item's information text. {0} is the item information of the stack. {1} is the count of the stack."
     },
     "items.Missile.defaultNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"FLECHA",
+        "localizedName":"Flecha",
         "comment":""
     },
     "items.Missile.noRoomText": {
@@ -786,37 +810,37 @@
     },
     "items.Weapon.damageType.MAGIC": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"MAGIA",
+        "localizedName":"daño de magia",
         "comment":""
     },
     "items.Weapon.damageType.FIRE": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"FUEGO",
+        "localizedName":"daño de fuego",
         "comment":""
     },
     "items.Weapon.damageType.ICE": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"HIELO",
+        "localizedName":"daño de frio",
         "comment":""
     },
     "items.Weapon.damageType.LIGHTNING": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"RAYO",
+        "localizedName":"daño eléctrico",
         "comment":""
     },
     "items.Weapon.damageType.POISON": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"VENENO",
+        "localizedName":"daño de veneno",
         "comment":""
     },
     "items.Weapon.damageType.HEALING": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"CURACIÓN",
+        "localizedName":"sanación",
         "comment":""
     },
     "items.Weapon.damageType.PARALYZE": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"PARÁLISIS",
+        "localizedName":"daño de parálisis",
         "comment":""
     },
     "items.Weapon.damageRangeText": {
@@ -831,7 +855,7 @@
     },
     "items.Weapon.twoHandedText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"2 Manos",
+        "localizedName":"A dos manos",
         "comment":"Text shown on item information if it is wielded with two hands."
     },
     "statuseffects.BurningEffect.defaultNameText": {
@@ -969,324 +993,405 @@
     	"localizedName":"MIRAR ABAJO",
     	"comment":"Label for key bind action."
     },
+	"Lucky dagger": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"La daga de la suerte",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"The forgotten": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"El olvidado",
+		"form":"masculine singular",
+		"comment":""
+ 	},
 	"Iron dagger": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Daga de hierro",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Iron shortsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Espada corta de hierro",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Iron sword": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Espada de hierro",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Iron mace": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Maza de hierro",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Iron spiked mace": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Lucero del alba ",
-		"comment":""
-	},
-	"Steel dagger": {
-		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Daga de acero",
-		"comment":""
-	},
-	"Steel shortsword": {
-		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Espada corta de acero",
+		"localizedName":"Lucero del alba",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Iron hammer": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Martillo de hierro",
+		"form":"masculine singular",
 		"comment":""
 	},
-	"Steel mace": {
+	"Steel dagger": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Maza de acero",
+		"localizedName":"Daga de acero",
+		"form":"feminine singular",
 		"comment":""
 	},
-	"Steel spiked mace": {
+	"Steel shortsword": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Lucero del alba de acero",
+		"localizedName":"Espada corta de acero",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Steel sword": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Espada de acero",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Steel mace": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Maza de acero",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Steel spiked mace": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Maza de pinchos",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Steel hammer": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Martillo de acero",
+		"localizedName":"Martillo de guerra",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Engraved dagger": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Daga grabada",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Engraved shortsword": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Espada corta grabada",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Engraved sword": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Espada grabada",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Gilded mace": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Maza dorada",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Gilded spiked mace": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Lucero del alba dorado",
-		"comment":""
-	},
-	"Jeweled dagger": {
-		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Daga enjoyada",
-		"comment":""
-	},
-	"Jeweled shortsword": {
-		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Espada corta enjoyada",
-		"comment":""
-	},
-	"Jeweled sword": {
-		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Espada enjoyada",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Gilded hammer": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Martillo dorado",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Jeweled dagger": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Daga enjoyada",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Jeweled shortsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Espada corta enjoyada",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Jeweled sword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Espada enjoyada",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Shortbow": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Arco corto",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"ARROW": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"FECHA",
+		"localizedName":"Flecha",
 		"comment":""
 	},
 	"Composite Bow": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Carco compuesto",
+		"localizedName":"Arco compuesto",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Bow": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Arco",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Hunter's Bow": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Arco de cazador",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Longbow": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Arco largo",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Leather armor": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Armadura de cuero",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Leather pants": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Pantalones de cuero",
+		"form":"masculine plural",
 		"comment":""
 	},
 	"Skullcap": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Gorro",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Buckler": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Rodela",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Quilted leather armor": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Armadura de cuedo acolchada",
+		"localizedName":"Armadura de cuero acolchada",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Quilted leather pants": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Pantalones de cuero acolchados",
+		"form":"masculine plural",
 		"comment":""
 	},
 	"Ring of Protection": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Anillo protector",
+		"localizedName":"Anillo de protección",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Amulet of Protection": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Amuleto protector",
+		"localizedName":"Amuleto de protección",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Amulet of Health": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Amuleto de salud",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Chainmail": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Cota de mallas",
+		"localizedName":"Cota de malla",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Chainmail greaves": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Grebas de malla",
+		"localizedName":"Pantalones de malla",
+		"form":"masculine plural",
 		"comment":""
 	},
 	"Round Shield": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Escudo redondo",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Amulet of Speed": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Amuleto de velocidad",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Ring of Health": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Anillo de salud",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Steel mail": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Malla de acero",
+		"localizedName":"Armadura de malla",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Steel greaves": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Grebas de acero",
+		"localizedName":"Mallas de acero",
+		"form":"feminine plural",
 		"comment":""
 	},
 	"Steel helmet": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Yelmo de acero",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Ring of Speed": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Anillo de velocidad",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Platemail": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Cota de placas",
+		"localizedName":"Armadura de placas",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Platemail greaves": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Grebas de placas",
+		"form":"feminine plural",
 		"comment":""
 	},
 	"Heater Shield": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Escudo",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Scalemail": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Armadura de láminas",
+		"localizedName":"Armadura de escamas",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Scalemail greaves": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Grebas de láminas",
+		"localizedName":"Grebas de escamas",
+		"form":"feminine plural",
 		"comment":""
 	},
 	"Ring of Greater Protection": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Anillo de protección sublime",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Amulet of Greater Protection": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Amuleto de protección sublime",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Amulet of the Wolf": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Amuleto del lobo",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Jeweled platemail": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Cota de placas enjoyada",
+		"localizedName":"Armadura de placas enjoyada",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Jeweled greaves": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Grebas enjoyadas",
+		"form":"feminine plural",
 		"comment":""
 	},
 	"Jeweled helmet": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Yelmo enjoyado",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Tower Shield": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Escudo torreón",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Ring of the Wolf": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Anillo del lobo",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Ring of Greater Health": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Anillo de salud sublime",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Amulet of Greater Health": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Amuleto de salud sublime",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Missile wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Varita de misiles",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Fire wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Varita de fuego",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Ice wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Varita de hielo",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Storm wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Varita de tormenta",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Paralyze wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Varita de paralisis",
+		"localizedName":"Varita de parálisis",
+		"form":"feminine singular",
 		"comment":""
 	},
 	"Red potion": {
@@ -1336,7 +1441,7 @@
 	},
 	"Scroll of Burning": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Pergamino de quemadura",
+		"localizedName":"Pergamino de combustión",
 		"comment":""
 	},
 	"scroll of Blizzard": {
@@ -1366,7 +1471,7 @@
 	},
 	"Scroll of Haste": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Pergamino de la rapidez",
+		"localizedName":"Pergamino de presteza",
 		"comment":""
 	},
 	"Scroll of Enchant Weapon": {
@@ -1382,6 +1487,11 @@
 	"Scroll of Identify": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Pergamino de identificación",
+		"comment":""
+	},
+	"Scroll of Discern Reality": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Pergamino de discernir la realidad",
 		"comment":""
 	},
 	"Skull": {
@@ -1404,11 +1514,21 @@
 		"localizedName":"Libro",
 		"comment":""
 	},
+	"Bowl": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Cuenco",
+		"comment":""
+	},	
 	"CANDLE": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"VELA",
+		"localizedName":"Vela",
 		"comment":""
 	},
+	"Lantern": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Farol",
+		"comment":""
+	},	
 	"Bread": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Pan",
@@ -1451,7 +1571,7 @@
 	},
 	"of Heft": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"de pesadez",
+		"localizedName":"de torpeza",
 		"comment":""
 	},
 	"of Force": {
@@ -1471,7 +1591,7 @@
 	},
 	"of Burning": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"de quemadura",
+		"localizedName":"de combustión",
 		"comment":""
 	},
 	"of Ice": {
@@ -1499,12 +1619,12 @@
 		"localizedName":"de tormenta",
 		"comment":""
 	},
-	"of The Tempest": {
+	"of the Tempest": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"de la tempestad",
 		"comment":""
 	},
-	"of The Worm": {
+	"of the Worm": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"del gusano",
 		"comment":""
@@ -1512,96 +1632,210 @@
 	"Quick": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"rápida",
+        "forms":{
+            "feminine singular":"rápida",
+            "feminine plural":"rápidas",
+            "masculine singular":"rápido",
+            "masculine plural":"rápidos"
+        },		
 		"comment":""
 	},
 	"Balanced": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"equilibrada",
+        "forms":{
+            "feminine singular":"equilibrada",
+            "feminine plural":"equilibradas",
+            "masculine singular":"equilibrado",
+            "masculine plural":"equilibrados"
+        },		
 		"comment":""
 	},
 	"Glowing": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"brillante",
+        "forms":{
+            "feminine singular":"brillante",
+            "feminine plural":"brillantes",
+            "masculine singular":"brillante",
+            "masculine plural":"brillantes"
+        },		
 		"comment":""
 	},
 	"Protected": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"protegida",
+		"localizedName":"protectora",
+        "forms":{
+            "feminine singular":"protectora",
+            "feminine plural":"protectoras",
+            "masculine singular":"protector",
+            "masculine plural":"protectores"
+        },		
 		"comment":""
 	},
 	"Blessed": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"bendita",
+        "forms":{
+            "feminine singular":"bendita",
+            "feminine plural":"benditas",
+            "masculine singular":"bendito",
+            "masculine plural":"benditos"
+        },		
 		"comment":""
 	},
 	"Unholy": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"impia",
+        "forms":{
+            "feminine singular":"impia",
+            "feminine plural":"impias",
+            "masculine singular":"impio",
+            "masculine plural":"impios"
+        },		
 		"comment":""
 	},
 	"Cursed": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"maldita",
+        "forms":{
+            "feminine singular":"maldita",
+            "feminine plural":"maditas",
+            "masculine singular":"maldito",
+            "masculine plural":"malditos"
+        },		
 		"comment":""
 	},
 	"Light": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"ligera",
+        "forms":{
+            "feminine singular":"ligera",
+            "feminine plural":"ligeras",
+            "masculine singular":"ligero",
+            "masculine plural":"ligeros"
+        },		
 		"comment":""
 	},
 	"Nimble": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"ágil",
+        "forms":{
+            "feminine singular":"ágil",
+            "feminine plural":"ágiles",
+            "masculine singular":"ágil",
+            "masculine plural":"ágiles"
+        },		
 		"comment":""
 	},
 	"Fleet": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"veloz",
+        "forms":{
+            "feminine singular":"veloz",
+            "feminine plural":"veloces",
+            "masculine singular":"veloz",
+            "masculine plural":"veloces"
+        },		
 		"comment":""
 	},
 	"Heavy": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"pesada",
+        "forms":{
+            "feminine singular":"pesada",
+            "feminine plural":"pesadas",
+            "masculine singular":"pesado",
+            "masculine plural":"pesados"
+        },		
 		"comment":""
 	},
 	"Unwieldly": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"abultada",
+		"localizedName":"incómoda",
+        "forms":{
+            "feminine singular":"incómoda",
+            "feminine plural":"incómodas",
+            "masculine singular":"incómodo",
+            "masculine plural":"incómodos"
+        },		
 		"comment":""
 	},
 	"Coward's": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"cobarde",
+        "forms":{
+            "feminine singular":"cobarde",
+            "feminine plural":"cobardes",
+            "masculine singular":"cobarde",
+            "masculine plural":"cobardes"
+        },		
 		"comment":""
 	},
 	"Drunk's": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"borracha",
+        "forms":{
+            "feminine singular":"borracha",
+            "feminine plural":"borrachas",
+            "masculine singular":"borracho",
+            "masculine plural":"borrachos"
+        },		
 		"comment":""
 	},
 	"Demon's": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"demoniaca",
+        "forms":{
+            "feminine singular":"demoniaca",
+            "feminine plural":"demoniacas",
+            "masculine singular":"demoniaco",
+            "masculine plural":"demoniacos"
+        },		
 		"comment":""
 	},
 	"Fighter's": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"luchadora",
+        "forms":{
+            "feminine singular":"luchadora",
+            "feminine plural":"luchadoras",
+            "masculine singular":"luchador",
+            "masculine plural":"luchadores"
+        },		
 		"comment":""
 	},
 	"Brawler's": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"alborotadora",
+        "forms":{
+            "feminine singular":"alborotadora",
+            "feminine plural":"alborotadoras",
+            "masculine singular":"alborotador",
+            "masculine plural":"alborotadores"
+        },		
 		"comment":""
 	},
 	"Knight's": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"caballeresca",
+        "forms":{
+            "feminine singular":"caballeresca",
+            "feminine plural":"caballerescas",
+            "masculine singular":"caballeresco",
+            "masculine plural":"caballeresco"
+        },		
 		"comment":""
 	},
 	"King's": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"real",
+        "forms":{
+            "feminine singular":"real",
+            "feminine plural":"reales",
+            "masculine singular":"real",
+            "masculine plural":"reales"
+        },		
 		"comment":""
 	},
 	"of the Sloth": {
@@ -1639,7 +1873,7 @@
 		"localizedName":"de precisión",
 		"comment":""
 	},
-	"of intellect": {
+	"of Intellect": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"de intelecto",
 		"comment":""
@@ -1657,31 +1891,67 @@
 	"Trite": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"trillada",
+        "forms":{
+            "feminine singular":"trillada",
+            "feminine plural":"trilladas",
+            "masculine singular":"trillado",
+            "masculine plural":"trillados"
+        },		
 		"comment":""
 	},
 	"Insipid": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"insipida",
+        "forms":{
+            "feminine singular":"insipida",
+            "feminine plural":"insipidas",
+            "masculine singular":"insipido",
+            "masculine plural":"insipidos"
+        },		
 		"comment":""
 	},
 	"Vapid": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"sosa",
+        "forms":{
+            "feminine singular":"sosa",
+            "feminine plural":"sosas",
+            "masculine singular":"soso",
+            "masculine plural":"sosos"
+        },		
 		"comment":""
 	},
 	"Mage's": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"mágica",
+        "forms":{
+            "feminine singular":"mágica",
+            "feminine plural":"mágicas",
+            "masculine singular":"mágico",
+            "masculine plural":"mágicos"
+        },		
 		"comment":""
 	},
 	"Wizard's": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"conjuradora",
+        "forms":{
+            "feminine singular":"conjuradora",
+            "feminine plural":"conjuradoras",
+            "masculine singular":"conjurador",
+            "masculine plural":"cojuradores"
+        },		
 		"comment":""
 	},
 	"Sorcerer's": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"hechicera",
+        "forms":{
+            "feminine singular":"hechicera",
+            "feminine plural":"hechiceras",
+            "masculine singular":"hechicero",
+            "masculine plural":"hechiceros"
+        },		
 		"comment":""
 	}
 }
