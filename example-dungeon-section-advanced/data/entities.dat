@@ -137,6 +137,21 @@
                     }
                 ]
             },
+            "Catwalk":{
+                "class":"com.interrupt.dungeoneer.entities.Model",
+                "isSolid":true,
+                "collision":{
+                    "x":0.5,
+                    "y":0.5,
+                    "z":0.5
+                },
+                "isDynamic":false,
+                "rotation":{
+                    "z":-630
+                },
+                "meshFile":"meshes/Example/catwalk.obj",
+                "textureFile":"textures/Example/catwalk.png"
+            },
             "Greeble":{
                 "class": "com.interrupt.dungeoneer.entities.Prefab",
                 "category": "Example Meshes",
