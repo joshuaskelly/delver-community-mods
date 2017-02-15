@@ -1,0 +1,75 @@
+{
+	"repeats": true,
+	"pickRandom": true,
+	"messages": [
+		[
+			"Matz, things further inside the ruins seem to be intact - it's just as we hoped! The location is off from where the old maps said that the mage king's tower would,",
+			"and only the lower floors and basements are left intact, but all of the things we're finding indicate that this is indeed the place."
+		],
+		[
+			"Send back word to the Heralds, those scholars actually found the place. We'll sneak down ahead of the main group, if this tower is here that means one of the artifacts is likely here as well."
+		],
+		[
+			"Nobody has been in these ruins for centuries, what a find! The mountains ringing the tower have kept people away, the kingdom probably had portals to get here easier than we did."
+		],
+		[ 
+			"Send some men back up to move the expedition supplies, they'll be safer in here than sitting outside in the rain."
+		],
+		[ 
+			"We've found some intact libraries but the intact books are written in something that looks like Oldhand, translation will be slow going."
+		],
+		[
+			"Jeran, some of our porters have gone missing. Did you send them on some errand? We're going to need them back to clear out some of this rubble."
+		],
+		[
+			"Expedition supply tally: 5 crates of salted pork, 6 bundles of trail bread, and 4 cases of barley ale."
+		],
+		[
+			"Exploring the ruins has been slow going as of yet, I fear we're pushing the men too hard. Some have already left us, probably to head back home.",
+			"If only we could get a good nights sleep, things would go faster. Everyone is so on edge that they're jumping at shadows."
+		],
+		[
+			"I don't care what that so called scholar Matz says, something is alive down here and I don't mean those insufferable bats.",
+			"Last night I heard scraping at the door of the barracks we had set up in, but whatever it was cleared out as soon as I set out after it."
+		],
+		[
+			"Start lighting the torches as we go, exploring will be easier if we can see without these lanterns and we can keep track of where we've been."
+		],
+		[
+			"I haven't had one good night of sleep since stepping foot in this place, I'm getting so frayed that I keep hearing whispers, even when nobody is around."
+		],
+		[
+			"Jeran, one of the guardsman went berzerk! He started yelling about how we were all going to die, and cut down two men before escaping further into the ruins.",
+			"One of the victims died immediately, we've bandaged up the other but he's going to need one of those potions from the emergency supplies to keep infections away."
+		],
+		[
+			"We were right! Those fools at the Imperium can eat a boot, this one mage king did rule over all of the free cities of the time.",
+			"There must have been portals open to all of the cities, making this tower the center of trade."
+		],
+		[
+			"Jeran's team found the entrance to what appears to be the mines under the basements. Those will probably be worth exploring later.",
+			"For now, lets focus on the areas that were inhabited. There's enough there to keep us busy for weeks."
+		],
+		[
+			"Watch out for traps! Some of these passages have floor plates linked to some sort of arcane security system.",
+			"Bron stepped on one and dissapeared in a flash of light, thankfully we ran into him later unharmed just very confused."
+		],
+		[
+			"Any news on that missing group? We checked outside and things looked clear, maybe they started back home."
+		],
+		[
+			"This place begs so many questions, the university will have a presence here for a long time once the news gets out."
+		],
+		[
+			"We found some evidence of the first expedition, they definitely made it here. We've found scraps of their notes scattered about and some of their supplies, but no bodies so far. It's like they just vanished."
+		],
+		[
+			"Stay away! This place is a nightmare, we should have never come. The things we're stirring up here should have stayed buried forever.",
+			"Most of the expedition is missing now, the rest of us are slowly losing our minds. We tried to turn back, but the passages themselves taunt us now."
+		],
+		[
+			"All of our maps are useless! We carefully marked our path on the way in but on the way back out nothing is matching up.",
+			"This place does not want us to leave!"
+		]
+	]
+}
