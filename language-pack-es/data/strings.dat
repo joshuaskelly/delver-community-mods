@@ -1960,5 +1960,63 @@
             "masculine plural":"hechiceros"
         },
         "comment":""
+    },
+    "Old Academy Sword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vieja espada de academia",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Yewen Staff":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vara de tejo",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Wizard Hat":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Sombrero de hechicero",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Wizard Robe":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Túnica de hechicero",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Wizard Boots":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Botas de hechicero",
+        "form":"feminine plural",
+        "comment":""
+    },
+    "Old Iron Ring":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Viejo anillo de hierro",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Grimoire":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Grimorio",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Hedgewood's":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de Hedgewood",
+        "comment":""
+    },
+    "Magic":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"mágico",
+        "forms":{
+            "feminine singular":"mágica",
+            "feminine plural":"mágicas",
+            "masculine singular":"mágico",
+            "masculine plural":"mágicos"
+        },
+        "comment":""
     }
 }
