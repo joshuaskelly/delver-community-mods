@@ -1,0 +1,24 @@
+{
+	"repeats": false,
+	"messages": [
+		[
+			"You probably shouldn't stick around too long. Weird stuff happens around these ruins.",
+			"All those treasure hunters have been going inside, but nobody ever comes back out.",
+			"They heard rumors about what's supposed to be down there. Couldn't pay me enough to go in."
+		],
+		[
+			"I was sent here by the guild to find out what is going on, but I just have more questions so far.",
+			"What happens to everyone that goes inside those ruins?",
+			"Why are people drawn here?",
+			"Why are my dreams so strange here? I've barely been able to sleep at all."
+		],
+		[
+			"Are you going in there?",
+			"I'm not going to stop you, but I warned you."
+		],
+		[
+			"You look familiar...",
+			"Have you been this way before?"
+		]
+	]
+}
