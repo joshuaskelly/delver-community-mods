@@ -98,6 +98,37 @@
                 "isDynamic":"false"
             }
         ]
+    },
+    {
+        "class":"com.interrupt.dungeoneer.generator.GenInfo",
+        "comment":"Hanging Light",
+        "chance":"0.25",
+        "ceilTex":"8",
+        "textureAtlas":"example",
+        "clusterCount":"1",
+        "clusterSpread":"0.25",
+        "attachCeiling":"true",
+        "performanceControlledClustering":"true",
+        "spawns":[
+            {
+                "class":"com.interrupt.dungeoneer.entities.Sprite",
+                "tex":"3",
+                "yOffset":0.25,
+                "spriteAtlas":"example_sprites",
+                "isDynamic":"false"
+            },
+            {
+               "class":"com.interrupt.dungeoneer.entities.Light",
+               "isDynamic":false,
+               "lightColor":{
+                  "r":0.75,
+                  "g":0,
+                  "b":0,
+                  "a":1
+               },
+               "range":1.5
+            }
+        ]
     }
    ]
 }
