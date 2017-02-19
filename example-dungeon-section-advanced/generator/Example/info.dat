@@ -78,6 +78,26 @@
                "range":3
             }
          ]
-      }
+      },
+      {
+        "class":"com.interrupt.dungeoneer.generator.GenInfo",
+        "comment":"Hanging Pipes",
+        "chance":"0.25",
+        "ceilTex":"8",
+        "textureAtlas":"example",
+        "clusterCount":"1",
+        "clusterSpread":"0.25",
+        "attachCeiling":"true",
+        "performanceControlledClustering":"true",
+        "spawns":[
+            {
+                "class":"com.interrupt.dungeoneer.entities.Sprite",
+                "tex":"2",
+                "yOffset":0.25,
+                "spriteAtlas":"example_sprites",
+                "isDynamic":"false"
+            }
+        ]
+    }
    ]
 }
