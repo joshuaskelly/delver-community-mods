@@ -1961,6 +1961,17 @@
         },
         "comment":""
     },
+    "Enchanted":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"encantada",
+        "forms":{
+            "feminine singular":"encantada",
+            "feminine plural":"encantadas",
+            "masculine singular":"encantado",
+            "masculine plural":"encantados"
+        },
+        "comment":""
+    },
     "Old Academy Sword":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Vieja espada de academia",
@@ -1970,7 +1981,7 @@
     "Yewen Staff":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Vara de tejo",
-        "form":"masculine singular",
+        "form":"feminine singular",
         "comment":""
     },
     "Wizard Hat":{
