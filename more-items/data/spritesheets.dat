@@ -1,0 +1,23 @@
+[
+    {
+        "columns": 4,
+        "filename": "more_items_2h.png",
+        "scale": 0.6,
+        "name": "more_items_2h",
+        "y_offset": 0.20
+    },
+    {
+        "columns": 4,
+        "filename": "more_items_pikes.png",
+        "scale": 1,
+        "name": "more_items_pikes",
+        "y_offset": 0.25
+    },
+    {
+        "columns": 4,
+        "filename": "more_items_1h.png",
+        "scale": 0.5,
+        "name": "more_items_1h",
+        "y_offset": 0.25
+    }
+]
