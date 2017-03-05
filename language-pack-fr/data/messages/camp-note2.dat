@@ -1,0 +1,13 @@
+{
+	"repeats": true,
+	"messages": [
+		[
+			"Notes pour le combat, Troisième édition\n\n1: Une attaque puissante va toujours atteindre la victime. Même en combat, un peu de plannification va être utile.",
+			"(appuyez longtemps sur le boutton attaque pour charger une attaque puissante, puis relâchez)",
+			"2: Faîtes attention à votre inventaire avant d'aller trop vite. Gardez des items sur votre ceinture pour un accès facile en combat.",
+			"(faîtes glissez les items vers votre ceinture en haut de l'écran pour un accès rapide)",
+			"3: Constamment avoir la sortie d'une chambre en tête. Sachez toujours où vous êtes.",
+			"(regardez votre carte et minimap pour savoir où vous êtes allé, et où aller prochainement)"
+		]
+	]
+}
