@@ -1,0 +1,105 @@
+{
+    "entities": {
+        "Shopkeepers": {
+            "Cheese Monger": {
+                "class": "com.interrupt.dungeoneer.entities.Group",
+                "spawnChance": 0.001,
+                "entities": [
+                    {
+                        "class": "com.interrupt.dungeoneer.entities.Npc",
+                        "tex": "32",
+                        "spriteAtlas": "npcs",
+                        "baseAnimation": {
+                            "start": "32",
+                            "end": "32",
+                            "speed": "140"
+                        },
+                        "idleAnimations": [
+                            {
+                                "start": "32",
+                                "end": "48",
+                                "speed": "140"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "com.interrupt.dungeoneer.entities.triggers.TriggeredShop",
+                        "messageFile": "cheese-monger.dat",
+                        "items": [
+                            {
+                                "class": "com.interrupt.helpers.ShopItem",
+                                "item": {
+                                    "class": "com.interrupt.dungeoneer.entities.items.Food",
+                                    "itemType": "potion",
+                                    "foodType": "food",
+                                    "tex": "66",
+                                    "name": "Mussarela Refreshment",
+                                    "yOffset": "-0.11",
+                                    "cost": "30"
+                                },
+                                "cost": "50"
+                            },
+                            {
+                                "class": "com.interrupt.helpers.ShopItem",
+                                "item": {
+                                    "class": "com.interrupt.dungeoneer.entities.items.Food",
+                                    "itemType": "potion",
+                                    "foodType": "food",
+                                    "tex": "66",
+                                    "name": "Gouda",
+                                    "yOffset": "-0.11",
+                                    "cost": "30"
+                                },
+                                "cost": "50"
+                            },
+                            {
+                                "class": "com.interrupt.helpers.ShopItem",
+                                "item": {
+                                    "class": "com.interrupt.dungeoneer.entities.items.Food",
+                                    "itemType": "potion",
+                                    "foodType": "food",
+                                    "tex": "66",
+                                    "name": "Sinihallitusjuust ",
+                                    "yOffset": "-0.11",
+                                    "cost": "30"
+                                },
+                                "cost": "50"
+                            },
+                            {
+                                "class": "com.interrupt.helpers.ShopItem",
+                                "item": {
+                                    "class": "com.interrupt.dungeoneer.entities.items.Food",
+                                    "itemType": "potion",
+                                    "foodType": "food",
+                                    "tex": "66",
+                                    "name": "Minas",
+                                    "yOffset": "-0.11",
+                                    "cost": "30"
+                                },
+                                "cost": "50"
+                            },
+                            {
+                                "class": "com.interrupt.helpers.ShopItem",
+                                "item": {
+                                    "class": "com.interrupt.dungeoneer.entities.items.Food",
+                                    "itemType": "potion",
+                                    "foodType": "food",
+                                    "tex": "66",
+                                    "name": "Leipäjuusto",
+                                    "yOffset": "-0.11",
+                                    "cost": "30"
+                                },
+                                "cost": "50"
+                            }
+                        ],
+                        "collision": {
+                            "x": 0.1,
+                            "y": 0.1,
+                            "z": 0.5
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

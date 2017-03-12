@@ -1,0 +1,20 @@
+{
+    "genInfos": [
+        {
+            "class": "com.interrupt.dungeoneer.generator.GenInfo",
+            "comment": "Spawns a cheese monger on floor tiles",
+            "floorTex": "2",
+            "chance": "0.11",
+            "clusterCount": "1",
+            "clusterSpread": "0",
+            "performanceControlledClustering": "true",
+            "spawns": [
+                {
+                    "class": "com.interrupt.dungeoneer.entities.Prefab",
+                    "category": "Shopkeepers",
+                    "name": "Cheese Monger"
+                }
+            ]
+        }
+    ]
+}
