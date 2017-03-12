@@ -1,0 +1,14 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hola, viajero, ¿sientes la energía arcana?",
+			"Estas ruinas deben contener un gran poder ya que siento como la tierra tiembla con magias ancestrales...",
+			"¿Yo? Los bosques son un lugar fantástico para los que nos sentimos atraídos por la magia, como es mi caso, para encantar pergaminos y artefactos",
+			"Tengo algunos pergaminos preparados, con los que puedes adentrarte en las ruinas, a un buen precio."
+		],
+		[
+			"Tengo más pergaminos preparados, con los que puedes adentrarte en las ruinas, a un buen precio."
+		]
+	]
+}

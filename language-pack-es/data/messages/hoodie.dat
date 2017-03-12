@@ -1,0 +1,14 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Vaya... parece que tenemos un visitante. Sí, lo tenemos.",
+			"No parece un viajero de los caminos profundos... pero tampoco tiene pinta de esclavo como los otros, ¿verdad? Qué curioso",
+			"Hace mucho tiempo vi a aquellos como tú cavar profundamente en la tierra, perturbando lo que debería haberse dejado olvidado. Su trabajo se encuentra más adelante en este camino.",
+			"De todos modos, no está aquí por las historias... ¿Tal vez le gustaría comerciar?"
+		],
+		[
+			"Vaya... ha vuelto. ¿Tal vez le gustaría comerciar?"
+		]
+	]
+}
