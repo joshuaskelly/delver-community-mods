@@ -1,0 +1,9 @@
+[
+	{
+        "columns": 3,
+        "filename": "spears.png",
+        "scale": 0.65,
+        "name": "spear",
+        "y_offset": 0.23
+    }
+]
