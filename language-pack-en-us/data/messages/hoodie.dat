@@ -1,0 +1,14 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Ahhhh... it seems we have a visitor. Yes we do.",
+			"It does not look like a traveller of the deep roads... but it is not under a thrall like the others here, is it? How curious.",
+			"Long ago I watched those like you dig deep into the earth here, disturbing that which should have been left forgotten. Their work lies ahead down this path.",
+			"Anyway, it is not here for stories... Perhaps it would like to trade?"
+		],
+		[
+			"Ahhh... it returns. Perhaps it would like to trade?"
+		]
+	]
+}

@@ -1,0 +1,13 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hey adventurer! Are you planning on going into those ruins? It's dangerous!",
+			"If I were you, I'd want to be stocked up on supplies before going into that place...",
+			"Thankfully, your pal Joff here sells everything you could possibly need!"
+		],
+		[
+			"Fortune favors the prepared! Supplies are limited."
+		]
+	]
+}
