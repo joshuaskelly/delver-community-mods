@@ -1,0 +1,13 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"¡Hola, aventurero! ¿Estás planeando adentrarte en las ruinas? ¡Es peligroso!",
+			"Si fuera tú, querría aprovisionarme de suministros antes de ir a ese lugar...",
+			"Afortunadamente, tu amigo Joff tiene aquí todo lo que necesitas."
+		],
+		[
+			"¡La fortuna favorece a los preparados! Mis suministros son limitados."
+		]
+	]
+}
