@@ -1,0 +1,14 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hello traveler, can you feel the arcane energy here?",
+			"These ruins must hold great power as I can sense the earth vibrating with ancient magics...",
+			"Me? The woods here are a great place for the magically inclined, such as myself, to enchant scrolls and artifacts.",
+			"I have some scrolls prepared that I could part with, for the right price."
+		],
+		[
+			"I have some more scrolls prepared that I could part with, for the right price."
+		]
+	]
+}

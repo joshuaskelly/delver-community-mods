@@ -1,0 +1,20 @@
+{
+    "genInfos": [
+        {
+            "class": "com.interrupt.dungeoneer.generator.GenInfo",
+            "comment": "Spawns a mouse on floor tiles",
+            "floorTex": "2",
+            "chance": "0.015",
+            "clusterCount": "1",
+            "clusterSpread": "0",
+            "performanceControlledClustering": "true",
+            "spawns": [
+                {
+                    "class": "com.interrupt.dungeoneer.entities.Prefab",
+                    "category": "Mice",
+                    "name": "Mouse"
+                }
+            ]
+        }
+    ]
+}

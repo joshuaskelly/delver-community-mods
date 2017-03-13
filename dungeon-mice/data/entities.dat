@@ -1,0 +1,26 @@
+{
+    "entities": {
+        "Mice": {
+            "Mouse": {
+                "class": "com.interrupt.dungeoneer.entities.Monster",
+                "artType": "entity",
+                "spriteAtlas": "dungeon-mice",
+                "isSolid": true,
+                "collision": {
+                    "x": 0.15,
+                    "y": 0.15,
+                    "z": 0.1
+                },
+                "stats": {},
+                "hostile": false,
+                "speed": 0.0025,
+                "canOpenDoors": false,
+                "walkAnimation": {
+                    "start": 0,
+                    "end": 3,
+                    "speed": 60
+                }
+            }
+        }
+    }
+}
