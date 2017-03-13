@@ -1,7 +1,7 @@
 {
     "screens.SplashScreen.pressKeyToStart": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Drücke eine Taste",
+        "localizedName":"Drücke eine beliebige Taste",
         "comment":"Prompt shown once at the start of the game."
     },
     "screens.MainMenuScreen.playButton": {
@@ -62,6 +62,11 @@
     "screens.OptionsScreen.graphicsHigh": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"HOCH",
+        "comment":"Text shown when the graphics slider is mostly right."
+    },
+    "screens.OptionsScreen.graphicsUltra": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ULTRA",
         "comment":"Text shown when the graphics slider is all the way right."
     },
     "screens.OptionsScreen.backButton": {
@@ -656,7 +661,7 @@
     },
     "items.ItemStack.infoText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"X {0}",
+        "localizedName":"{0} X",
         "comment":"Text shown for item's information text. {0} is the item information of the stack. {1} is the count of the stack."
     },
     "items.Missile.defaultNameText": {
@@ -811,7 +816,7 @@
     },
     "items.Weapon.damageType.PHYSICAL": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ATK",
+        "localizedName":"ANG",
         "comment":""
     },
     "items.Weapon.damageType.MAGIC": {
@@ -1492,10 +1497,15 @@
 	},
 	"Scroll of Identify": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Schriftrolle des Erkennens",
+		"localizedName":"Schriftrolle der Identifizierung",
 		"form":"feminine singular",
 		"comment":""
 	},
+	"Scroll of Discern Reality": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Schriftrolle der Enthüllung",
+        "comment":""
+    },
 	"Skull": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Schädel",
@@ -1551,6 +1561,11 @@
 		"localizedName":"Ale",
 		"comment":""
 	},
+	"Key": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Schlüssel",
+        "comment":""
+    },
 	"of Haste": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"der Eile",
