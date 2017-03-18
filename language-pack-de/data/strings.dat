@@ -226,7 +226,7 @@
     },
     "screens.GameOverScreen.win_text_5": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ER ÖFFNET DIE TÜRE ZU\nANDEREN ORTEN.",
+        "localizedName":"ER ÖFFNET DIE TÜRE ZU\nANDEREN REALITÄTEN.",
         "comment":"One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_6": {
