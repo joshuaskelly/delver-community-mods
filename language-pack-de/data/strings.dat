@@ -231,7 +231,7 @@
     },
     "screens.GameOverScreen.win_text_6": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DAS NETZ DER WIRKLICHKEITEN SCHREIT\nAUF, ALS DIE REALITÄTEN ZUSAMMENBRECHEN.",
+        "localizedName":"DAS NETZ DER WIRKLICHKEITEN SCHREIT\nAUF, ALS REALITÄTEN ZUSAMMENBRECHEN.",
         "comment":"One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_7": {
