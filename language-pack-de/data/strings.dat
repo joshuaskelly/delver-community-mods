@@ -421,7 +421,7 @@
     },
     "entities.Door.mobileUseText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"GEBRAUCH: {0}",
+        "localizedName":"USE: {0}",
         "comment":"Text shown on mobile instead of key binding. {0} is the use text (OPEN/CLOSE)."
     },
     "entities.Item.itemConditionBroken": {
@@ -481,7 +481,7 @@
     },
     "entities.Item.mobileUseMessageText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"GEBRAUCH: NEHME {0}",
+        "localizedName":"USE: GET {0}",
         "comment":"Use message shown on mobile in place of key binding. {0} is the item name."
     },
     "entities.Item.noRoomText": {
@@ -531,7 +531,7 @@
     },
     "entities.Player.mobileUseText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"BENUTZE",
+        "localizedName":"USE",
         "comment":"Text shown on a mobile device in place of a key binding."
     },
     "entities.Player.getItemText": {
@@ -556,7 +556,7 @@
     },
     "entities.Stairs.mobileUseText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Benutze {0}",
+        "localizedName":"USE {0}",
         "comment":"Text shown on a mobile device. {0} is the direction (Up/Down)."
     },
     "entities.Trigger.defaultUseVerb": {
