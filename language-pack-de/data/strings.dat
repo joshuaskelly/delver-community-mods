@@ -191,7 +191,7 @@
     },
     "screens.LoadingScreen.loadingLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"LADEN",
+        "localizedName":"LADE",
         "comment":"Label shown when game is loading."
     },
     "screens.LevelChangeScreen.levelChangeLabel": {
@@ -1024,7 +1024,7 @@
 	},
 	"Iron spiked mace": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Eisenstachelkeule",
+		"localizedName":"Stachelige Eisenkeule",
 		"form":"feminine singular",
 		"comment":""
 	},
@@ -1054,7 +1054,7 @@
 	},
 	"Steel spiked mace": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Stahlstachelkeule",
+		"localizedName":"Stachelige Stahlkeule",
 		"form":"feminine singular",
 		"comment":""
 	},
@@ -1072,7 +1072,7 @@
 	},
 	"Engraved dagger": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Engraved dagger",
+		"localizedName":"Gravierter Dolch",
 		"comment":""
 	},
 	"Engraved shortsword": {
@@ -1095,7 +1095,7 @@
 	},
 	"Gilded spiked mace": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Vergoldete Stachelkeule",
+		"localizedName":"Stachelige Vergoldete Keule",
 		"form":"feminine singular",
 		"comment":""
 	},
