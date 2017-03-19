@@ -1,0 +1,75 @@
+{
+	"repeats": true,
+	"pickRandom": true,
+	"messages": [
+		[
+			"Matz, tiefer in den Ruinen scheint alles in Takt zu sein - genauso wie wir es uns erhofften! Dieser Ort ist nicht dort, wo die alten Karten sagten, dass sich der Turm des Magierkönigs befinden würde.",
+			"Außerdem sind nur noch die tieferen Stockwerke und das Untergeschoss intakt, aber all die Dinge die wir finden, zeigen dass dies tatsächlich der Ort ist."
+		],
+		[
+			"Informiert die Boten, diese Gelehrten haben den Ort tatsächlich gefunden. Wir werden uns vor der Hauptgruppe dort hinunterschleichen, denn wenn dies hier der Turm ist, dann müsste auch eins der Artefakte hier sein."
+		],
+		[
+			"Für hunderte von Jahren war niemand in diesen Ruinen, was für ein Fund! Die Berge, welche den Turm umgeben, haben Leute von hier ferngehalten. Das Königreich besaß möglicherweise Portale, um einfacher hierher zu gelangen als wir."
+		],
+		[ 
+			"Sendet ein paar Männer zurück nach oben, damit sie die Expeditionsvorräte holen. Sie werden hier drinnen sicherer sein, als draußen im Regen."
+		],
+		[ 
+			"Wir haben ein paar unversehrte Bibliotheken gefunden, aber die unbeschädigten Bücher sind in einer Schrift geschrieben, welche aussieht wie Urgestein. Wir werden lange zum Übersetzen benötigen."
+		],
+		[
+			"Jeran, einige unserer Gepäckträger sind verloren gegangen. Hast du ihnen einen Auftrag gegeben? Wir werden sie wieder benötigen, um etwas von diesen Trümmern aus dem Weg zu räumen."
+		],
+		[
+			"Liste der Expeditionsvorräte: 5 Kisten Pökelfleisch, 6 Bündel Brot, und 4 Kästen Gersten-Ale."
+		],
+		[
+			"Bis jetzt ging das Erkunden der Ruinen nur langsam voran, ich fürchte wir drängen die Männer zu sehr. Manche haben uns schon verlassen, möglicherweise um nach Hause zu gehen.",
+			"Wenn wir nur richtig schlafen könnten, dann würden die Dinge schneller vorangehen. Jeder ist am Ende seiner Kräfte."
+		],
+		[
+			"Mir ist egal was dieser sogenannte Gelehrte Matz sagt, irgendetwas hier unten lebt, und ich meine nicht diese unerträglichen Fledermäuse.",
+			"Letzte Nacht habe ich ein Kratzen an den Türen der Baracken, in denen wir uns eingerichtet haben, gehört. Was auch immer es war, sobald ich nach ihm schaute war es abgehauen."
+		],
+		[
+			"Wir haben angefangen die Fackeln anzuzünden. Das Erkunden wird ab jetzt einfacher gehen, da wir nun nicht mehr diese Laternen benutzen müssen und sehen können, wo wir bereits waren."
+		],
+		[
+			"Ich konnte nicht eine Nacht gut schlafen, seitdem ich einen Fuß in diesen Ort gesetzt habe. Ich werde langsam so gereizt, dass ich Flüstern höre, auch wenn niemand hier ist."
+		],
+		[
+			"Jeran, eine unserer Wachen ist durchgedreht! Er schrie, dass wir alle sterben werden und streckte zwei Männer nieder, bevor er tiefer in die Ruinen floh.",
+			"Eines der Opfer starb sofort. Den Anderen haben wir verbunden, aber er wird einen der Tränke aus den Notfallvorräten benötigen, um Infektionen zu vermeiden."
+		],
+		[
+			"Wir hatten recht! Diese Dummköpfe im Imperium können ein Boot fressen, dieser eine Magierkönig herrschte über alle freien Städte dieser Zeit.",
+			"Es muss geöffnete Portale zu allen Städten gegeben haben, sie machten diesen Turm zum Handelszentrum."
+		],
+		[
+			"Jerans Team hat den Eingang zu dem, was Minen unter dem Untergeschoss zu sein scheinen, gefunden. Sie sind es möglicherweise wert, um später erkundet zu werden.",
+			"Fokussieren wir uns jetzt erst einmal auf die Gebiete, welche bewohnt waren. Dort ist genug, um uns für Wochen zu beschäftigen."
+		],
+		[
+			"Nehmt euch vor Fallen in Acht! Manche dieser Gänge haben Bodenplatten, welche mit einer Art geheimem Sicherheitssystem verbunden sind.",
+			"Bron ist auf eine getreten und verschwand in einem aufblitzendem Licht. Glücklicherweise trafen wir ihn später wieder, er war nicht verletzt, aber ziemlich verwirrt."
+		],
+		[
+			"Irgendwelche Neuigkeiten über die vermisste Gruppe? Wir haben draußen nachgesehen und nichts gefunden, vielleicht sind sie nach Hause aufgebrochen."
+		],
+		[
+			"Dieser Ort bietet so viele Fragen, die Universität wird hier lange präsent sein, sobald alle die Nachrichten hören."
+		],
+		[
+			"Wir haben Beweise für den ersten Erkundungstrupp gefunden, sie haben es definitiv bis hierher geschafft. Wir haben verstreut Fetzen ihrer Notizen und ein paar ihrer Vorräte gefunden, bis jetzt aber noch keine Körper. Es ist als wären sie einfach verschwunden."
+		],
+		[
+			"Bleibt weg! Dieser Ort ist ein Albtraum, wir hätten niemals hierher kommen dürfen. Die Dinge, welche wir hier wecken, hätten für immer begraben bleiben sollen.",
+			"Die meisten Mitglieder des Erkundungstrupps werden vermisst, der Rest verliert langsam den Verstand. Wir versuchten umzukehren, aber selbst die Gänge verspotten uns nun."
+		],
+		[
+			"Alle unsere Karten sind nutzlos! Wir haben unseren Weg beim Hineingehen sorgfältig markiert, aber beim Herausgehen stimmt nichts mehr überein.",
+			"Dieser Ort will nicht dass wir gehen!"
+		]
+	]
+}

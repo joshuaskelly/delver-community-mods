@@ -1,0 +1,24 @@
+{
+	"repeats": false,
+	"messages": [
+		[
+			"Du solltest hier möglicherweise nicht zu lange bleiben. Bei den Ruinen passieren komische Dinge.",
+			"All diese Schatzsucher gingen hinein, aber niemand kommt jemals wieder heraus.",
+			"Sie haben Gerüchte darüber gehört, was dort unten sein soll. Sie hatten nicht genug Geld um mich zu überreden dort hineinzugehen."
+		],
+		[
+			"Ich wurde von der Gilde hierher geschickt, um herauszufinden was hier vorgeht, aber bis jetzt habe ich nur noch mehr Fragen.",
+			"Was passiert wohl mit all denen, die die Ruinen betreten?",
+			"Wieso werden Menschen von diesem Ort angezogen?",
+			"Warum sind meine Träume an diesem Ort so seltsam? Ich konnte fast überhaupt nicht schlafen."
+		],
+		[
+			"Gehst du dort hinein?",
+			"Ich werde dich nicht aufhalten, aber ich habe dich gewarnt."
+		],
+		[
+			"Du kommst mir bekannt vor...",
+			"Warst du schon einmal hier?"
+		]
+	]
+}
