@@ -64,6 +64,11 @@
         "localizedName":"ALTO",
         "comment":"Text shown when the graphics slider is all the way right."
     },
+    "screens.OptionsScreen.graphicsUltra":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ULTRA",
+        "comment":"Text shown when the graphics slider is all the way right."
+    },
     "screens.OptionsScreen.backButton":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Volver",
@@ -486,7 +491,7 @@
     },
     "entities.Item.itemNameText":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{2} {0} {1} {3}",
+        "localizedName":"{2} {0} {3} {1}",
         "comment":"Text shown for items. E.g. King's Excellent Sword of the Rabbit. {0} is the prefix enchantment. {1} is the item condition. {2} is the item name. {3} is the postfix enchantment. Note any extra white space will be stripped."
     },
     "entities.Item.unidentifiedIndicatorText":{
@@ -617,7 +622,7 @@
     },
     "items.Elixer.defaultNameText":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Habilidad en jarra",
+        "localizedName":"Habilidad en frasco",
         "comment":""
     },
     "items.Food.defaultNameText":{
@@ -1759,12 +1764,12 @@
     },
     "Unwieldly":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"incómoda",
+        "localizedName":"muy pesada",
         "forms":{
-            "feminine singular":"incómoda",
-            "feminine plural":"incómodas",
-            "masculine singular":"incómodo",
-            "masculine plural":"incómodos"
+            "feminine singular":"muy pesada",
+            "feminine plural":"muy pesadas",
+            "masculine singular":"muy pesado",
+            "masculine plural":"muy pesados"
         },
         "comment":""
     },
@@ -1897,12 +1902,12 @@
     },
     "Trite":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"trillada",
+        "localizedName":"banal",
         "forms":{
-            "feminine singular":"trillada",
-            "feminine plural":"trilladas",
-            "masculine singular":"trillado",
-            "masculine plural":"trillados"
+            "feminine singular":"banal",
+            "feminine plural":"banales",
+            "masculine singular":"banal",
+            "masculine plural":"banales"
         },
         "comment":""
     },
@@ -1919,12 +1924,12 @@
     },
     "Vapid":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"sosa",
+        "localizedName":"patética",
         "forms":{
-            "feminine singular":"sosa",
-            "feminine plural":"sosas",
-            "masculine singular":"soso",
-            "masculine plural":"sosos"
+            "feminine singular":"patética",
+            "feminine plural":"patéticas",
+            "masculine singular":"patético",
+            "masculine plural":"patéticos"
         },
         "comment":""
     },
@@ -1961,6 +1966,21 @@
         },
         "comment":""
     },
+
+
+    "Enchanted":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"encantada",
+        "forms":{
+            "feminine singular":"encantada",
+            "feminine plural":"encantadas",
+            "masculine singular":"encantado",
+            "masculine plural":"encantados"
+        },
+        "comment":"This string is the one used for when Enchant Weapon Scroll is used"
+    },
+
+
     "Old Academy Sword":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Vieja espada de academia",

@@ -3,14 +3,14 @@
     "pickRandom":true,
     "messages":[
         [
-            "Matz, todo lo que hay más adelante en las ruinas parece intacto - ¡justo como esperábamos!. El lugar donde se encuentra la torre del rey mago no parece coincidir con los viejos mapas",
+            "Matz, todo lo que hay más adelante en las ruinas parece intacto - ¡justo como esperábamos! El lugar donde se encuentra la torre del rey mago no parece coincidir con los viejos mapas",
             "y solo los niveles inferiores y los sótanos están intactos pero todo lo que estamos encontrando indica que, efectivamente, este es el sitio."
         ],
         [
-            "¡Avisad a los emisarios! Los eruditos encontraron realmente el lugar. Nos separaremos del grupo principal sin que nos vean. Si la torre está aquí, significa que uno de los artefactos debe de estar aquí también."
+            "¡Avisad a los emisarios! Los eruditos realmente encontraron el lugar. Nos separaremos del grupo principal sin ser vistos. Si la torre está aquí, significa que uno de los artefactos debe de estar aquí también."
         ],
         [
-            "Nadie ha estado en estas ruinas desde hace siglos. ¡Qué descubrimiento!. Las montañas que rodean la torre han mantenido a la gente alejada. El reino probablemente tenia portales para llegar aquí más fácil de lo que lo hemos hecho nosotros."
+            "Nadie ha estado en estas ruinas desde hace siglos. ¡Qué descubrimiento! Las montañas que rodean la torre han mantenido a la gente alejada. El reino probablemente tenía portales para llegar aquí más fácilmente de lo que lo hemos hecho nosotros."
         ],
         [
             "Enviad algunos hombres de vuelta para que traigan los víveres. Estarán mejor aquí dentro y no fuera, mojándose con la lluvia."
@@ -19,31 +19,31 @@
             "Hemos encontrado algunas librerías intactas, pero los libros están escritos en lo que parece ser un viejo lenguaje. La traducción va a ser muy lenta."
         ],
         [
-            "Jeran, algunos de nuestros sirvientes han desaparecido. ¿Les has enviado a hacer algún recado?. Vamos a necesitarlos de vuelta para limpiar estos escombros."
+            "Jeran, algunos de nuestros sirvientes han desaparecido. ¿Les has enviado a hacer algún recado? Vamos a necesitarlos de vuelta para limpiar estos escombros."
         ],
         [
             "Recuento de víveres: 5 cajas de carne de cerdo, 6 paquetes de pan y 4 cajas de cerveza de cebada."
         ],
         [
-            "La exploración de las ruinas hasta ahora ha sido lenta. Me temo que estamos presionando demasiado a los hombres. Algunos ya nos han dejado, probablemente para volver a casa.",
-            "Si pudiéramos conseguir dormir bien, las cosas irían mucho más rápido. Todo el mundo está tan al límite que se asustan con su propia sombra."
+            "Hasta ahora la exploración de las ruinas ha sido lenta. Me temo que estamos presionando demasiado a los hombres. Algunos ya nos han dejado, probablemente para volver a casa.",
+            "Si pudiéramos conseguir dormir bien, las cosas irían mucho más rápidas. Todo el mundo está tan al límite que se asustan con su propia sombra."
         ],
         [
-            "No me importa lo que diga ese tal Erudito Matz. Hay algo vivo ahí abajo y no me refiero a esos insufribles murciélagos.",
-            "La pasada noche oí como algo rascaba la puerta de los barracones pero lo que quiera que fuese ya se había ido cuando salí a investigar."
+            "No me importa lo que diga ese tal Erudito Matz. Ahí abajo hay algo vivo y no me refiero a esos insufribles murciélagos.",
+            "La pasada noche oí como algo rascaba la puerta de los barracones, pero lo que quiera que fuese ya se había ido cuando salí a investigar."
         ],
         [
-            "¡Encended las antorchas a medida que avanzamos!. Así podremos ver sin necesidad de usar los faroles y también sabremos por dónde hemos pasado ya."
+            "¡Encended las antorchas a medida que avanzamos! Así podremos ver sin necesidad de usar los faroles y también sabremos por dónde hemos pasado ya."
         ],
         [
             "No he dormido bien desde que entré en este lugar. Estoy tan agotado que no paro de escuchar susurros incluso cuando no hay nadie a mi alrededor."
         ],
         [
             "¡Jeran, uno de los guardias se ha vuelto loco! Ya empezado a gritar que íbamos a morir todos y ha rajado a dos hombres antes de escapar por las ruinas.",
-            "Una de las víctimas ha muerto en el acto y a la otra le hemos puesto un vendaje pero va a necesitar una de esas pociones de los suministros de emergencia para evitar que la herida se infecte."
+            "Una de las víctimas ha muerto en el acto y a la otra le hemos puesto un vendaje, pero va a necesitar una de esas pociones de los suministros de emergencia para evitar que la herida se infecte."
         ],
         [
-            "¡Estábamos en lo cierto! Esos tontos del Imperium se van a tragar sus palabras. Este rey mago gobernó sobre todas las ciudades libres de la época",
+            "¡Estábamos en lo cierto! Esos tontos del imperio se van a tragar sus palabras. Este rey mago gobernó sobre todas las ciudades libres de la época",
             "Debe de haber portales abiertos a todas las ciudades, haciendo de esta torre el centro del comercio."
         ],
         [
@@ -55,20 +55,20 @@
             "Bron pisó una de ellas y desapareció en un destello de luz. Afortunadamente lo encontramos más adelante sano y salvo pero muy confundido."
         ],
         [
-            "¿Alguna novedad sobre ese grupo desaparecido? Hemos buscado fuera pero no hemos dado con él. Tal vez han decidido volver a casa."
+            "¿Alguna novedad sobre ese grupo desaparecido? Hemos buscado fuera, pero no hemos dado con él. Tal vez han decidido volver a casa."
         ],
         [
-            "Este lugar plantea demasiadas preguntas. La universidad tendrá una presencia aquí durante mucho tiempo una vez se conozca la noticia."
+            "Este lugar plantea demasiadas preguntas. La universidad tendrá presencia aquí durante mucho tiempo una vez se conozca la noticia."
         ],
         [
-            "Hemos encontrado evidencias de la primera expedición. Definitivamente llegaron hasta aquí. Hemos encontrado restos de sus notas diseminadas y algunos de sus suministros, pero no hay cuerpos hasta el momento. Es como si se hubieran desvanecido."
+            "Hemos encontrado pruebas de la primera expedición. Definitivamente llegaron hasta aquí. Hemos encontrado restos de sus notas diseminadas y algunos de sus suministros, pero no hay cuerpos hasta el momento. Es como si se hubieran desvanecido."
         ],
         [
             "¡Manteneos alejados! Este lugar es una pesadilla, nunca deberíamos haber venido. Las cosas que estamos desenterrando aquí deberían haberse quedado sepultadas para siempre.",
-            "La mayoría de la expedición está desaparecida y el resto de nosotros estamos lentamente perdiendo la cabeza. Hemos intentado volver pero los pasadizos nos están provocando."
+            "La mayoría de la expedición está desaparecida y el resto de nosotros estamos perdiendo la cabeza lentamente. Hemos intentado volver, pero los pasadizos nos están provocando."
         ],
         [
-            "¡Todos nuestros mapas son inútiles! Hemos marcado cuidadosamente nuestra ruta por el interior pero ahora el camino de vuelta no coincide.",
+            "¡Todos nuestros mapas son inútiles! Hemos marcado cuidadosamente nuestra ruta por el interior, pero ahora el camino de vuelta no coincide.",
             "¡Parece que este lugar no quiere que nos vayamos!"
         ]
     ]
