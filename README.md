@@ -14,6 +14,7 @@ A collection of example mods for the game Delver.
 5. Submit a pull request.
 
 ## Contributors
+- Elias Ball - [blue1stone](https://github.com/blue1stone)
 - Javier Leal Cortés - [JavierLealCortes](http://github.com/JavierLealCortes)
 - Chad Cuddigan - [Interrupt](http://github.com/Interrupt)
 - Louis Carl Pepin - [louiscarl](http://github.com/louiscarl)
