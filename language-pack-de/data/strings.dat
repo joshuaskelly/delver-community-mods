@@ -216,7 +216,7 @@
     },
     "screens.GameOverScreen.win_text_3": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DER ORB ZEIGT WAS\nWAR UND WAS SEIN WIRD.",
+        "localizedName":"DER ORB ZEIGT, WAS\nWAR UND WAS SEIN WIRD.",
         "comment":"One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_4": {
@@ -546,7 +546,7 @@
     },
     "entities.Player.exitDungeonText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0}: VERLIEß VERLASSEN",
+        "localizedName":"{0}: VERLIES VERLASSEN",
         "comment":"Text shown when player is looking at the dungeon exit. {0} is the key binding."
     },
     "entities.Player.weaponAttackText": {
@@ -1616,7 +1616,7 @@
 		"localizedName":"der Lähmung",
 		"comment":""
 	},
-	"of The Arcane": {
+	"of the Arcane": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"des Geheimnisvollen",
 		"comment":""
@@ -1626,12 +1626,12 @@
 		"localizedName":"des Sturms",
 		"comment":""
 	},
-	"of The Tempest": {
+	"of the Tempest": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"des Stürmischen",
 		"comment":""
 	},
-	"of The Worm": {
+	"of the Worm": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"des Wurms",
 		"comment":""
@@ -1737,7 +1737,7 @@
 	},
 	"Fleet": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Flot",
+		"localizedName":"Flott",
 		"forms":{
 			"feminine singular":"Flotte",
 			"masculine singular":"Flotter",
