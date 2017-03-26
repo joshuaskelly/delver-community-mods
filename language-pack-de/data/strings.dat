@@ -771,7 +771,7 @@
     },
     "items.Potion.paralyzeNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Paralisierung",
+        "localizedName":"Paralysierung",
         "comment":""
     },
     "items.Potion.unknownNameText": {
@@ -851,7 +851,7 @@
     },
     "items.Weapon.damageType.PARALYZE": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"PARALISIERUNG",
+        "localizedName":"PARALYSIERUNG",
         "comment":""
     },
     "items.Weapon.damageRangeText": {
@@ -876,7 +876,7 @@
     },
     "statuseffects.ParalyzeEffect.defaultNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Paralisiert",
+        "localizedName":"Paralysiert",
         "comment":""
     },
     "statuseffects.PoisonEffect.defaultNameText": {
@@ -1383,7 +1383,7 @@
 	},
 	"Paralyze wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Paralisierungszauberstab",
+		"localizedName":"Paralysierungszauberstab",
 		"form":"masculine singular",
 		"comment":""
 	},
@@ -1613,7 +1613,7 @@
 	},
 	"of Paralyze": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"der Paralisierung",
+		"localizedName":"der Paralysierung",
 		"comment":""
 	},
 	"of the Arcane": {
