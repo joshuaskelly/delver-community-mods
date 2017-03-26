@@ -726,7 +726,7 @@
     },
     "items.Potion.paralyzeDisplayText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Du fühlst dich klebend",
+        "localizedName":"Du fühlst dich bewegungsunfähig",
         "comment":"Text shown when potion is drank."
     },
     "items.Potion.discoverDisplayText": {
@@ -771,7 +771,7 @@
     },
     "items.Potion.paralyzeNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Lähmung",
+        "localizedName":"Paralisierung",
         "comment":""
     },
     "items.Potion.unknownNameText": {
@@ -851,7 +851,7 @@
     },
     "items.Weapon.damageType.PARALYZE": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"LÄHMUNG",
+        "localizedName":"PARALISIERUNG",
         "comment":""
     },
     "items.Weapon.damageRangeText": {
@@ -876,7 +876,7 @@
     },
     "statuseffects.ParalyzeEffect.defaultNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Gelähmt",
+        "localizedName":"Paralisiert",
         "comment":""
     },
     "statuseffects.PoisonEffect.defaultNameText": {
@@ -1383,7 +1383,7 @@
 	},
 	"Paralyze wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Lähmungszauberstab",
+		"localizedName":"Paralisierungszauberstab",
 		"form":"masculine singular",
 		"comment":""
 	},
@@ -1613,7 +1613,7 @@
 	},
 	"of Paralyze": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"der Lähmung",
+		"localizedName":"der Paralisierung",
 		"comment":""
 	},
 	"of the Arcane": {
