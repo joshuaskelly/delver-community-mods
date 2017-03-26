@@ -15,6 +15,7 @@
                 "hostile": false,
                 "speed": 0.0025,
                 "canOpenDoors": false,
+                "spawnsLoot": false,
                 "walkAnimation": {
                     "start": 0,
                     "end": 3,
