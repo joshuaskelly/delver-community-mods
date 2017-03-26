@@ -21,10 +21,8 @@
             "attackStrongAnimation":"thrustAttack",
             "chargeAnimation":"thrustCharge",
             "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3",
-            "prefixEnchantment":
+            "baseMods":
             {
-                "class":"com.interrupt.dungeoneer.entities.items.ItemModification",
-                "name":"Hedgewood's",
                 "magicMod":2
             }
         },
@@ -48,10 +46,8 @@
             "attackStrongAnimation":"thrustAttack",
             "chargeAnimation":"thrustCharge",
             "dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3",
-            "prefixEnchantment":
+            "baseMods":
             {
-                "class":"com.interrupt.dungeoneer.entities.items.ItemModification",
-                "name":"Hedgewood's",
                 "magicMod":2
             }
         },
@@ -67,10 +63,8 @@
             "yOffset":0.0,
             "cost":800,
             "pickupSound":"pu_gen_v2.mp3",
-            "prefixEnchantment":
+            "baseMods":
             {
-                "class":"com.interrupt.dungeoneer.entities.items.ItemModification",
-                "name":"Hedgewood's",
                 "magicMod":2
             }
         },
@@ -85,10 +79,8 @@
             "yOffset":0.0,
             "cost":800,
             "pickupSound":"pu_gen_v2.mp3",
-            "prefixEnchantment":
+            "baseMods":
             {
-                "class":"com.interrupt.dungeoneer.entities.items.ItemModification",
-                "name":"Hedgewood's",
                 "magicMod":2
             }
         },
@@ -104,10 +96,8 @@
             "yOffset":0.0,
             "cost":800,
             "pickupSound":"pu_gen_v2.mp3",
-            "prefixEnchantment":
+            "baseMods":
             {
-                "class":"com.interrupt.dungeoneer.entities.items.ItemModification",
-                "name":"Hedgewood's",
                 "magicMod":2
             }
         },
@@ -123,26 +113,23 @@
             "equipLoc":"RING",
             "yOffset":-0.078125,
             "cost":150,
-            "prefixEnchantment":
+            "baseMods":
             {
-                "class":"com.interrupt.dungeoneer.entities.items.ItemModification",
-                "name":"Hedgewood's",
                 "magicMod":2
             }
         },
         {
-            "class":"com.interrupt.dungeoneer.entities.items.Decoration",
-            "itemType":"junk",
+            "class":"com.interrupt.dungeoneer.entities.items.Armor",
+            "itemType":"armor",
             "tex":11,
             "inventoryTex":11,
+            "equipLoc":"OFFHAND",
             "heldTex":12,
             "spriteAtlas":"mage_items",
             "name":"Grimoire",
             "unique":true,
-            "prefixEnchantment":
+            "baseMods":
             {
-                "class":"com.interrupt.dungeoneer.entities.items.ItemModification",
-                "name":"Magic",
                 "magicMod":8
             }
         }
