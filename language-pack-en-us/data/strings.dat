@@ -49,6 +49,16 @@
         "localizedName":"DEAD",
         "comment":"Text shown on a save slot when the character is dead."
     },
+    "screens.MainMenuScreen.creatingDungeon": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"CREATING DUNGEON",
+        "comment":"Text shown in the bottom right when starting a new game."
+    },
+    "screens.MainMenuScreen.loadingSaveSlot": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"LOADING",
+        "comment":"Text shown in the bottom right when loading a save game."
+    },
     "screens.OptionsScreen.graphicsLow": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"LOW",
@@ -569,6 +579,31 @@
         "localizedName":"FLOOR {0}",
         "comment":"Text shown for the floor name. This is a fallback if no name is provided."
     },
+    "gfx.GlRenderer.AttackText": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ATK: {0}",
+        "comment":"Text shown on the inventory screen for player's attack values."
+    },
+    "gfx.GlRenderer.ArmorClassText": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"AC: {0}",
+        "comment":"Text shown on the inventory screen for player's defense values."
+    },
+    "gfx.GlRenderer.LevelText": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Level: {0}",
+        "comment":"Text shown on the inventory screen for player's level."
+    },
+    "gfx.GlRenderer.ExperienceText": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"XP: {0}/{1}",
+        "comment":"Text shown on the inventory screen for player's experience. {0} is the current amount of experience. {1} is the amount needed to acquire the next level."
+    },
+    "gfx.GlRenderer.GoldText": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Gold: {0}",
+        "comment":"Text shown on the inventory screen for player's gold."
+    },
     "items.Bow.defaultName": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"BOW",
@@ -893,6 +928,36 @@
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"{0}: {1}",
         "comment":"{0} is the key binding. {1} is the use verb."
+    },
+    "triggers.Trigger.useVerbs.ENTER DUNGEON": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ENTER DUNGEON",
+        "comment":""
+    },
+    "triggers.Trigger.useVerbs.SHOP": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"SHOP",
+        "comment":""
+    },
+    "triggers.Trigger.useVerbs.TALK": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"TALK",
+        "comment":""
+    },
+    "triggers.Trigger.useVerbs.USE": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"USE",
+        "comment":""
+    },
+    "triggers.TriggeredShop.titleText": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"SHOP",
+        "comment":""
+    },
+    "triggers.TriggeredShop.descriptionText": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"BUY SOMETHING",
+        "comment":""
     },
     "ui.Hud.noRoomText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
@@ -1269,21 +1334,51 @@
 		"localizedName":"Amulet of Greater Health",
 		"comment":""
 	},
+	"Lesser missile wand": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Lesser missile wand",
+        "comment":""
+    },
 	"Missile wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Missile wand",
 		"comment":""
 	},
+	"Greater missile wand": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Greater missile wand",
+        "comment":""
+    },
+	"Lesser fire wand": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Lesser fire wand",
+        "comment":""
+    },
 	"Fire wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Fire wand",
 		"comment":""
 	},
+	"Greater fire wand": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Greater fire wand",
+        "comment":""
+    },
+    "Lesser ice wand": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Lesser ice wand",
+        "comment":""
+    },
 	"Ice wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Ice wand",
 		"comment":""
 	},
+	"Greater Ice wand": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Greater ice wand",
+        "comment":""
+    },
 	"Storm wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Storm wand",
@@ -1504,7 +1599,7 @@
 		"localizedName":"of Paralyze",
 		"comment":""
 	},
-	"of The Arcane": {
+	"of the Arcane": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"of The Arcane",
 		"comment":""
@@ -1514,12 +1609,12 @@
 		"localizedName":"of Storm",
 		"comment":""
 	},
-	"of The Tempest": {
+	"of the Tempest": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"of the Tempest",
 		"comment":""
 	},
-	"of The Worm": {
+	"of the Worm": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"of the Worm",
 		"comment":""
