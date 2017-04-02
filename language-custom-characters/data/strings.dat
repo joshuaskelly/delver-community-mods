@@ -1,0 +1,22 @@
+{
+    "screens.SplashScreen.pressKeyToStart": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"私私 Press any key to start 私",
+        "comment":"Prompt shown once at the start of the game."
+    },
+    "screens.MainMenuScreen.playButton": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"私Play私",
+        "comment":"Text for the play button. This will start a new game."
+    },
+    "screens.OptionsScreen.graphicsUltra": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"私ULTRA私",
+        "comment":"Text shown when the graphics slider is all the way right."
+    },
+    "Iron dagger":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"私Iron dagger私",
+        "comment":""
+    }
+}
