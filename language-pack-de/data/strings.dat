@@ -49,6 +49,16 @@
         "localizedName":"TOT",
         "comment":"Text shown on a save slot when the character is dead."
     },
+    "screens.MainMenuScreen.creatingDungeon": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ERSTELLE VERLIES",
+        "comment":"Text shown in the bottom right when starting a new game."
+    },
+    "screens.MainMenuScreen.loadingSaveSlot": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"LADE",
+        "comment":"Text shown in the bottom right when loading a save game."
+    },
     "screens.OptionsScreen.graphicsLow": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"NIEDRIG",
@@ -599,6 +609,31 @@
         "localizedName":"EBENE {0}",
         "comment":"Text shown for the floor name. This is a fallback if no name is provided."
     },
+    "gfx.GlRenderer.AttackText": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ANG: {0}",
+        "comment":"Text shown on the inventory screen for player's attack values."
+    },
+    "gfx.GlRenderer.ArmorClassText": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"AC: {0}",
+        "comment":"Text shown on the inventory screen for player's defense values."
+    },
+    "gfx.GlRenderer.LevelText": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Stufe: {0}",
+        "comment":"Text shown on the inventory screen for player's level."
+    },
+    "gfx.GlRenderer.ExperienceText": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"XP: {0}/{1}",
+        "comment":"Text shown on the inventory screen for player's experience. {0} is the current amount of experience. {1} is the amount needed to acquire the next level."
+    },
+    "gfx.GlRenderer.GoldText": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Gold: {0}",
+        "comment":"Text shown on the inventory screen for player's gold."
+    },
     "items.Bow.defaultName": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"BOGEN",
@@ -726,7 +761,7 @@
     },
     "items.Potion.paralyzeDisplayText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Du fühlst dich klebend",
+        "localizedName":"Du fühlst dich bewegungsunfähig",
         "comment":"Text shown when potion is drank."
     },
     "items.Potion.discoverDisplayText": {
@@ -771,7 +806,7 @@
     },
     "items.Potion.paralyzeNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Lähmung",
+        "localizedName":"Paralysierung",
         "comment":""
     },
     "items.Potion.unknownNameText": {
@@ -851,7 +886,7 @@
     },
     "items.Weapon.damageType.PARALYZE": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"LÄHMUNG",
+        "localizedName":"PARALYSIERUNG",
         "comment":""
     },
     "items.Weapon.damageRangeText": {
@@ -876,7 +911,7 @@
     },
     "statuseffects.ParalyzeEffect.defaultNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Gelähmt",
+        "localizedName":"Paralysiert",
         "comment":""
     },
     "statuseffects.PoisonEffect.defaultNameText": {
@@ -923,6 +958,36 @@
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"{0}: {1}",
         "comment":"{0} is the key binding. {1} is the use verb."
+    },
+    "triggers.Trigger.useVerbs.ENTER DUNGEON": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"VERLIES BETRETEN",
+        "comment":""
+    },
+    "triggers.Trigger.useVerbs.SHOP": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"EINKAUFEN",
+        "comment":""
+    },
+    "triggers.Trigger.useVerbs.TALK": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"REDEN",
+        "comment":""
+    },
+    "triggers.Trigger.useVerbs.USE": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"BENUTZEN",
+        "comment":""
+    },
+    "triggers.TriggeredShop.titleText": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"LADEN",
+        "comment":""
+    },
+    "triggers.TriggeredShop.descriptionText": {
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"KAUFE ETWAS",
+        "comment":""
     },
     "ui.Hud.noRoomText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
@@ -1357,11 +1422,26 @@
 		"form":"neutral singular",
 		"comment":""
 	},
+	"Lesser missile wand": {
+        	"class":"com.interrupt.dungeoneer.game.LocalizedString",
+        	"localizedName":"Schwächerer Raketenzauberstab",
+        	"comment":""
+	},
 	"Missile wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Raketenzauberstab",
 		"form":"masculine singular",
 		"comment":""
+	},
+	"Greater missile wand": {
+        	"class":"com.interrupt.dungeoneer.game.LocalizedString",
+        	"localizedName":"Stärkerer Raketenzauberstab",
+        	"comment":""
+	},
+	"Lesser fire wand": {
+        	"class":"com.interrupt.dungeoneer.game.LocalizedString",
+        	"localizedName":"Schwächerer Feuerzauberstab",
+        	"comment":""
 	},
 	"Fire wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
@@ -1369,11 +1449,26 @@
 		"form":"masculine singular",
 		"comment":""
 	},
+	"Greater fire wand": {
+        	"class":"com.interrupt.dungeoneer.game.LocalizedString",
+        	"localizedName":"Stärkerer Feuerzauberstab",
+        	"comment":""
+	},
+	"Lesser ice wand": {
+        	"class":"com.interrupt.dungeoneer.game.LocalizedString",
+        	"localizedName":"Schwächerer Eiszauberstab",
+        	"comment":""
+	},
 	"Ice wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Eiszauberstab",
 		"form":"masculine singular",
 		"comment":""
+	},
+	"Greater Ice wand": {
+        	"class":"com.interrupt.dungeoneer.game.LocalizedString",
+        	"localizedName":"Stärkerer Eiszauberstab",
+        	"comment":""
 	},
 	"Storm wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
@@ -1383,7 +1478,7 @@
 	},
 	"Paralyze wand": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Lähmungszauberstab",
+		"localizedName":"Paralysierungszauberstab",
 		"form":"masculine singular",
 		"comment":""
 	},
@@ -1613,7 +1708,7 @@
 	},
 	"of Paralyze": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"der Lähmung",
+		"localizedName":"der Paralysierung",
 		"comment":""
 	},
 	"of the Arcane": {
