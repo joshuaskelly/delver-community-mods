@@ -1801,7 +1801,7 @@
     },
     "triggers.Trigger.useVerbs.SHOP": {
         "class": "com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName": "MAGASIN",
+        "localizedName": "ACHETER",
         "comment": ""
     },
     "triggers.Trigger.useVerbs.TALK": {
