@@ -1,0 +1,14 @@
+{
+	repeats: false,
+	messages: [
+		[
+            "Aaaah... on dirait qu'on a un étranger. Ah oui.",
+            "L'étranger n'a pas l'air de connaître les rues profondes... mais il n'est pas sous servitude comme les autres, n'est-ce pas? C'est très curieux.",
+            "Il y a longtemps, j'ai regardé des étrangers comme vous creuser dans la terre profonde, réveillant ce qui aurait dû être oublié.",
+			"L'étranger n'est pas ici pour mes histoires... Peut-être pour acheter quelque chose?"
+		],
+		[
+			"Aaaah... L'étranger revient. Peut-être pour acheter quelque chose?"
+		]
+	]
+}

@@ -1,1913 +1,2777 @@
 {
     "screens.SplashScreen.pressKeyToStart": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Appuyez sur une touche pour continuer.",
-        "comment":"Prompt shown once at the start of the game."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Appuyez sur une touche pour continuer.",
+        "comment": "Prompt shown once at the start of the game."
     },
     "screens.MainMenuScreen.playButton": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Jouer",
-        "comment":"Text for the play button. This will start a new game."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Jouer",
+        "comment": "Text for the play button. This will start a new game."
     },
     "screens.MainMenuScreen.eraseButton": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Effacer",
-        "comment":"Text for the erase button, which will delete the player's save game."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Effacer",
+        "comment": "Text for the erase button, which will delete the player's save game."
     },
     "screens.MainMenuScreen.optionsButton": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Options",
-        "comment":"Text for the options button, which will open the options menu."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Options",
+        "comment": "Text for the options button, which will open the options menu."
     },
     "screens.MainMenuScreen.selectSaveSlot": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Sélectionnez une sauvegarde.",
-        "comment":"Text prompt indicated the user should click a save slot."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Sélectionnez une sauvegarde.",
+        "comment": "Text prompt indicated the user should click a save slot."
     },
     "screens.MainMenuScreen.newGameSaveSlot": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Nouvelle partie",
-        "comment":"Text shown on a save slot when the slot is empty."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Nouvelle partie",
+        "comment": "Text shown on a save slot when the slot is empty."
     },
     "screens.MainMenuScreen.errorSaveSlot": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ERREUR",
-        "comment":"Text shown on a save slot when the slot data cannot be loaded."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ERREUR",
+        "comment": "Text shown on a save slot when the slot data cannot be loaded."
     },
     "screens.MainMenuScreen.infoSaveSlot": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0}   Niv: {1}",
-        "comment":"Text shown on a save slot. {0} is the name of the dungeon level. {1} is the number of the dungeon level."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "{0}   Niv: {1}",
+        "comment": "Text shown on a save slot. {0} is the name of the dungeon level. {1} is the number of the dungeon level."
     },
     "screens.MainMenuScreen.finishedSaveSlot": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"TERMINÉ",
-        "comment":"Text shown on a save slot after successfully beating the game."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "TERMINÉ",
+        "comment": "Text shown on a save slot after successfully beating the game."
     },
     "screens.MainMenuScreen.deadSaveSlot": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"MORT",
-        "comment":"Text shown on a save slot when the character is dead."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "DÉCÉDÉ(E)",
+        "comment": "Text shown on a save slot when the character is dead."
+    },
+    "screens.MainMenuScreen.creatingDungeon": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "CRÉATION DU DONJON",
+        "comment": "Text shown in the bottom right when starting a new game."
+    },
+    "screens.MainMenuScreen.loadingSaveSlot": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "CHARGEMENT",
+        "comment": "Text shown in the bottom right when loading a save game."
     },
     "screens.OptionsScreen.graphicsLow": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"BAS",
-        "comment":"Text shown when graphics slider is all the way left."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BAS",
+        "comment": "Text shown when graphics slider is all the way left."
     },
     "screens.OptionsScreen.graphicsMedium": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"MEDIUM",
-        "comment":"Text show when the graphics slider is in the middle."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MEDIUM",
+        "comment": "Text show when the graphics slider is in the middle."
     },
     "screens.OptionsScreen.graphicsHigh": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ÉLEVÉS",
-        "comment":"Text shown when the graphics slider is all the way right."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ÉLEVÉS",
+        "comment": "Text shown when the graphics slider is mostly right."
+    },
+    "screens.OptionsScreen.graphicsUltra": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ULTRA",
+        "comment": "Text shown when the graphics slider is all the way right."
     },
     "screens.OptionsScreen.backButton": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Ret.",
-        "comment":"Text for back button, which goes to main menu."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Ret.",
+        "comment": "Text for back button, which goes to main menu."
     },
     "screens.OptionsScreen.inputButton": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Cont.",
-        "comment":"Text for input button, which opens the input screen. FR: Reads Continue instead of Input."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Cont.",
+        "comment": "Text for input button, which opens the input screen. FR: Reads Continue instead of Input."
     },
     "screens.OptionsScreen.headerLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Options du jeu",
-        "comment":"Text for the screen title."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Options du jeu",
+        "comment": "Text for the screen title."
     },
     "screens.OptionsScreen.uiSizeLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Taille de l'interface ",
-        "comment":"Label for UI size slider."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Taille de l'interface ",
+        "comment": "Label for UI size slider."
+    },
+    "screens.OptionsScreen.showHudLabel": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "HUD visible",
+        "comment": "Label for HUD visibility."
+    },
+    "screens.OptionsScreen.headBobLabel": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Sautillement de la tête",
+        "comment": "Label for head bob checkbox."
     },
     "screens.OptionsScreen.musicVolumeLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Volume de la musique",
-        "comment":"Label for music volume slider."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Volume de la musique",
+        "comment": "Label for music volume slider."
     },
     "screens.OptionsScreen.soundVolumeLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Volume du son",
-        "comment":"Label for sound volume slider."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Volume du son",
+        "comment": "Label for sound volume slider."
     },
     "screens.OptionsScreen.graphicsDetailLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Détails graphiques",
-        "comment":"Label for graphics detail slider."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Détails graphiques",
+        "comment": "Label for graphics detail slider."
     },
     "screens.OptionsScreen.particleDensityLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Densité des particules",
-        "comment":"Label for particle density slider."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Densité des particules",
+        "comment": "Label for particle density slider."
+    },
+    "screens.OptionsScreen.shadowsLabel": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Ombres",
+        "comment": "Label for shadow checkbox."
     },
     "screens.OptionsScreen.fovLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Champ de vision",
-        "comment":"Label for field of view slider."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Champ de vision",
+        "comment": "Label for field of view slider."
     },
     "screens.OptionsScreen.fullscreenLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Plein écran",
-        "comment":"Label for fullscreen toggle."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Plein écran",
+        "comment": "Label for fullscreen toggle."
+    },
+    "screens.OptionsScreen.uiSizeOffLabel": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "AUCUN",
+        "comment": "Label for when the ui size is turned down to off."
+    },
+    "screens.OptionsScreen.readableActions.USE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "UTILISER",
+        "comment": "Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.ATTACK": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ATTAQUER",
+        "comment": "Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.DROP": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "JETTER",
+        "comment": "Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.INVENTORY": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "INVENTAIRE",
+        "comment": "Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.ITEM NEXT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "OBJET SUIVANT",
+        "comment": "Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.ITEM PREVIOUS": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "OBJET PRÉCÉDENT",
+        "comment": "Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.MAP": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "CARTE",
+        "comment": "Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.FORWARD": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "AVANCER",
+        "comment": "Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.BACKWARD": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "RECULER",
+        "comment": "Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.STRAFE LEFT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ALLER À GAUCHE",
+        "comment": "Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.STRAFE RIGHT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ALLER À DROITE",
+        "comment": "Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.TURN LEFT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "TOURNER À GAUCHE",
+        "comment": "Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.TURN RIGHT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "TOURNER À DROITE",
+        "comment": "Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.LOOK UP": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "REGARDER EN HAUT",
+        "comment": "Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.LOOK DOWN": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "REGARDER EN BAS",
+        "comment": "Label for key bind action."
     },
     "screens.OptionsInputScreen.backButton": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Ret.",
-        "comment":"Text for back button, which goes back to options screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Ret.",
+        "comment": "Text for back button, which goes back to options screen."
     },
     "screens.OptionsInputScreen.keysButton": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Bout.",
-        "comment":"Text for the keys button, which opens the key binding screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Bout.",
+        "comment": "Text for the keys button, which opens the key binding screen."
     },
     "screens.OptionsInputScreen.gamepadButton": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":" Gamepad ",
-        "comment":"Text for the gamepad button, which opens the gamepad binding screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": " Gamepad ",
+        "comment": "Text for the gamepad button, which opens the gamepad binding screen."
     },
     "screens.OptionsInputScreen.headerLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Options de souris",
-        "comment":"Text for the input options screen title."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Options de souris",
+        "comment": "Text for the input options screen title."
     },
     "screens.OptionsScreen.lookXLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Regard X",
-        "comment":"Label for the mouse x-axis sensitivity slider."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Regard X",
+        "comment": "Label for the mouse x-axis sensitivity slider."
     },
     "screens.OptionsScreen.lookYLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Regard Y",
-        "comment":"Label for the mouse y-axis sensitivity slider."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Regard Y",
+        "comment": "Label for the mouse y-axis sensitivity slider."
     },
     "screens.OptionsScreen.invertLookLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Renverser le regard",
-        "comment":"Label for the invert look toggle."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Renverser le regard",
+        "comment": "Label for the invert look toggle."
     },
     "screens.OptionsScreen.mouseButton1Label": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Bouton souris 1",
-        "comment":"Label for mouse button. Used for assigning to bindings."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Bouton souris 1",
+        "comment": "Label for mouse button. Used for assigning to bindings."
     },
     "screens.OptionsScreen.mouseButton2Label": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Bouton souris 2",
-        "comment":"Label for mouse button. Used for assigning to bindings."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Bouton souris 2",
+        "comment": "Label for mouse button. Used for assigning to bindings."
     },
     "screens.OptionsScreen.mouseButton3Label": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Bouton souris 3",
-        "comment":"Label for mouse button. Used for assigning to bindings."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Bouton souris 3",
+        "comment": "Label for mouse button. Used for assigning to bindings."
     },
     "screens.OptionsScreen.mouseScrollLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Défilement souris",
-        "comment":"Label for scroll wheel toggle."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Défilement souris",
+        "comment": "Label for scroll wheel toggle."
+    },
+    "screens.OptionsKeysScreen.keyboardControlsLabel": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Contrôles clavier",
+        "comment": "Text for back button, which goes back to the input options screen."
     },
     "screens.OptionsKeysScreen.backButton": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Ret.",
-        "comment":"Text for back button, which goes back to the input options screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Ret.",
+        "comment": "Text for back button, which goes back to the input options screen."
     },
     "screens.OptionsKeysScreen.pressKeyLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Appuyez sur une touche pour: {0}",
-        "comment":"Message prompt shown when player is rebinding a key. {0} is the action. e.g. USE"
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Appuyez sur une touche pour: {0}",
+        "comment": "Message prompt shown when player is rebinding a key. {0} is the action. e.g. USE"
     },
     "screens.OptionsKeysScreen.pressEscToCancelLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Appuyez sur ESC./ÉCHAP. pour annuler",
-        "comment":"Cancel prompt shown when player is rebinding a key."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Appuyez sur ESC./ÉCHAP. pour annuler",
+        "comment": "Cancel prompt shown when player is rebinding a key."
     },
     "screens.LoadingScreen.loadingLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Chargement",
-        "comment":"Label shown when game is loading."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Chargement",
+        "comment": "Label shown when game is loading."
     },
     "screens.LevelChangeScreen.levelChangeLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Changement de niveau",
-        "comment":"Label shown when game loading the next level."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Changement de niveau",
+        "comment": "Label shown when game loading the next level."
     },
     "screens.GameOverScreen.win_text_0": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"CES YITHIDIENS PRODUISENT\nDE SUPERBES ORBES.",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "CES YITHIDIENS PRODUISENT\nDE SUPERBES ORBES.",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_1": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"AVEC CE POUVOIR VOUS\nCHANGEZ LE MONDE.",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "AVEC CE POUVOIR VOUS\nCHANGEZ LE MONDE.",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_2": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"C'ÉTAIT CACHÉ POUR\nUNE BONNE RAISON...",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "C'ÉTAIT CACHÉ POUR\nUNE BONNE RAISON...",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_3": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"L'ORBE MONTRE CE QUI PEUT ÊTRE\nET CE QUI A ÉTÉ.",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "L'ORBE MONTRE CE QUI PEUT ÊTRE\nET CE QUI A ÉTÉ.",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_4": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DES VOIX VOUS HANTENT,\nUN NOUVEAU MONDE VOUS ATTEND.",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "DES VOIX VOUS HANTENT,\nUN NOUVEAU MONDE VOUS ATTEND.",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_5": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ELLE OUVRE LA PORTE ENTRE,\nLES ESPACES ENTRE LES ESPACES.",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ELLE OUVRE LA PORTE ENTRE,\nLES ESPACES ENTRE LES ESPACES.",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_6": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"LA MULTITUDE CRIE PENDANT QUE\nLES RÉALITÉS S'ÉCROULENT.",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "LA MULTITUDE CRIE PENDANT QUE\nLES RÉALITÉS S'ÉCROULENT.",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_7": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"VOUS VOUS RAPPELEZ,\nÇA S'EST DÉJÀ PASSÉ.",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "VOUS VOUS RAPPELEZ,\nÇA S'EST DÉJÀ PASSÉ.",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.delverEscapedText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DELVER S'EST ÉCHAPPÉ!",
-        "comment":"Shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "DELVER S'EST ÉCHAPPÉ!",
+        "comment": "Shown on the win screen."
     },
     "screens.GameOverScreen.recoveredOrbText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"VOUS AVEZ RAMENÉ L'ORBE!",
-        "comment":"Shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "VOUS AVEZ RAMENÉ L'ORBE!",
+        "comment": "Shown on the win screen."
     },
     "screens.GameOverScreen.goodbyeDelverText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"AU REVOIR DELVER",
-        "comment":"Shown on the game over screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "AU REVOIR DELVER",
+        "comment": "Shown on the game over screen."
     },
     "screens.GameOverScreen.betterLuckText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"MEILLEURE CHANCE LA PROCHAINE VIE",
-        "comment":"Shown on the game over screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MEILLEURE CHANCE LA PROCHAINE VIE",
+        "comment": "Shown on the game over screen."
     },
     "screens.GameOverScreen.goldStatLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"OR GAGNÉ: ",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "OR GAGNÉ: ",
+        "comment": ""
     },
     "screens.GameOverScreen.killsStatLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"MONSTRES VAINCUS: ",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MONSTRES VAINCUS: ",
+        "comment": ""
     },
     "screens.GameOverScreen.damageStatLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DOMMAGE SUBI: ",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "DOMMAGE SUBI: ",
+        "comment": ""
     },
     "screens.GameOverScreen.potionsStatLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"POTIONS BUES: ",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "POTIONS BUES: ",
+        "comment": ""
     },
     "screens.GameOverScreen.foodStatLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"NOURRITURE MANGÉE: ",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NOURRITURE MANGÉE: ",
+        "comment": ""
     },
     "screens.GameOverScreen.scrollsStatLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"PARCHEMINS UTILISÉS: ",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PARCHEMINS UTILISÉS: ",
+        "comment": ""
     },
     "screens.GameOverScreen.trapsStatLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"PIÈGES DÉCLENCHÉS: ",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PIÈGES DÉCLENCHÉS: ",
+        "comment": ""
     },
     "overlays.LevelUpOverlay.levelUpLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Level Up!",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Level Up!",
+        "comment": ""
     },
     "overlays.LevelUpOverlay.chooseYourFateLabel": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Choisissez votre destinée",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Choisissez votre destinée",
+        "comment": ""
     },
     "overlays.LevelUpOverlay.ATTACK": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ATTAQUE",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ATTAQUE",
+        "comment": ""
     },
     "overlays.LevelUpOverlay.SPEED": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"VITESSE",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "VITESSE",
+        "comment": ""
     },
     "overlays.LevelUpOverlay.HEALTH": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"POINTS DE VIE",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "POINTS DE VIE",
+        "comment": ""
     },
     "overlays.LevelUpOverlay.MAGIC": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"MAGIE",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MAGIE",
+        "comment": ""
     },
     "overlays.LevelUpOverlay.AGILITY": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"AGILITÉ",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "AGILITÉ",
+        "comment": ""
     },
     "overlays.LevelUpOverlay.DEFENSE": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DÉFENSE",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "DÉFENSE",
+        "comment": ""
     },
     "overlays.MessageOverlay.nextButton": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"SUIVANT",
-        "comment":"Text for next button on the message overlay. Advances to the next page."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "SUIVANT",
+        "comment": "Text for next button on the message overlay. Advances to the next page."
     },
     "overlays.MessageOverlay.closeButton": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"FERMER",
-        "comment":"Text for the close button on the message overlay."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "FERMER",
+        "comment": "Text for the close button on the message overlay."
     },
     "overlays.PauseOverlay.backButton": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Ret.",
-        "comment":"Text for the back button on the pause screen. Goes back to playing the game."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Ret.",
+        "comment": "Text for the back button on the pause screen. Goes back to playing the game."
     },
     "overlays.PauseOverlay.quitButton": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Quit.",
-        "comment":"Text for the quit button on the pause screen. Returns to the main menu."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Quit.",
+        "comment": "Text for the quit button on the pause screen. Returns to the main menu."
     },
     "overlays.PauseOverlay.pauseHeader": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Pause",
-        "comment":"Header text shown on the pause menu."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Pause",
+        "comment": "Header text shown on the pause menu."
     },
     "overlays.ShopPause.titleText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ACHETER QUELQUE CHOSE",
-        "comment":"Default shop title. Used for the mysterious merchant."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ACHETER QUELQUE CHOSE",
+        "comment": "Default shop title. Used for the mysterious merchant."
     },
     "overlays.ShopPause.descriptionText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"WILL YA?",
-        "comment":"Default shop description text. Used for the mysterious merchant."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "OUI?",
+        "comment": "Default shop description text. Used for the mysterious merchant."
     },
     "overlays.ShopPause.totalText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Total",
-        "comment":"Text shown on the shop table for the total gold being spent."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Total",
+        "comment": "Text shown on the shop table for the total gold being spent."
     },
     "overlays.ShopPause.yourGoldText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Votre or",
-        "comment":"Text shown on the shop table for the players total gold."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Votre or",
+        "comment": "Text shown on the shop table for the players total gold."
     },
     "overlays.ShopPause.doneButton": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"OK",
-        "comment":"Text shown on the done button."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "OK",
+        "comment": "Text shown on the done button."
     },
     "overlays.ShopPause.buyText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Acheter",
-        "comment":"Text shown in the shop table in place of an items price. This indicates the player has selected the item to purchase."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Acheter",
+        "comment": "Text shown in the shop table in place of an items price. This indicates the player has selected the item to purchase."
     },
     "entities.Door.stuckText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"COINCÉ",
-        "comment":"Text shown when a door is stuck shut, and can be broken open."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "COINCÉ",
+        "comment": "Text shown when a door is stuck shut, and can be broken open."
     },
     "entities.Door.unlockedText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DÉVERROUILLÉ",
-        "comment":"Text shown when a door unlocked."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "DÉVERROUILLÉ",
+        "comment": "Text shown when a door unlocked."
     },
     "entities.Door.lockedText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"VERROUILLÉ",
-        "comment":"Text shown when a door is locked and a key is needed to open it."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "VERROUILLÉ",
+        "comment": "Text shown when a door is locked and a key is needed to open it."
     },
     "entities.Door.opensElsewhereText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"MUST OPEN\nELSEWHERE",
-        "comment":"Text shown when a door is stuck shut and must be opened through a trigger."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "S'OUVRE DE L'AUTRE CÔTÉ",
+        "comment": "Text shown when a door is stuck shut and must be opened through a trigger."
     },
     "entities.Door.openUseText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"OUVRIR",
-        "comment":"Use text to open the door."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "OUVRIR",
+        "comment": "Use text to open the door."
     },
     "entities.Door.closeUseText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"FERMER",
-        "comment":"Use text to close the door."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "FERMER",
+        "comment": "Use text to close the door."
     },
     "entities.Door.mobileUseText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"UTILISER: {0}",
-        "comment":"Text shown on mobile instead of key binding. {0} is the use text (OPEN/CLOSE)."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "UTILISER: {0}",
+        "comment": "Text shown on mobile instead of key binding. {0} is the use text (OPEN/CLOSE)."
     },
     "entities.Item.itemConditionBroken": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"brisé",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "brisé",
         "forms": {
             "feminine singular": "brisée",
             "feminine plural": "brisées",
             "masculine singular": "brisé",
             "masculine plural": "brisés"
         },
-        "comment":""
+        "comment": ""
     },
     "entities.Item.itemConditionWorn": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"usé",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "usé",
         "forms": {
             "feminine singular": "usée",
             "feminine plural": "usées",
             "masculine singular": "usé",
             "masculine plural": "usés"
         },
-        "comment":""
+        "comment": ""
     },
     "entities.Item.itemConditionNormal": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"normal",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "normal",
         "forms": {
             "feminine singular": "normale",
             "feminine plural": "normales",
             "masculine singular": "normal",
             "masculine plural": "normaux"
         },
-        "comment":""
+        "comment": ""
     },
     "entities.Item.itemConditionFine": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"fin",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "fin",
         "forms": {
             "feminine singular": "fine",
             "feminine plural": "fines",
             "masculine singular": "fin",
             "masculine plural": "fins"
         },
-        "comment":""
+        "comment": ""
     },
     "entities.Item.itemConditionExcellent": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"excellent",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "excellent",
         "forms": {
             "feminine singular": "excellente",
             "feminine plural": "excellentes",
             "masculine singular": "excellent",
             "masculine plural": "excellents"
         },
-        "comment":""
+        "comment": ""
     },
     "entities.Item.mobileUseMessageText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"UTILISER: OBTENIR {0}",
-        "comment":"Use message shown on mobile in place of key binding. {0} is the item name."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "UTILISER: OBTENIR {0}",
+        "comment": "Use message shown on mobile in place of key binding. {0} is the item name."
     },
     "entities.Item.noRoomText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"PAS DE PLACE",
-        "comment":"Text show when player attempts to pick up an item when inventory is full."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PAS DE PLACE",
+        "comment": "Text show when player attempts to pick up an item when inventory is full."
     },
     "entities.Item.itemNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{2} {1} {0} {3}",
-        "comment":"Text shown for items. E.g. King's Excellent Sword of the Rabbit. {0} is the prefix enchantment. {1} is the item condition. {2} is the item name. {3} is the postfix enchantment. Note any extra white space will be stripped."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "{2} {1} {0} {3}",
+        "comment": "Text shown for items. E.g. King's Excellent Sword of the Rabbit. {0} is the prefix enchantment. {1} is the item condition. {2} is the item name. {3} is the postfix enchantment. Note any extra white space will be stripped."
     },
     "entities.Item.unidentifiedIndicatorText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"???",
-        "comment":"Text shown for unidentified items."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "???",
+        "comment": "Text shown for unidentified items."
     },
     "entities.Item.modificationInfoSpeedText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Vitesse",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Vitesse",
+        "comment": ""
     },
     "entities.Item.modificationInfoHealthText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Points de vie",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Points de vie",
+        "comment": ""
     },
     "entities.Item.modificationInfoAgilityText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Agilité",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Agilité",
+        "comment": ""
     },
     "entities.Item.modificationInfoDefenseText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Défense",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Défense",
+        "comment": ""
     },
     "entities.Item.modificationInfoMagicText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Magie",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Magie",
+        "comment": ""
     },
     "entities.Item.modificationInfoAttackText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Attaque",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Attaque",
+        "comment": ""
     },
     "entities.Player.mobileUseText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"UTILISER",
-        "comment":"Text shown on a mobile device in place of a key binding."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "UTILISER",
+        "comment": "Text shown on a mobile device in place of a key binding."
     },
     "entities.Player.getItemText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0}: OBTENIR {1}",
-        "comment":"Text shown when player is looking at an item. {0} is the key binding. {1} is the name of the item."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "{0}: OBTENIR {1}",
+        "comment": "Text shown when player is looking at an item. {0} is the key binding. {1} is the name of the item."
     },
     "entities.Player.useText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0}: {1}",
-        "comment":"Text shown when player is looking at a usable object. {0} is the key binding. {1} is the use verb of the object."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "{0}: {1}",
+        "comment": "Text shown when player is looking at a usable object. {0} is the key binding. {1} is the use verb of the object."
     },
     "entities.Player.exitDungeonText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0}: QUITTER LE DONJON",
-        "comment":"Text shown when player is looking at the dungeon exit. {0} is the key binding."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "{0}: QUITTER LE DONJON",
+        "comment": "Text shown when player is looking at the dungeon exit. {0} is the key binding."
     },
     "entities.Player.weaponAttackText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0} à {1}",
-        "comment":"Text shown for the damage range of the player's wielded weapon. {0} is the minimum damage. {1} is the maximum damage."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "{0} à {1}",
+        "comment": "Text shown for the damage range of the player's wielded weapon. {0} is the minimum damage. {1} is the maximum damage."
     },
     "entities.Stairs.mobileUseText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"UTILISER {0}",
-        "comment":"Text shown on a mobile device. {0} is the direction (Up/Down)."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "UTILISER {0}",
+        "comment": "Text shown on a mobile device. {0} is the direction (Up/Down)."
+    },
+    "entities.Stairs.direction.UP": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MONTER",
+        "comment": "Text shown when a player is looking at the up stairs."
+    },
+    "entities.Stairs.direction.DOWN": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "DESCENDRE",
+        "comment": "Text shown when a player is looking at the down stairs."
     },
     "entities.Trigger.defaultUseVerb": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"UTILISER",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "UTILISER",
+        "comment": ""
     },
     "entities.Trigger.mobileUseText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"UTILISER",
-        "comment":"Text shown on a mobile device instead of a key binding."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "UTILISER",
+        "comment": "Text shown on a mobile device instead of a key binding."
     },
     "entities.Trigger.useText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0}: {1}",
-        "comment":"Text shown when a player is looking at a trigger. {0} is the key binding. {1} is the use verb."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "{0}: {1}",
+        "comment": "Text shown when a player is looking at a trigger. {0} is the key binding. {1} is the use verb."
     },
     "game.Game.errorLoadingDataText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ERREUR PENDANT LE CHARGEMENT {0}",
-        "comment":"Text shown when a resource fails to load. {0} is the name of the file."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ERREUR PENDANT LE CHARGEMENT {0}",
+        "comment": "Text shown when a resource fails to load. {0} is the name of the file."
     },
     "game.Game.startingPantsNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Pantalons",
-        "comment":"The name of the pants the player starts the game with."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Pantalons",
+        "comment": "The name of the pants the player starts the game with."
     },
     "game.Game.cannotLeaveText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"LA PORTE EST COINCÉE,\nVOUS NE POUVEZ PAS\nSORTIR SANS L'ORBE.",
-        "comment":"Text shown when the player attempts to leave the dungeon without the orb."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "LA PORTE EST COINCÉE,\nVOUS NE POUVEZ PAS\nSORTIR SANS L'ORBE.",
+        "comment": "Text shown when the player attempts to leave the dungeon without the orb."
     },
     "game.Game.loadErrorText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ERREUR DE CHARGEMENT",
-        "comment":"Text shown when something unexpected has happened during level load."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ERREUR DE CHARGEMENT",
+        "comment": "Text shown when something unexpected has happened during level load."
     },
     "game.Game.levelNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"NIVEAU {0}",
-        "comment":"Text shown for the floor name. This is a fallback if no name is provided."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NIVEAU {0}",
+        "comment": "Text shown for the floor name. This is a fallback if no name is provided."
+    },
+    "gfx.GlRenderer.AttackText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ATQ: {0}",
+        "comment": "Text shown on the inventory screen for player's attack values."
+    },
+    "gfx.GlRenderer.ArmorClassText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ARMURE: {0}",
+        "comment": "Text shown on the inventory screen for player's defense values."
+    },
+    "gfx.GlRenderer.LevelText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Niveau: {0}",
+        "comment": "Text shown on the inventory screen for player's level."
+    },
+    "gfx.GlRenderer.ExperienceText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "XP: {0}/{1}",
+        "comment": "Text shown on the inventory screen for player's experience. {0} is the current amount of experience. {1} is the amount needed to acquire the next level."
+    },
+    "gfx.GlRenderer.GoldText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Or: {0}",
+        "comment": "Text shown on the inventory screen for player's gold."
+    },
+    "input.ReadableKeys.keyNames.A": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "A",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.ALT_LEFT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ALT_LEFT",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.ALT_RIGHT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ALT_RIGHT",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.ANY_KEY": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ANY_KEY",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.APOSTROPHE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "APOSTROPHE",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.AT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "AT",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.B": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "B",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BACK": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BACK",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BACKSLASH": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BACKSLASH",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BACKSPACE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BACKSPACE",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_A": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_A",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_B": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_B",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_C": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_C",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_CIRCLE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_CIRCLE",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_L1": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_L1",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_L2": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_L2",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_MODE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_MODE",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_R1": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_R1",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_R2": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_R2",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_SELECT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_SELECT",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_START": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_START",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_THUMBL": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_THUMBL",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_THUMBR": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_THUMBR",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_X": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_X",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_Y": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_Y",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.BUTTON_Z": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "BUTTON_Z",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.C": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "C",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.CALL": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "CALL",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.CAMERA": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "CAMERA",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.CENTER": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "CENTER",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.CLEAR": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "CLEAR",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.COLON": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "COLON",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.COMMA": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "COMMA",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.CONTROL_LEFT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "CONTROL_LEFT",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.CONTROL_RIGHT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "CONTROL_RIGHT",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.D": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "D",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.DEL": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "DEL",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.DOWN": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "DOWN",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.E": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "E",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.END": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "END",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.ENDCALL": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ENDCALL",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.ENTER": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ENTER",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.ENVELOPE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ENVELOPE",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.EQUALS": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "EQUALS",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.ESCAPE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ESCAPE",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.EXPLORER": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "EXPLORER",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.F": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "F",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.F1": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "F1",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.F10": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "F10",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.F11": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "F11",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.F12": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "F12",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.F2": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "F2",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.F3": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "F3",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.F4": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "F4",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.F5": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "F5",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.F6": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "F6",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.F7": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "F7",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.F8": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "F8",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.F9": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "F9",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.FOCUS": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "FOCUS",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.FORWARD_DEL": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "FORWARD_DEL",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.G": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "G",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.GRAVE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "GRAVE",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.H": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "H",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.HEADSETHOOK": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "HEADSETHOOK",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.HOME": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "HOME",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.I": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "I",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.INSERT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "INSERT",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.J": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "J",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.K": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "K",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.L": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "L",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.LEFT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "LEFT",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.LEFT_BRACKET": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "LEFT_BRACKET",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.M": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "M",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.MEDIA_FAST_FORWARD": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MEDIA_FAST_FORWARD",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.MEDIA_NEXT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MEDIA_NEXT",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.MEDIA_PLAY_PAUSE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MEDIA_PLAY_PAUSE",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.MEDIA_PREVIOUS": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MEDIA_PREVIOUS",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.MEDIA_REWIND": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MEDIA_REWIND",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.MEDIA_STOP": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MEDIA_STOP",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.MENU": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MENU",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.MINUS": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MINUS",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.MUTE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MUTE",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.N": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "N",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NOTIFICATION": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NOTIFICATION",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUM": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUM",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUM_0": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUM_0",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUM_1": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUM_1",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUM_2": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUM_2",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUM_3": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUM_3",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUM_4": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUM_4",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUM_5": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUM_5",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUM_6": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUM_6",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUM_7": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUM_7",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUM_8": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUM_8",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUM_9": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUM_9",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUMPAD_0": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUMPAD_0",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUMPAD_1": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUMPAD_1",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUMPAD_2": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUMPAD_2",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUMPAD_3": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUMPAD_3",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUMPAD_4": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUMPAD_4",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUMPAD_5": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUMPAD_5",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUMPAD_6": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUMPAD_6",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUMPAD_7": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUMPAD_7",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUMPAD_8": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUMPAD_8",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.NUMPAD_9": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "NUMPAD_9",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.O": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "O",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.P": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "P",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.PAGE_DOWN": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PAGE_DOWN",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.PAGE_UP": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PAGE_UP",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.PERIOD": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PERIOD",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.PICTSYMBOLS": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PICTSYMBOLS",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.PLUS": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PLUS",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.POUND": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "POUND",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.POWER": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "POWER",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.Q": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Q",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.R": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "R",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.RIGHT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "RIGHT",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.RIGHT_BRACKET": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "RIGHT_BRACKET",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.S": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "S",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.SEARCH": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "SEARCH",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.SEMICOLON": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "SEMICOLON",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.SHIFT_LEFT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "SHIFT_LEFT",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.SHIFT_RIGHT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "SHIFT_RIGHT",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.SLASH": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "SLASH",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.SOFT_LEFT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "SOFT_LEFT",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.SOFT_RIGHT": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "SOFT_RIGHT",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.SPACE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "SPACE",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.STAR": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "STAR",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.SWITCH_CHARSET": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "SWITCH_CHARSET",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.SYM": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "SYM",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.T": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "T",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.TAB": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "TAB",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.U": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "U",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.UNKNOWN": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "UNKNOWN",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.UP": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "UP",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.V": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "V",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.VOLUME_DOWN": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "VOLUME_DOWN",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.VOLUME_UP": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "VOLUME_UP",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.W": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "W",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.X": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "X",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.Y": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Y",
+        "comment": "Label for key bind key."
+    },
+    "input.ReadableKeys.keyNames.Z": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Z",
+        "comment": "Label for key bind key."
     },
     "items.Bow.defaultName": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ARC",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ARC",
+        "comment": ""
     },
     "items.Bow.damageRangeText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0} à {1} de {2}",
-        "comment":"{0} is the minimum damage. {1} is the maximum damage. {2} is the damage type."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "{0} à {1} de {2}",
+        "comment": "{0} is the minimum damage. {1} is the maximum damage. {2} is the damage type."
     },
     "items.Bow.elementalDamageText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0} de {1}",
-        "comment":"{0} is the amount of damage. {1} is the damage type."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "{0} de {1}",
+        "comment": "{0} is the amount of damage. {1} is the damage type."
     },
     "items.Bow.rangeText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Distance {0}",
-        "comment":"{0} length of the range in world units."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Distance {0}",
+        "comment": "{0} length of the range in world units."
     },
     "items.Elixer.defaultNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Talent en bouteille",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Talent en bouteille",
+        "comment": ""
     },
     "items.Food.defaultNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Nourriture",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Nourriture",
+        "comment": ""
     },
     "items.Food.eatFoodText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Miam",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Miam",
+        "comment": ""
     },
     "items.Food.drinkBoozeText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Vous vous sentez réchauffé(e)",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Vous vous sentez réchauffé(e)",
+        "comment": ""
     },
     "items.Food.infoText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Comestible",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Comestible",
+        "comment": ""
+    },
+	"items.Gold.defaultNameText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Or",
+        "comment": "Text shown when the player looks a gold item. {0} is the amount."
+    },
+    "items.Gold.goldItemText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "{0} or",
+        "comment": "Text shown when the player looks a gold item. {0} is the amount."
     },
     "items.Gun.defaultNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"FUSIL",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "FUSIL",
+        "comment": ""
     },
     "items.Gun.infoText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0} PROJECTILES",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "{0} PROJECTILES",
+        "comment": ""
     },
     "items.ItemStack.defaultNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"PILE",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PILE",
+        "comment": ""
     },
     "items.ItemStack.infoText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"X {0}",
-        "comment":"Text shown for item's information text. {0} is the item information of the stack. {1} is the count of the stack."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "X {0}",
+        "comment": "Text shown for item's information text. {0} is the item information of the stack. {1} is the count of the stack."
     },
     "items.Missile.defaultNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"FLÈCHE",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "FLÈCHE",
+        "comment": ""
     },
     "items.Missile.noRoomText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"PAS DE PLACE",
-        "comment":"Text shown when attempting to pick up a missile when the inventory is full."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PAS DE PLACE",
+        "comment": "Text shown when attempting to pick up a missile when the inventory is full."
     },
     "items.Note.ellipsisText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"...",
-        "comment":"Shown when a note has no text."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "...",
+        "comment": "Shown when a note has no text."
     },
     "items.Potion.defaultNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Potion",
-        "comment":"Default name for a potion if none is defined."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Potion",
+        "comment": "Default name for a potion if none is defined."
     },
     "items.Potion.healDisplayText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Vous vous sentez mieux",
-        "comment":"Text shown when potion is drank."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Vous vous sentez mieux",
+        "comment": "Text shown when potion is drank."
     },
     "items.Potion.poisonDisplayText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Ça brûle!",
-        "comment":"Text shown when potion is drank."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Ça brûle!",
+        "comment": "Text shown when potion is drank."
     },
     "items.Potion.maxHealDisplayText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Vous vous sentez mieux",
-        "comment":"Text shown when potion is drank. Health is completely restored."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Vous vous sentez mieux",
+        "comment": "Text shown when potion is drank. Health is completely restored."
     },
     "items.Potion.restoreDisplayText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Miam",
-        "comment":"Text shown when potion is drank. Used for cola."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Miam",
+        "comment": "Text shown when potion is drank. Used for cola."
     },
     "items.Potion.magicShieldDisplayText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Vous vous sentez sage",
-        "comment":"Text shown when potion is drank."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Vous vous sentez sage",
+        "comment": "Text shown when potion is drank."
     },
     "items.Potion.magicShieldStatusEffectNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Bouclier magique",
-        "comment":"Text shown in the status display for the effect."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Bouclier magique",
+        "comment": "Text shown in the status display for the effect."
     },
     "items.Potion.ironSkinDisplayText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Vous vous sentez engourdi(e)",
-        "comment":"Text shown when potion is drank."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Vous vous sentez engourdi(e)",
+        "comment": "Text shown when potion is drank."
     },
     "items.Potion.ironSkinStatusEffectNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Peau de fer",
-        "comment":"Text shown in the status display for the effect."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Peau de fer",
+        "comment": "Text shown in the status display for the effect."
     },
     "items.Potion.paralyzeDisplayText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Vous vous sentez coincé(e)",
-        "comment":"Text shown when potion is drank."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Vous vous sentez coincé(e)",
+        "comment": "Text shown when potion is drank."
     },
     "items.Potion.discoverDisplayText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Ça doit être {0}",
-        "comment":"Text shown when the player identifies the potion's effect. {0} is the status effect name."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Ça doit être {0}",
+        "comment": "Text shown when the player identifies the potion's effect. {0} is the status effect name."
     },
     "items.Potion.unidentifiedInfoText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"???",
-        "comment":"Text shown for potion name if not identified."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "???",
+        "comment": "Text shown for potion name if not identified."
     },
     "items.Potion.healingNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Santé",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Santé",
+        "comment": ""
     },
     "items.Potion.poisonNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Poison",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Poison",
+        "comment": ""
     },
     "items.Potion.restorationNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Restoration",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Restoration",
+        "comment": ""
     },
     "items.Potion.colaNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Cola",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Cola",
+        "comment": ""
     },
     "items.Potion.magicShieldNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Résistance magique",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Résistance magique",
+        "comment": ""
     },
     "items.Potion.ironSkinNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Peau de fer",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Peau de fer",
+        "comment": ""
     },
     "items.Potion.paralyzeNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Paralyzation",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Paralysé(e)",
+        "comment": ""
     },
     "items.Potion.unknownNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"???",
-        "comment":"Name text for a potion of unknown type. This only happens when something goes wrong."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "???",
+        "comment": "Name text for a potion of unknown type. This only happens when something goes wrong."
     },
     "items.QuestItem.defaultNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ORBE YITHIDIANNE",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ORBE YITHIDIANNE",
+        "comment": ""
     },
     "items.QuestItem.noRoomText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"PAS DE PLACE",
-        "comment":"Text shown when attempting to pick up the orb and the inventory is full."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PAS DE PLACE",
+        "comment": "Text shown when attempting to pick up the orb and the inventory is full."
     },
     "items.QuestItem.gotItemText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"REÇU {0}",
-        "comment":"Text shown when the quest item is acquired for the first time. {0} is the name of the item."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "REÇU {0}",
+        "comment": "Text shown when the quest item is acquired for the first time. {0} is the name of the item."
     },
     "items.QuestItem.escapeMessageText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"REÇU L'ORBE YITHIDIANNE\nRETOURNEZ À LA SURFACE\nET SAUVEZ VOUS!",
-        "comment":"Shown after the gotItemText. Will start a new line on \n."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "REÇU L'ORBE YITHIDIANNE\nRETOURNEZ À LA SURFACE\nET SAUVEZ VOUS!",
+        "comment": "Shown after the gotItemText. Will start a new line on \n."
     },
     "items.Scroll.nothingHappensText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"RIEN NE SE PASSE",
-        "comment":"Text shown when something has gone wrong with the scroll."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "RIEN NE SE PASSE",
+        "comment": "Text shown when something has gone wrong with the scroll."
     },
     "items.Wand.defaultNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Baguette",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Baguette",
+        "comment": ""
     },
     "items.Wand.infoText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0} charges",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "{0} charges",
+        "comment": ""
     },
     "items.Weapon.damageType.PHYSICAL": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DMG",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "DMG",
+        "comment": ""
     },
     "items.Weapon.damageType.MAGIC": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"MAGIE",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MAGIE",
+        "comment": ""
     },
     "items.Weapon.damageType.FIRE": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"FEU",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "FEU",
+        "comment": ""
     },
     "items.Weapon.damageType.ICE": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"GLACE",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "GLACE",
+        "comment": ""
     },
     "items.Weapon.damageType.LIGHTNING": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ÉCLAIR",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ÉCLAIR",
+        "comment": ""
     },
     "items.Weapon.damageType.POISON": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"POISON",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "POISON",
+        "comment": ""
     },
     "items.Weapon.damageType.HEALING": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"SANTÉ",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "SANTÉ",
+        "comment": ""
     },
     "items.Weapon.damageType.PARALYZE": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"PARALYSIE",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PARALYSIE",
+        "comment": ""
     },
     "items.Weapon.damageRangeText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0} à {1} de {2}",
-        "comment":"{0} is the minimum damage. {1} is the maximum damage. {2} is the damage type."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "{0} à {1} de {2}",
+        "comment": "{0} is the minimum damage. {1} is the maximum damage. {2} is the damage type."
     },
     "items.Weapon.elementalDamageText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0} de {1}",
-        "comment":"{0} is the amount of damage. {1} is the damage type."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "{0} de {1}",
+        "comment": "{0} is the amount of damage. {1} is the damage type."
     },
     "items.Weapon.twoHandedText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"À deux mains",
-        "comment":"Text shown on item information if it is wielded with two hands."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "À deux mains",
+        "comment": "Text shown on item information if it is wielded with two hands."
     },
     "statuseffects.BurningEffect.defaultNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"qui brûle",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "qui brûle",
+        "comment": ""
     },
     "statuseffects.ParalyzeEffect.defaultNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"paralysie",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "paralysie",
+        "comment": ""
     },
     "statuseffects.PoisonEffect.defaultNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"poison",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "poison",
+        "comment": ""
     },
     "statuseffects.RestoreHealthEffect.defaultNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"points de vie",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "points de vie",
+        "comment": ""
     },
     "statuseffects.SlowEffect.defaultNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ralentissement",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ralentissement",
+        "comment": ""
     },
     "statuseffects.SpeedEffect.defaultNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"vitesse",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "vitesse",
+        "comment": ""
     },
     "statuseffects.StatusEffect.defaultNameText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"???",
-        "comment":"Text shown when something is wrong with the status effect."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "???",
+        "comment": "Text shown when something is wrong with the status effect."
     },
     "tiles.ExitTile.cannotLeaveText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"VOUS NE POUVEZ PAS VOUS ÉCHAPPER SANS L'ORBE,\nLA PORTE EST COINCÉE.",
-        "comment":"Text shown when the player attempts to leave the dungeon without the orb."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "VOUS NE POUVEZ PAS VOUS ÉCHAPPER SANS L'ORBE,\nLA PORTE EST COINCÉE.",
+        "comment": "Text shown when the player attempts to leave the dungeon without the orb."
     },
     "triggers.ButtonModel.useVerbText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"TIRER",
-        "comment":"Text show to indicate the action that will be taken."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "TIRER",
+        "comment": "Text show to indicate the action that will be taken."
     },
     "triggers.ButtonModel.useMobileText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"UTILISER",
-        "comment":"Text shown on a mobile device instead of a key binding."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "UTILISER",
+        "comment": "Text shown on a mobile device instead of a key binding."
     },
     "triggers.ButtonModel.useText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0}: {1}",
-        "comment":"{0} is the key binding. {1} is the use verb."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "{0}: {1}",
+        "comment": "{0} is the key binding. {1} is the use verb."
+    },
+    "triggers.Trigger.useVerbs.ENTER DUNGEON": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ENTRER LE DONJON",
+        "comment": ""
+    },
+    "triggers.Trigger.useVerbs.SHOP": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ACHETER",
+        "comment": ""
+    },
+    "triggers.Trigger.useVerbs.TALK": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PARLER",
+        "comment": ""
+    },
+    "triggers.Trigger.useVerbs.USE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "UTILISER",
+        "comment": ""
+    },
+    "triggers.TriggeredShop.titleText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "MAGASIN",
+        "comment": ""
+    },
+    "triggers.TriggeredShop.descriptionText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ACHETER",
+        "comment": ""
     },
     "ui.Hud.noRoomText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"PAS DE PLACE",
-        "comment":"Text show when player attempts to pick up an item when inventory is full."
-    },
-    "USE": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"UTILISER",
-        "comment":"Label for key bind action."
-    },
-    "ATTACK": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ATTAQUER",
-        "comment":"Label for key bind action."
-    },
-    "DROP": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"JETTER",
-        "comment":"Label for key bind action."
-    },
-    "INVENTORY": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"INVENTAIRE",
-        "comment":"Label for key bind action."
-    },
-    "ITEM NEXT": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"OBJET SUIVANT",
-        "comment":"Label for key bind action."
-    },
-    "ITEM PREVIOUS": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"OBJET PRÉCÉDENT",
-        "comment":"Label for key bind action."
-    },
-    "MAP": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"CARTE",
-        "comment":"Label for key bind action."
-    },
-    "FORWARD": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"AVANT",
-        "comment":"Label for key bind action."
-    },
-    "BACKWARD": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ARRIÈRE",
-        "comment":"Label for key bind action."
-    },
-    "STRAFE LEFT": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DE CÔTÉ (GAUCHE)",
-        "comment":"Label for key bind action."
-    },
-    "STRAFE RIGHT": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DE CÔTÉ (DROITE)",
-        "comment":"Label for key bind action."
-    },
-    "TURN LEFT": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"REGARDER À GAUCHE",
-        "comment":"Label for key bind action."
-    },
-    "TURN RIGHT": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"REGARDER À DROITE",
-        "comment":"Label for key bind action."
-    },
-    "LOOK UP": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"REGARDER EN HAUT",
-        "comment":"Label for key bind action."
-    },
-    "LOOK DOWN": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"REGARDER EN BAS",
-        "comment":"Label for key bind action."
-    },
-    "Lucky dagger": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Poignard chanceux",
-        "form":"masculine singular",
-        "comment":""
-    },
-    "The forgotten": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"L'oublié",
-        "form":"masculine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PAS DE PLACE",
+        "comment": "Text show when player attempts to pick up an item when inventory is full."
     },
     "Iron dagger": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Poignard de fer",
-        "form":"masculine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Poignard de fer",
+        "form": "masculine singular",
+        "comment": ""
     },
     "Iron sword": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Épée de fer",
-        "form":"feminine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Épée de fer",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Iron mace": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Masse de fer",
-        "form":"feminine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Masse de fer",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Iron spiked mace": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Masse d'arme de fer",
-        "form":"feminine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Masse d'arme de fer",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Steel dagger": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Poignard d'acier",
-        "form":"masculine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Poignard d'acier",
+        "form": "masculine singular",
+        "comment": ""
     },
     "Steel shortsword": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Épée courte d'acier",
-        "form":"feminine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Épée courte d'acier",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Iron hammer": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Marteau de fer",
-        "form":"masculine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Marteau de fer",
+        "form": "masculine singular",
+        "comment": ""
     },
     "Steel mace": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Masse d'acier",
-        "form":"feminine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Masse d'acier",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Steel spiked mace": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Masse d'arme d'acier",
-        "form":"feminine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Masse d'arme d'acier",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Steel sword": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Épée d'acier",
-        "form":"feminine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Épée d'acier",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Steel hammer": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Marteau d'acier",
-        "form":"masculine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Marteau d'acier",
+        "form": "masculine singular",
+        "comment": ""
     },
     "Engraved dagger": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Poignard engravé",
-        "form":"masculine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Poignard engravé",
+        "form": "masculine singular",
+        "comment": ""
     },
     "Engraved shortsword": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Épée courte engravée",
-        "form":"feminine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Épée courte engravée",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Engraved sword": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Épée engravée",
-        "form":"feminine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Épée engravée",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Gilded mace": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Masse dorée",
-        "form":"feminine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Masse dorée",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Gilded spiked mace": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Masse d'arme dorée",
-        "form":"feminine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Masse d'arme dorée",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Jeweled dagger": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Poignard orné",
-        "form":"masculine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Poignard orné",
+        "form": "masculine singular",
+        "comment": ""
     },
     "Jeweled shortsword": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Épée courte ornée",
-        "form":"feminine singular",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Épée courte ornée",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Jeweled sword": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Épée ornée",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Épée ornée",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Gilded hammer": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Marteau doré",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Marteau doré",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Shortbow": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Arc court",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Arc court",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "ARROW": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"FLÈCHE",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "FLÈCHE",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Composite Bow": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Arc composite",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Arc composite",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Bow": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Arc",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Arc",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Hunter's Bow": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Arc de chasseur",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Arc de chasseur",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Longbow": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Arc long",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Arc long",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Leather armor": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Armure de cuir",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Armure de cuir",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Leather pants": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Pantalon de cuir",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Pantalon de cuir",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Skullcap": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Chapeau",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Chapeau",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Buckler": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Rondache",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Rondache",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Quilted leather armor": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Armure de cuir épais",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Armure de cuir épais",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Quilted leather pants": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Pantalon de cuir épais",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Pantalon de cuir épais",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Ring of Protection": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Anneau de protection",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Anneau de protection",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Amulet of Protection": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Amulette de protection",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Amulette de protection",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Amulet of Health": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Amulette de santé",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Amulette de santé",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Chainmail": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Haubert",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Haubert",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Chainmail greaves": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Chausses de mailles",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Chausses de mailles",
         "form": "feminine plural",
-        "comment":""
+        "comment": ""
     },
     "Round Shield": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Rondache de bois",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Rondache de bois",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Amulet of Speed": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Amulette de vitesse",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Amulette de vitesse",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Ring of Health": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Anneau de santé",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Anneau de santé",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Steel mail": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Haubert d'acier",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Haubert d'acier",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Steel greaves": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Chausses de mailles d'acier",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Chausses de mailles d'acier",
         "form": "feminine plural",
-        "comment":""
+        "comment": ""
     },
     "Steel helmet": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Casque d'acier",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Casque d'acier",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Ring of Speed": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Anneau de vitesse",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Anneau de vitesse",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Platemail": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Armure de plate",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Armure de plate",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Platemail greaves": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Jambières",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Jambières",
         "form": "feminine plural",
-        "comment":""
+        "comment": ""
     },
     "Heater Shield": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Bouclier armorié",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Bouclier armorié",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Scalemail": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Mailles plates",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Mailles plates",
         "form": "feminine plural",
-        "comment":""
+        "comment": ""
     },
     "Scalemail greaves": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Chausses de mailles plates",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Chausses de mailles plates",
         "form": "feminine plural",
-        "comment":""
+        "comment": ""
     },
     "Ring of Greater Protection": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Grand anneau de protection",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Grand anneau de protection",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Amulet of Greater Protection": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Grande amulette de protection",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Grande amulette de protection",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Amulet of the Wolf": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Amulette du loup",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Amulette du loup",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Jeweled platemail": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Mailles plates ornées",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Mailles plates ornées",
         "form": "feminine plural",
-        "comment":""
+        "comment": ""
     },
     "Jeweled greaves": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Chausses de mailles plates ornées",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Chausses de mailles plates ornées",
         "form": "feminine plural",
-        "comment":""
+        "comment": ""
     },
     "Jeweled helmet": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Casque orné",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Casque orné",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Tower Shield": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Grand bouclier",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Grand bouclier",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Ring of the Wolf": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Anneau du loup",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Anneau du loup",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Ring of Greater Health": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Grand anneau de santé",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Grand anneau de santé",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Amulet of Greater Health": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Grande amulette de santé",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Grande amulette de santé",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
+    },
+    "Lesser missile wand": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Moindre baguette de missiles",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Missile wand": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Baguette de missiles",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Baguette de missiles",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
+    },
+    "Greater missile wand": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Meilleure baguette de missiles",
+        "form": "feminine singular",
+        "comment": ""
+    },
+    "Lesser fire wand": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Moindre baguette de feu",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Fire wand": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Baguette de feu",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Baguette de feu",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
+    },
+    "Greater fire wand": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Meilleure baguette de feu",
+        "form": "feminine singular",
+        "comment": ""
+    },
+    "Lesser ice wand": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Moindre baguette de glace",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Ice wand": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Baguette de glace",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Baguette de glace",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
+    },
+    "Greater Ice wand": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Meilleure baguette de glace",
+        "form": "feminine singular",
+        "comment": ""
     },
     "Storm wand": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Baguette d'orage",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Baguette d'orage",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Paralyze wand": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Baguette de paralysie",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Baguette de paralysie",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Red potion": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Potion rouge",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Potion rouge",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Blue potion": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Potion bleue",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Potion bleue",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Green potion": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Potion verte",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Potion verte",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Purple potion": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Potion violette",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Potion violette",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Dark potion": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Potion noire",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Potion noire",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Gold potion": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Potion dorée",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Potion dorée",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Bright potion": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Potion brillante",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Potion brillante",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Scroll of Teleport": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Parchemin de téléportation",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Parchemin de téléportation",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Scroll of Flame": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Parchemin de flame",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Parchemin de flame",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Scroll of Burning": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Parchemin de feu",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Parchemin de feu",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "scroll of Blizzard": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Parchemin de blizzard",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Parchemin de blizzard",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "scroll of Freezing": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Parchemin de froid",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Parchemin de froid",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Scroll of Health": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Parchemin de santé",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Parchemin de santé",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Scroll of Greater Health": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Grand parchemin de santé",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Grand parchemin de santé",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Scroll of Resist Magic": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Parchemin de résistance à la magie",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Parchemin de résistance à la magie",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Scroll of Haste": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Parchemin de vitesse",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Parchemin de vitesse",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Scroll of Enchant Weapon": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Parchemin d'enchantement d'armes",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Parchemin d'enchantement d'armes",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Scroll of Enchant Armor": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Parchemin d'enchantement d'armure",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Parchemin d'enchantement d'armure",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Scroll of Identify": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Parchemin d'identification",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Parchemin d'identification",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
+    },
+    "Scroll of Discern Reality": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Parchemin de réalisation",
+        "comment": ""
     },
     "Skull": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Crâne",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Crâne",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Bones": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Squelette",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Squelette",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Tankard": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Gobelet",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Gobelet",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Book": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Livre",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Livre",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "CANDLE": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Chandelle",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Chandelle",
         "form": "feminine singular",
-        "comment":""
+        "comment": ""
     },
     "Bread": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Pain",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Pain",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Apple": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Pomme",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Pomme",
         "form": "feminine plural",
-        "comment":""
+        "comment": ""
     },
     "Cheese": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Fromage",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Fromage",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Steak": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Steak",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Steak",
         "form": "masculine singular",
-        "comment":""
+        "comment": ""
     },
     "Meat": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Viande",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Viande",
         "form": "feminine plural",
-        "comment":""
+        "comment": ""
     },
     "Ale": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Bière",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Bière",
         "form": "feminine plural",
-        "comment":""
+        "comment": ""
+    },
+    "Key": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Clé",
+        "comment": ""
     },
     "of Haste": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de hâte",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de hâte",
+        "comment": ""
     },
     "of Speed": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de vitesse",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de vitesse",
+        "comment": ""
     },
     "of Heft": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de force",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de force",
+        "comment": ""
     },
     "of Force": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de force",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de force",
+        "comment": ""
     },
     "of Biting": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de morsure",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de morsure",
+        "comment": ""
     },
     "of Fire": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de flame",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de flame",
+        "comment": ""
     },
     "of Burning": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de feu",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de feu",
+        "comment": ""
     },
     "of Ice": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de glace",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de glace",
+        "comment": ""
     },
     "of Blizzard": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de blizzard",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de blizzard",
+        "comment": ""
     },
     "of Paralyze": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de paralizie",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de paralizie",
+        "comment": ""
     },
-    "of The Arcane": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de sagesse",
-        "comment":""
+    "of the Arcane": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de sagesse",
+        "comment": ""
     },
     "of Storm": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de tempête",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de tempête",
+        "comment": ""
     },
-    "of The Tempest": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"d'orage",
-        "comment":""
+    "of the Tempest": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "d'orage",
+        "comment": ""
     },
-    "of The Worm": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"du ver",
-        "comment":""
+    "of the Worm": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "du ver",
+        "comment": ""
     },
     "Quick": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Rapide",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Rapide",
         "forms": {
             "feminine singular": "rapide",
             "feminine plural": "rapides",
             "masculine singular": "rapide",
             "masculine plural": "rapides"
         },
-        "comment":""
+        "comment": ""
     },
     "Balanced": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Balancé",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Balancé",
         "forms": {
             "feminine singular": "balancée",
             "feminine plural": "balancées",
             "masculine singular": "balancé",
             "masculine plural": "balancés"
         },
-        "comment":""
+        "comment": ""
     },
     "Glowing": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Brillant",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Brillant",
         "forms": {
             "feminine singular": "brillante",
             "feminine plural": "brillantes",
             "masculine singular": "brillant",
             "masculine plural": "brillants"
         },
-        "comment":""
+        "comment": ""
     },
     "Protected": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Protégé",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Protégé",
         "forms": {
             "feminine singular": "protégée",
             "feminine plural": "protégées",
             "masculine singular": "protégé",
             "masculine plural": "protégés"
         },
-        "comment":""
+        "comment": ""
     },
     "Blessed": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Béni",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Béni",
         "forms": {
             "feminine singular": "bénie",
             "feminine plural": "bénies",
             "masculine singular": "béni",
             "masculine plural": "bénis"
         },
-        "comment":""
+        "comment": ""
     },
     "Unholy": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Maudit",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Maudit",
         "forms": {
             "feminine singular": "maudite",
             "feminine plural": "maudites",
             "masculine singular": "maudit",
             "masculine plural": "maudits"
         },
-        "comment":""
+        "comment": ""
     },
     "Cursed": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Horrible",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Horrible",
         "forms": {
             "feminine singular": "horrible",
             "feminine plural": "horribles",
             "masculine singular": "horrible",
             "masculine plural": "horribles"
         },
-        "comment":""
+        "comment": ""
     },
     "Light": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Lumière",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Lumière",
         "forms": {
             "feminine singular": "lumière",
             "feminine plural": "lumières",
             "masculine singular": "lumière",
             "masculine plural": "lumières"
         },
-        "comment":""
+        "comment": ""
     },
     "Nimble": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Léger",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Léger",
         "forms": {
             "feminine singular": "légère",
             "feminine plural": "légères",
             "masculine singular": "léger",
             "masculine plural": "légers"
         },
-        "comment":""
+        "comment": ""
     },
     "Fleet": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Agile",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Agile",
         "forms": {
             "feminine singular": "agile",
             "feminine plural": "agiles",
             "masculine singular": "agile",
             "masculine plural": "agiles"
         },
-        "comment":""
+        "comment": ""
     },
     "Heavy": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Lourd",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Lourd",
         "forms": {
             "feminine singular": "lourde",
             "feminine plural": "lourdes",
             "masculine singular": "lourd",
             "masculine plural": "lourds"
         },
-        "comment":""
+        "comment": ""
     },
     "Unwieldly": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Très lourd",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Très lourd",
         "forms": {
             "feminine singular": "très lourde",
             "feminine plural": "très lourdes",
             "masculine singular": "très lourd",
             "masculine plural": "très lourds"
         },
-        "comment":""
+        "comment": ""
     },
     "Coward's": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"du lâche",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "du lâche",
+        "comment": ""
     },
     "Drunk's": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de l'ivre",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de l'ivre",
+        "comment": ""
     },
     "Demon's": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"du démon",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "du démon",
+        "comment": ""
     },
     "Fighter's": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"du provocateur",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "du provocateur",
+        "comment": ""
     },
     "Brawler's": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"du combattant",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "du combattant",
+        "comment": ""
     },
     "Knight's": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"du chevalier",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "du chevalier",
+        "comment": ""
     },
     "King's": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"du roi",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "du roi",
+        "comment": ""
     },
     "of the Sloth": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"du paresseux",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "du paresseux",
+        "comment": ""
     },
     "of the Turtle": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de la tortue",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de la tortue",
+        "comment": ""
     },
     "of the Rabbit": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"du lièvre",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "du lièvre",
+        "comment": ""
     },
     "of the Snake": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"du serpent",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "du serpent",
+        "comment": ""
     },
     "of the Eagle": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de l'aigle",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de l'aigle",
+        "comment": ""
     },
     "of Skill": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de talent",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de talent",
+        "comment": ""
     },
     "of Precision": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de précision",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de précision",
+        "comment": ""
     },
     "of intellect": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"d'intelligence",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "d'intelligence",
+        "comment": ""
     },
     "of the Mind": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de sagesse",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de sagesse",
+        "comment": ""
     },
     "of Magic": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"de magie",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "de magie",
+        "comment": ""
     },
     "Trite": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"anodin",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "anodin",
         "forms": {
             "feminine singular": "anodine",
             "feminine plural": "anodines",
             "masculine singular": "anodin",
             "masculine plural": "anodins"
         },
-        "comment":""
+        "comment": ""
     },
     "Insipid": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"insipide",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "insipide",
         "forms": {
             "feminine singular": "insipide",
             "feminine plural": "insipides",
             "masculine singular": "insipide",
             "masculine plural": "insipides"
         },
-        "comment":""
+        "comment": ""
     },
     "Vapid": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"banal",
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "banal",
         "forms": {
             "feminine singular": "banale",
             "feminine plural": "banales",
             "masculine singular": "banal",
             "masculine plural": "banals"
         },
-        "comment":""
+        "comment": ""
     },
     "Mage's": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"du sage",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "du sage",
+        "comment": ""
     },
     "Wizard's": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"du mage",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "du mage",
+        "comment": ""
     },
     "Sorcerer's": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"du sorcier",
-        "comment":""
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "du sorcier",
+        "comment": ""
     }
 }
