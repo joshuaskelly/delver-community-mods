@@ -2,9 +2,9 @@
 	repeats: false,
 	messages: [
 		[
-			"Bonjour voyageur, pouvez-vous sentir l'énergie arcane de ces lieux?",
+			"Bonjour voyageur, pouvez-vous sentir l'Ã©nergie arcane de ces lieux?",
 			"Ces ruines doivent avoir un grand pouvoir car je peux sentir la terre vibrer d'anciens pouvoirs magiques...",
-			"Moi? Les bois autour de nous sont un endroit idéal pour les savants de magie comme moi. Ici je peux enchanter les rouleaux et les artefacts.",
+			"Moi? Les bois autour de nous sont un endroit idÃ©al pour les savants de magie comme moi. Ici je peux enchanter les rouleaux et les artefacts.",
 			"J'ai des parchemins que je pourrais vous offrir, pour le bon prix."
 		],
 		[
