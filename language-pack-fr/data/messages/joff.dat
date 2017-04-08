@@ -1,0 +1,13 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hé aventurier! Allez-vous dans les ruines? C'est dangereux!",
+			"Si j'étais vous, je voudrais avloir beaucoup de provisions avant d'entrer dans cet endroit...",
+			"Heureusement, votre ami Joff ici présent possède tout ce dont vous pourriez avoir besoin!"
+		],
+		[
+			"La bonne fortune favorise ceux qui sont préparés! Les provisions sont limitées."
+		]
+	]
+}
