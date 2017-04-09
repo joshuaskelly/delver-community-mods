@@ -36,7 +36,7 @@
     },
     "screens.MainMenuScreen.infoSaveSlot": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0}   Ebn: {1}",
+        "localizedName":"{0}   Stufe: {1}",
         "comment":"Text shown on a save slot. {0} is the name of the dungeon level. {1} is the number of the dungeon level."
     },
     "screens.MainMenuScreen.finishedSaveSlot": {
@@ -99,6 +99,16 @@
         "localizedName":"UI Größe ",
         "comment":"Label for UI size slider."
     },
+	"screens.OptionsScreen.showHudLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Hud anzeigen ",
+        "comment":"Label for UI size slider."
+    },
+    "screens.OptionsScreen.headBobLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Kopfwackeln ",
+        "comment":"Label for head bob checkbox."
+	},
     "screens.OptionsScreen.musicVolumeLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Musiklautstärke",
@@ -119,6 +129,11 @@
         "localizedName":"Partikeldichte",
         "comment":"Label for particle density slider."
     },
+    "screens.OptionsScreen.shadowsLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Schatten ",
+        "comment":"Label for shadow checkbox."
+	},
     "screens.OptionsScreen.fovLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Sichtfeld",
@@ -129,6 +144,86 @@
         "localizedName":"Vollbild",
         "comment":"Label for fullscreen toggle."
     },
+    "screens.OptionsScreen.uiSizeOffLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"AUS",
+        "comment":"Label for when the ui size is turned down to off."
+    },
+    "screens.OptionsScreen.readableActions.USE":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"BENUTZEN",
+        "comment":"Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.ATTACK":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ANGREIFEN",
+        "comment":"Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.DROP":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"FALLEN LASSEN",
+        "comment":"Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.INVENTORY":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"INVENTAR",
+        "comment":"Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.ITEM NEXT":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"NÄCHSTER GEGENSTAND",
+        "comment":"Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.ITEM PREVIOUS":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"VORIGER GEGENSTAND",
+        "comment":"Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.MAP":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"KARTE",
+        "comment":"Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.FORWARD":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"VORWÄRTS",
+        "comment":"Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.BACKWARD":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"RÜCKWÄRTS",
+        "comment":"Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.STRAFE LEFT":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"LINKS",
+        "comment":"Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.STRAFE RIGHT":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"RECHTS",
+        "comment":"Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.TURN LEFT":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"LINKS DREHEN",
+        "comment":"Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.TURN RIGHT":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"RECHTS DREHEN",
+        "comment":"Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.LOOK UP":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"OBEN SCHAUEN",
+        "comment":"Label for key bind action."
+    },
+    "screens.OptionsScreen.readableActions.LOOK DOWN":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"UNTEN SCHAUEN",
+        "comment":"Label for key bind action."
+	},
     "screens.OptionsInputScreen.backButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Zurück",
@@ -184,6 +279,11 @@
         "localizedName":"Mausrad",
         "comment":"Label for scroll wheel toggle."
     },
+    "screens.OptionsKeysScreen.keyboardControlsLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Tastatur",
+        "comment":"Text for back button, which goes back to the input options screen."
+	},
     "screens.OptionsKeysScreen.backButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Zurück",
@@ -391,7 +491,7 @@
     },
     "overlays.ShopPause.doneButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Gold",
+        "localizedName":"Fertig",
         "comment":"Text shown on the shop table for the players total gold."
     },
     "overlays.ShopPause.buyText": {
@@ -546,7 +646,7 @@
     },
     "entities.Player.getItemText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0}: {1} NEHMEN",
+        "localizedName":"{0}: NEHMEN\n{1}",
         "comment":"Text shown when player is looking at an item. {0} is the key binding. {1} is the name of the item."
     },
     "entities.Player.useText": {
@@ -568,6 +668,16 @@
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"USE {0}",
         "comment":"Text shown on a mobile device. {0} is the direction (Up/Down)."
+    },
+    "entities.Stairs.direction.UP":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"NACH OBEN",
+        "comment":"Text shown when a player is looking at the up stairs."
+    },
+    "entities.Stairs.direction.DOWN":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"NACH UNTEN",
+        "comment":"Text shown when a player is looking at the down stairs."
     },
     "entities.Trigger.defaultUseVerb": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
@@ -616,7 +726,7 @@
     },
     "gfx.GlRenderer.ArmorClassText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"AC: {0}",
+        "localizedName":"RÜSTUNG: {0}",
         "comment":"Text shown on the inventory screen for player's defense values."
     },
     "gfx.GlRenderer.LevelText": {
@@ -696,7 +806,7 @@
     },
     "items.ItemStack.infoText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"{0} X",
+        "localizedName":"X {0}",
         "comment":"Text shown for item's information text. {0} is the item information of the stack. {1} is the count of the stack."
     },
     "items.Missile.defaultNameText": {
@@ -851,7 +961,7 @@
     },
     "items.Weapon.damageType.PHYSICAL": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ANG",
+        "localizedName":"SCHADEN",
         "comment":""
     },
     "items.Weapon.damageType.MAGIC": {
@@ -1425,6 +1535,7 @@
 	"Lesser missile wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Schwächerer Raketenzauberstab",
+		"form":"masculine singular",
         	"comment":""
 	},
 	"Missile wand": {
@@ -1436,11 +1547,13 @@
 	"Greater missile wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Stärkerer Raketenzauberstab",
+		"form":"masculine singular",
         	"comment":""
 	},
 	"Lesser fire wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Schwächerer Feuerzauberstab",
+		"form":"masculine singular",
         	"comment":""
 	},
 	"Fire wand": {
@@ -1452,11 +1565,13 @@
 	"Greater fire wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Stärkerer Feuerzauberstab",
+		"form":"masculine singular",
         	"comment":""
 	},
 	"Lesser ice wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Schwächerer Eiszauberstab",
+		"form":"masculine singular",
         	"comment":""
 	},
 	"Ice wand": {
@@ -1465,9 +1580,10 @@
 		"form":"masculine singular",
 		"comment":""
 	},
-	"Greater Ice wand": {
+	"Greater ice wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Stärkerer Eiszauberstab",
+		"form":"masculine singular",
         	"comment":""
 	},
 	"Storm wand": {
@@ -1597,10 +1713,11 @@
 		"comment":""
 	},
 	"Scroll of Discern Reality": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Schriftrolle der Enthüllung",
-        "comment":""
-    },
+        	"class":"com.interrupt.dungeoneer.game.LocalizedString",
+        	"localizedName":"Schriftrolle der Enthüllung",
+		"form":"feminine singular",
+        	"comment":""
+	},
 	"Skull": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Schädel",
@@ -1933,7 +2050,7 @@
 		"localizedName":"der Präzision",
 		"comment":""
 	},
-	"of intellect": {
+	"of Intellect": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"des Intellekts",
 		"comment":""
@@ -1951,16 +2068,34 @@
 	"Trite": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Einfallsloses",
+		"forms":{
+			"feminine singular":"Einfallslose",
+			"masculine singular":"Einfallsloser",
+			"neutral singular":"Einfallsloses",
+			"plural":"Einfallslose"
+		},
 		"comment":""
 	},
 	"Insipid": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Fades",
+		"localizedName":"Fade",
+		"forms":{
+			"feminine singular":"Fade",
+			"masculine singular":"Fader",
+			"neutral singular":"Fades",
+			"plural":"Fade"
+		},
 		"comment":""
 	},
 	"Vapid": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Kraftloses",
+		"forms":{
+			"feminine singular":"Kraftlose",
+			"masculine singular":"Kraftloser",
+			"neutral singular":"Kraftloses",
+			"plural":"Kraftlose"
+		},
 		"comment":""
 	},
 	"Mage's": {
