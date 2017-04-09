@@ -1535,7 +1535,7 @@
 	"Lesser missile wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Schwächerer Raketenzauberstab",
-			"form":"masculine singular",
+		"form":"masculine singular",
         	"comment":""
 	},
 	"Missile wand": {
@@ -1547,13 +1547,13 @@
 	"Greater missile wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Stärkerer Raketenzauberstab",
-			"form":"masculine singular",
+		"form":"masculine singular",
         	"comment":""
 	},
 	"Lesser fire wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Schwächerer Feuerzauberstab",
-			"form":"masculine singular",
+		"form":"masculine singular",
         	"comment":""
 	},
 	"Fire wand": {
@@ -1565,13 +1565,13 @@
 	"Greater fire wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Stärkerer Feuerzauberstab",
-			"form":"masculine singular",
+		"form":"masculine singular",
         	"comment":""
 	},
 	"Lesser ice wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Schwächerer Eiszauberstab",
-			"form":"masculine singular",
+		"form":"masculine singular",
         	"comment":""
 	},
 	"Ice wand": {
@@ -1583,7 +1583,7 @@
 	"Greater ice wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Stärkerer Eiszauberstab",
-			"form":"masculine singular",
+		"form":"masculine singular",
         	"comment":""
 	},
 	"Storm wand": {
@@ -1713,10 +1713,11 @@
 		"comment":""
 	},
 	"Scroll of Discern Reality": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Schriftrolle der Enthüllung",
-        "comment":""
-    },
+        	"class":"com.interrupt.dungeoneer.game.LocalizedString",
+        	"localizedName":"Schriftrolle der Enthüllung",
+		"form":"feminine singular",
+        	"comment":""
+	},
 	"Skull": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Schädel",
