@@ -1,5 +1,5 @@
-# delver-example-mods
-A collection of example mods for the game Delver.
+# delver-community-mods
+A collection of community mods for the game Delver.
 
 ## Installation
 1. Click the 'Clone or Download' button and select 'Download ZIP'.
