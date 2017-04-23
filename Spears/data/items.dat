@@ -1,0 +1,70 @@
+{
+	melee:{
+		"1" : [
+			{
+				class:com.interrupt.dungeoneer.entities.items.Sword,
+				itemType:sword,
+				spriteAtlas:"spear",
+				tex:0,
+				heldTex:0,
+				inventoryTex:0,
+				name:"Iron spear",
+				baseDamage:4,
+				randDamage:3,
+				knockback:0.4,
+				reach:0.8,
+				speed:0.7,
+				cost:25,
+				pickupSound:"pu_metal.mp3",
+				attackAnimation:"daggerAttack",
+				attackStrongAnimation:"thrustAttack",
+				chargeAnimation:"thrustCharge",
+				dropSound:"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
+			}
+		],
+		"3" : [
+			{
+				class:com.interrupt.dungeoneer.entities.items.Sword,
+				itemType:sword,
+				spriteAtlas:"spear",
+				tex:1,
+				heldTex:1,
+				inventoryTex:1,
+				name:"Steel spear",
+				baseDamage:6,
+				randDamage:3,
+				knockback:0.4,
+				reach:0.8,
+				speed:0.7,
+				cost:75,
+				pickupSound:"pu_metal.mp3",
+				attackAnimation:"daggerAttack",
+				attackStrongAnimation:"thrustAttack",
+				chargeAnimation:"thrustCharge",
+				dropSound:"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
+			}
+		],
+		"4" : [
+			{
+				class:com.interrupt.dungeoneer.entities.items.Sword,
+				itemType:sword,
+				spriteAtlas:"spear",
+				tex:2,
+				heldTex:2,
+				inventoryTex:2,
+				name:"Gilded spear",
+				baseDamage:8,
+				randDamage:3,
+				knockback:0.4,
+				reach:0.8,
+				speed:0.7,
+				cost:150,
+				pickupSound:"pu_metal.mp3",
+				attackAnimation:"daggerAttack",
+				attackStrongAnimation:"thrustAttack",
+				chargeAnimation:"thrustCharge",
+				dropSound:"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
+			}
+		]
+	}
+}
