@@ -58,5 +58,8 @@ The forms property is an object that maps a form to a translated string. The abo
 ### Valid JSON
 It is recommended to use a [JSON validator](http://www.google.com/#q=json+validator) to ensure that you have well formed JSON. If your JSON is not well formed the Delver engine may not load your content, and potentially could crash.
 
+### Certain Glyphs Are Not Displaying
+Ensure that the translation file is encoded as UTF-8.
+
 ### Additional LocalizedString Properties
 While adding additional JSON properties is still valid JSON, it will cause the Delver engine to crash. If you want to leave translation notes please feel free to use the comment property.
