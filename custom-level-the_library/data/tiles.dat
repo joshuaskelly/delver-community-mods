@@ -1,0 +1,8 @@
+{
+	tileData: {
+		"library": {
+			"5": { class:com.interrupt.dungeoneer.tiles.TileData, darkenFloor: true, mapColor: { r: 0.0, g: 0.0, b: 0.0 }, entitiesCanSpawn: false, hurts: 1000 }
+		}
+	
+	}
+}

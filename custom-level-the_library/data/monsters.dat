@@ -1,0 +1,234 @@
+{
+	monsters:{
+		"LIBRARY" : [
+			{
+				class:com.interrupt.dungeoneer.entities.Monster,
+				tex:0,
+				name:"BLUE SPIDER",
+				speed:0.006,
+				maxHp:3,
+				atk:3,
+				bloodType:Insect,
+				bloodPoolDecal:{isActive:false},
+				bloodSplatterDecal:{isActive:false},
+				canOpenDoors:false,
+				alertSound:"mobs/spider/en_spider_alert_01.mp3,mobs/spider/en_spider_alert_02.mp3,mobs/spider/en_spider_alert_03.mp3",
+				attackSound:"mobs/spider/en_spider_attack_01.mp3,mobs/spider/en_spider_attack_02.mp3,mobs/spider/en_spider_attack_03.mp3",
+				dieSound:"mobs/spider/en_spider_die_01.mp3,mobs/spider/en_spider_die_02.mp3,mobs/spider/en_spider_die_03.mp3",
+				hurtSound:"mobs/spider/en_spider_hurt_01.mp3,mobs/spider/en_spider_hurt_02.mp3,mobs/spider/en_spider_hurt_03.mp3",
+				idleSound:"mobs/spider/en_spider_idle_01.mp3,mobs/spider/en_spider_idle_02.mp3,mobs/spider/en_spider_idle_03.mp3",
+				walkAnimation: { start: 0, end: 3, speed: 30 },
+				attackAnimation: { start: 4, end: 8, speed: 30, actions:{"7":[{class:com.interrupt.dungeoneer.gfx.animation.DamageAction}]} },
+				hurtAnimation: { start: 13, end: 16, speed: 22 },
+				dieAnimation: { start: 17, end: 19, speed: 30 },
+				spriteAtlas: "spiders"
+			},
+			{
+				class:com.interrupt.dungeoneer.entities.Monster,
+				tex:32,
+				name:"RED SPIDER",
+				speed:0.007,
+				maxHp:3,
+				atk:2,
+				bloodType:Insect,
+				bloodPoolDecal:{isActive:false},
+				bloodSplatterDecal:{isActive:false},
+				canOpenDoors:false,
+				alertSound:"mobs/spider/en_spider_alert_01.mp3,mobs/spider/en_spider_alert_02.mp3,mobs/spider/en_spider_alert_03.mp3",
+				attackSound:"mobs/spider/en_spider_attack_01.mp3,mobs/spider/en_spider_attack_02.mp3,mobs/spider/en_spider_attack_03.mp3",
+				dieSound:"mobs/spider/en_spider_die_01.mp3,mobs/spider/en_spider_die_02.mp3,mobs/spider/en_spider_die_03.mp3",
+				hurtSound:"mobs/spider/en_spider_hurt_01.mp3,mobs/spider/en_spider_hurt_02.mp3,mobs/spider/en_spider_hurt_03.mp3",
+				idleSound:"mobs/spider/en_spider_idle_01.mp3,mobs/spider/en_spider_idle_02.mp3,mobs/spider/en_spider_idle_03.mp3",
+				walkAnimation: { start: 32, end: 35, speed: 30 },
+				attackAnimation: { start: 36, end: 40, speed: 30, actions:{"39":[{class:com.interrupt.dungeoneer.gfx.animation.DamageAction}]} },
+				hurtAnimation: { start: 45, end: 48, speed: 22 },
+				dieAnimation: { start: 49, end: 51, speed: 30 },
+				spriteAtlas: "spiders"
+			},
+			{
+				class:com.interrupt.dungeoneer.entities.Monster,
+				tex:0,
+				name:"RED MAGE",
+				speed:0.004,
+				atk:2,
+				ranged:true,
+				keepDistance:false,
+				maxHp:2,
+				spells: [
+					{
+						class:com.interrupt.dungeoneer.entities.spells.MagicMissile,
+						mpCost:4,
+						baseDamage:2,
+						randDamage:2,
+						damageType:MAGIC,
+						spellColor:{ class:com.badlogic.gdx.graphics.Color, r: 0.5, g: 0, b: 0.5 },
+						magicMissileProjectile: {
+							class: com.interrupt.dungeoneer.entities.projectiles.MagicMissileProjectile,
+							floating:true,
+							fullbrite:true,
+							tex: 8,
+							attached: [
+								{
+									class: com.interrupt.dungeoneer.entities.SpriteBeam,
+									tex: 30,
+									color: {r: 0.5, g: 0, b: 0.5},
+									yOffset: -0.425,
+									beamRenderMode: LINE,
+									size: 1.5
+								}
+							]
+						},
+					}
+				],
+				alertSound:"mobs/human/male_alert1.mp3,mobs/human/male_alert2.mp3,mobs/human/male_alert3.mp3,mobs/human/male_alert4.mp3",
+				dieSound:"mobs/human/male_ouch1.mp3",
+				walkSound:"mobs/human/human_steps.mp3",
+				alertSound:"mobs/mage/en_mage_alert_01.mp3,mobs/mage/en_mage_alert_02.mp3,mobs/mage/en_mage_alert_03.mp3",
+				attackSound:"mobs/mage/en_mage_attack_01.mp3,mobs/mage/en_mage_attack_02.mp3,mobs/mage/en_mage_attack_03.mp3",
+				dieSound:"mobs/mage/en_mage_die_01.mp3,mobs/mage/en_mage_die_02.mp3,mobs/mage/en_mage_die_03.mp3,mobs/mage/en_mage_die_04.mp3,mobs/mage/en_mage_die_05.mp3",
+				hurtSound:"mobs/mage/en_mage_hurt_01.mp3,mobs/mage/en_mage_hurt_02.mp3,mobs/mage/en_mage_hurt_03.mp3",
+				idleSound:"mobs/mage/en_mage_idle_01.mp3,mobs/mage/en_mage_idle_02.mp3,mobs/mage/en_mage_idle_03.mp3",
+				walkAnimation: { start: 0, end: 3, speed: 30 },
+				attackAnimation: { start: 4, end: 10, speed: 30, actions:{"8":[{class:com.interrupt.dungeoneer.gfx.animation.DamageAction}]} },
+				castAnimation: { start: 4, end: 10, speed: 60, actions:{
+					"5":[{class:com.interrupt.dungeoneer.gfx.animation.LightAnimationAction, startColor: {r:0.0, g:0.0, b:0.0}, endColor: {r: 0.1, g: 0.8, b:0.1}, lightTime: 30.0}],
+					"8":[{class:com.interrupt.dungeoneer.gfx.animation.SpellCastAction}]
+				} },
+				hurtAnimation: { start: 11, end: 14, speed: 22 },
+				dieAnimation: { start: 15, end: 17, speed: 30 },
+				spriteAtlas: "mages"
+			},
+			{
+				class:com.interrupt.dungeoneer.entities.Monster,
+				tex:32,
+				name:"GREEN MAGE",
+				speed:0.004,
+				atk:2,
+				ranged:true,
+				keepDistance:false,
+				maxHp:2,
+				spells: [
+					{
+						class:com.interrupt.dungeoneer.entities.spells.MagicMissile,
+						mpCost:4,
+						baseDamage:2,
+						randDamage:2,
+						damageType:MAGIC,
+						spellColor:{ class:com.badlogic.gdx.graphics.Color, r: 0, g: 0, b: 0.8 },
+						magicMissileProjectile: {
+							class: com.interrupt.dungeoneer.entities.projectiles.MagicMissileProjectile,
+							floating:true,
+							fullbrite:true,
+							tex: 8,
+							attached: [
+								{
+									class: com.interrupt.dungeoneer.entities.SpriteBeam,
+									tex: 30,
+									color: {r: 0, g: 0, b: 0.8},
+									yOffset: -0.425,
+									beamRenderMode: LINE,
+									size: 1.5
+								}
+							]
+						},
+					}
+				],
+				alertSound:"mobs/human/male_alert1.mp3,mobs/human/male_alert2.mp3,mobs/human/male_alert3.mp3,mobs/human/male_alert4.mp3",
+				dieSound:"mobs/human/male_ouch1.mp3",
+				walkSound:"mobs/human/human_steps.mp3",
+				alertSound:"mobs/mage/en_mage_alert_01.mp3,mobs/mage/en_mage_alert_02.mp3,mobs/mage/en_mage_alert_03.mp3",
+				attackSound:"mobs/mage/en_mage_attack_01.mp3,mobs/mage/en_mage_attack_02.mp3,mobs/mage/en_mage_attack_03.mp3",
+				dieSound:"mobs/mage/en_mage_die_01.mp3,mobs/mage/en_mage_die_02.mp3,mobs/mage/en_mage_die_03.mp3,mobs/mage/en_mage_die_04.mp3,mobs/mage/en_mage_die_05.mp3",
+				hurtSound:"mobs/mage/en_mage_hurt_01.mp3,mobs/mage/en_mage_hurt_02.mp3,mobs/mage/en_mage_hurt_03.mp3",
+				idleSound:"mobs/mage/en_mage_idle_01.mp3,mobs/mage/en_mage_idle_02.mp3,mobs/mage/en_mage_idle_03.mp3",
+				walkAnimation: { start: 32, end: 35, speed: 30 },
+				attackAnimation: { start: 36, end: 42, speed: 30, actions:{"40":[{class:com.interrupt.dungeoneer.gfx.animation.DamageAction}]} },
+				castAnimation: { start: 36, end: 42, speed: 60, actions:{
+					"37":[{class:com.interrupt.dungeoneer.gfx.animation.LightAnimationAction, startColor: {r:0.0, g:0.0, b:0.0}, endColor: {r: 0.1, g: 0.8, b:0.1}, lightTime: 30.0}],
+					"40":[{class:com.interrupt.dungeoneer.gfx.animation.SpellCastAction}]
+				} },
+				hurtAnimation: { start: 43, end: 46, speed: 22 },
+				dieAnimation: { start: 47, end: 49, speed: 30 },
+				spriteAtlas: "mages"
+			},
+			{
+				class:com.interrupt.dungeoneer.entities.Monster,
+				tex:0,
+				name:"SPECTRAL BAT",
+				attackStartDistance: 1.5,
+				floating:true,
+				speed:0.002,
+				maxHp:2,
+				atk:2,
+				bloodPoolDecal:{isActive:false},
+				bloodSplatterDecal:{isActive:false},
+				yOffset:-0.25,
+				chasetarget:true,
+				bloodType:Bone,
+				hasAttackAnim:false,
+				canOpenDoors:false,
+				alertSound:"mobs/bat/en_bat_alert_01.mp3,mobs/bat/en_bat_alert_02.mp3,mobs/bat/en_bat_alert_03.mp3",
+				attackSound:"mobs/bat/en_bat_attack_01.mp3,mobs/bat/en_bat_attack_02.mp3,mobs/bat/en_bat_attack_03.mp3",
+				dieSound:"mobs/bat/en_bat_death_01.mp3,mobs/bat/en_bat_death_02.mp3,mobs/bat/en_bat_death_03.mp3",
+				hurtSound:"mobs/bat/en_bat_hurt_01.mp3,mobs/bat/en_bat_hurt_02.mp3,mobs/bat/en_bat_hurt_03.mp3",
+				idleSound:"mobs/bat/en_bat_idle_01.mp3,mobs/bat/en_bat_idle_02.mp3,mobs/bat/en_bat_idle_03.mp3",
+				shadowType: "NONE",
+				attached: [
+					{
+						class: com.interrupt.dungeoneer.entities.DynamicLight,
+						id: "",
+						range: 3.0,
+						lightColor: {
+							x: 1.0,
+							y: 1.0,
+							z: 1.0
+						},
+						lightType: fire,
+						hasHalo: true,
+						haloSize: 0.5
+					} ],
+				walkAnimation: { start: 0, end: 3, speed: 30 },
+				attackAnimation: { start: 4, end: 9, speed: 30, actions:{
+					"7":[{class:com.interrupt.dungeoneer.gfx.animation.DamageAction}],
+					"5": [{class:com.interrupt.dungeoneer.gfx.animation.ImpulseAction, impulseVector: { x: 0.07}}]} },
+				hurtAnimation: { start: 10, end: 11, speed: 22 },
+				dieAnimation: { start: 11, end: 13, speed: 30 },
+				spriteAtlas: "bats"
+			},
+			{
+				class:com.interrupt.dungeoneer.entities.Monster,
+				tex:0,
+				name:"BOOKLING",
+				speed:0.001,
+				atk:2,
+				ranged:true,
+				floating:true,
+				chasetarget:true,
+				bloodType:Bone,
+				bloodPoolDecal:{isActive:false},
+				bloodSplatterDecal:{isActive:false},
+				maxHp:3,
+				spells: [
+					{
+						class:com.interrupt.dungeoneer.entities.spells.MagicMissile,
+						mpCost:8,
+						baseDamage:2,
+						randDamage:2,
+						spellColor:{ class:com.badlogic.gdx.graphics.Color, r: 0.8, g: 0.2, b: 0 },
+						damageType:MAGIC,
+						castSound:"magic/mg_fire_shoot_01.mp3,magic/mg_fire_shoot_02.mp3,magic/mg_fire_shoot_03.mp3,magic/mg_fire_shoot_04.mp3",
+						hitSound:"magic/mg_fire_impact_01.mp3,magic/mg_fire_impact_02.mp3,magic/mg_fire_impact_03.mp3,magic/mg_fire_impact_04.mp3"
+					}]
+				walkAnimation: { start: 0, end: 3, speed: 30 },
+				attackAnimation: { start: 7, end: 13, speed: 35, actions:{"11":[{class:com.interrupt.dungeoneer.gfx.animation.DamageAction}]} },
+				castAnimation: { start: 7, end: 13, speed: 35, actions:{
+					"10":[{class:com.interrupt.dungeoneer.gfx.animation.LightAnimationAction, startColor: {r:0.0, g:0.0, b:0.0}, endColor: {r: 0.8, g: 0.1, b:0.1}, lightTime: 30.0}],
+					"11":[{class:com.interrupt.dungeoneer.gfx.animation.SpellCastAction}]
+				} },
+				hurtAnimation: { start: 4, end: 6, speed: 35 },
+				dieAnimation: { start: 14, end: 16, speed: 28 },
+				spriteAtlas: "bookling"
+			}
+		]
+	}
+}

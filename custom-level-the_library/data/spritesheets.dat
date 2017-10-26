@@ -1,0 +1,40 @@
+[
+    {
+        "columns": 16,
+        "filename": "mages.png",
+        "scale": 1,
+        "name": "mages"
+    },
+	{
+        "columns": 8,
+        "filename": "bookling.png",
+        "scale": 0.9,
+        "name": "bookling"
+    },
+	{
+        "columns": 16,
+        "filename": "spiders.png",
+        "scale": 0.8,
+        "name": "spiders"
+		"y_offset": 0.04
+    },
+	{
+        "columns": 16,
+        "filename": "bats.png",
+        "scale": 1.0,
+        "name": "bats"
+    },
+	{
+        "columns": 1,
+        "filename": "solstice.png",
+        "scale": 0.6,
+		"y_offset": 0.2
+        "name": "solstice"
+    },
+	{
+        "columns": 4,
+        "filename": "textures/Library/sprites.png",
+        "scale": 1,
+        "name": "library_sprite"
+    }
+]
