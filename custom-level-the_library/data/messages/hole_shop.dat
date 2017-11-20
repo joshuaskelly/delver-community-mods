@@ -1,0 +1,13 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hey stranger! You wanna buy some protective stuff?",
+			"Well then you've found the right person!",
+			"I sell protection from feet to head!"
+		],
+		[
+			"Hey friend! You came back for more goodies?"
+		]
+	]
+}

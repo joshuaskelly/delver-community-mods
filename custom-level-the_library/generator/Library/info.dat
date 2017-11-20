@@ -121,6 +121,42 @@
 		},
 		{
 			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Bookpile",
+			floorTex: 9,
+			textureAtlas: "library",
+			chance: 0.025,
+			clusterCount: 1,
+			clusterSpread: 0.0,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 7,
+				scale: 0.9,
+				yOffset: -0.025,
+				spriteAtlas: library_sprite,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Bookpile",
+			floorTex: 13,
+			textureAtlas: "library",
+			chance: 0.025,
+			clusterCount: 1,
+			clusterSpread: 0.0,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 7,
+				scale: 0.9,
+				yOffset: -0.025,
+				spriteAtlas: library_sprite,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
 			comment: "Spiderweb",
 			chance: 0.08,
 			ceilTex: 7,
