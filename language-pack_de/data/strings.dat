@@ -116,12 +116,12 @@
     },
     "screens.OptionsScreen.soundVolumeLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Geräuschlautstärke",
+        "localizedName":"Geräuschelautstärke",
         "comment":"Label for sound volume slider."
     },
     "screens.OptionsScreen.graphicsDetailLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Grafikdetail",
+        "localizedName":"Grafikdetails",
         "comment":"Label for graphics detail slider."
     },
     "screens.OptionsScreen.particleDensityLabel": {
@@ -216,12 +216,12 @@
     },
     "screens.OptionsScreen.readableActions.LOOK UP":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"OBEN SCHAUEN",
+        "localizedName":"NACH OBEN DREHEN",
         "comment":"Label for key bind action."
     },
     "screens.OptionsScreen.readableActions.LOOK DOWN":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"UNTEN SCHAUEN",
+        "localizedName":"NACH UNTEN DREHEN",
         "comment":"Label for key bind action."
 	},
     "screens.OptionsInputScreen.backButton": {
@@ -421,7 +421,7 @@
     },
     "overlays.LevelUpOverlay.SPEED": {
     	"class":"com.interrupt.dungeoneer.game.LocalizedString",
-    	"localizedName":"SCHNELLIGKEIT",
+    	"localizedName":"GESCHWINDIGKEIT",
     	"comment":""
     },
     "overlays.LevelUpOverlay.HEALTH": {
@@ -446,7 +446,7 @@
     },
     "overlays.MessageOverlay.nextButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"NÄCHSTE",
+        "localizedName":"WEITER",
         "comment":"Text for next button on the message overlay. Advances to the next page."
     },
     "overlays.MessageOverlay.closeButton": {
@@ -456,12 +456,12 @@
     },
     "overlays.PauseOverlay.backButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ZURÜCK",
+        "localizedName":"Zurück",
         "comment":"Text for the back button on the pause screen. Goes back to playing the game."
     },
     "overlays.PauseOverlay.quitButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"VERLASSEN",
+        "localizedName":"Verlassen",
         "comment":"Text for the quit button on the pause screen. Returns to the main menu."
     },
     "overlays.PauseOverlay.pauseHeader": {
@@ -491,7 +491,7 @@
     },
     "overlays.ShopPause.doneButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Fertig",
+        "localizedName":"OK",
         "comment":"Text shown on the shop table for the players total gold."
     },
     "overlays.ShopPause.buyText": {
@@ -531,7 +531,7 @@
     },
     "entities.Door.mobileUseText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"USE: {0}",
+        "localizedName":"AKTION: {0}",
         "comment":"Text shown on mobile instead of key binding. {0} is the use text (OPEN/CLOSE)."
     },
     "entities.Item.itemConditionBroken": {
@@ -591,7 +591,7 @@
     },
     "entities.Item.mobileUseMessageText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"USE: GET {0}",
+        "localizedName":"AKTION: NEHMEN\n{0}",
         "comment":"Use message shown on mobile in place of key binding. {0} is the item name."
     },
     "entities.Item.noRoomText": {
@@ -611,7 +611,7 @@
     },
     "entities.Item.modificationInfoSpeedText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Schnelligkeit",
+        "localizedName":"Geschwindigkeit",
         "comment":""
     },
     "entities.Item.modificationInfoHealthText": {
@@ -641,7 +641,7 @@
     },
     "entities.Player.mobileUseText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"USE",
+        "localizedName":"AKTION",
         "comment":"Text shown on a mobile device in place of a key binding."
     },
     "entities.Player.getItemText": {
@@ -666,7 +666,7 @@
     },
     "entities.Stairs.mobileUseText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"USE {0}",
+        "localizedName":"GEHE {0}",
         "comment":"Text shown on a mobile device. {0} is the direction (Up/Down)."
     },
     "entities.Stairs.direction.UP":{
@@ -686,7 +686,7 @@
     },
     "entities.Trigger.mobileUseText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"USE",
+        "localizedName":"AKTION",
         "comment":"Text shown on a mobile device instead of a key binding."
     },
     "entities.Trigger.useText": {
@@ -721,7 +721,7 @@
     },
     "gfx.GlRenderer.AttackText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ANG: {0}",
+        "localizedName":"ANGRIFF: {0}",
         "comment":"Text shown on the inventory screen for player's attack values."
     },
     "gfx.GlRenderer.ArmorClassText": {
@@ -801,7 +801,7 @@
     },
     "items.ItemStack.defaultNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"STAPEL",
+        "localizedName":"MAGAZIN",
         "comment":""
     },
     "items.ItemStack.infoText": {
@@ -876,7 +876,7 @@
     },
     "items.Potion.discoverDisplayText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Es sollte {0} sein",
+        "localizedName":"Das muss {0} sein",
         "comment":"Text shown when the player identifies the potion's effect. {0} is the status effect name."
     },
     "items.Potion.unidentifiedInfoText": {
@@ -1021,7 +1021,7 @@
     },
     "statuseffects.ParalyzeEffect.defaultNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Paralysiert",
+        "localizedName":"Paralysierung",
         "comment":""
     },
     "statuseffects.PoisonEffect.defaultNameText": {
@@ -1031,12 +1031,12 @@
     },
     "statuseffects.RestoreHealthEffect.defaultNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Heilen",
+        "localizedName":"Heilung",
         "comment":""
     },
     "statuseffects.SlowEffect.defaultNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Langsam",
+        "localizedName":"Verlangsamung",
         "comment":""
     },
     "statuseffects.SpeedEffect.defaultNameText": {
@@ -1061,7 +1061,7 @@
     },
     "triggers.ButtonModel.useMobileText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"USE",
+        "localizedName":"AKTION",
         "comment":"Text shown on a mobile device instead of a key binding."
     },
     "triggers.ButtonModel.useText": {
@@ -1096,7 +1096,7 @@
     },
     "triggers.TriggeredShop.descriptionText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"KAUFE ETWAS",
+        "localizedName":"KAUF ETWAS",
         "comment":""
     },
     "ui.Hud.noRoomText": {
@@ -1535,7 +1535,7 @@
 	"Lesser missile wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Schwächerer Raketenzauberstab",
-		"form":"masculine singular",
+			"form":"masculine singular",
         	"comment":""
 	},
 	"Missile wand": {
@@ -1547,13 +1547,13 @@
 	"Greater missile wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Stärkerer Raketenzauberstab",
-		"form":"masculine singular",
+			"form":"masculine singular",
         	"comment":""
 	},
 	"Lesser fire wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Schwächerer Feuerzauberstab",
-		"form":"masculine singular",
+			"form":"masculine singular",
         	"comment":""
 	},
 	"Fire wand": {
@@ -1565,13 +1565,13 @@
 	"Greater fire wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Stärkerer Feuerzauberstab",
-		"form":"masculine singular",
+			"form":"masculine singular",
         	"comment":""
 	},
 	"Lesser ice wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Schwächerer Eiszauberstab",
-		"form":"masculine singular",
+			"form":"masculine singular",
         	"comment":""
 	},
 	"Ice wand": {
@@ -1583,7 +1583,7 @@
 	"Greater ice wand": {
         	"class":"com.interrupt.dungeoneer.game.LocalizedString",
         	"localizedName":"Stärkerer Eiszauberstab",
-		"form":"masculine singular",
+			"form":"masculine singular",
         	"comment":""
 	},
 	"Storm wand": {
@@ -1713,11 +1713,10 @@
 		"comment":""
 	},
 	"Scroll of Discern Reality": {
-        	"class":"com.interrupt.dungeoneer.game.LocalizedString",
-        	"localizedName":"Schriftrolle der Enthüllung",
-		"form":"feminine singular",
-        	"comment":""
-	},
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Schriftrolle der Enthüllung",
+        "comment":""
+    },
 	"Skull": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Schädel",
@@ -2112,5 +2111,454 @@
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Des Hexers",
 		"comment":""
-	}
+	},
+	    "screens.ConfirmScreen.message":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Möchtest du diesen Spielstand wirklich löschen?",
+        "comment":""
+    },
+    "screens.ConfirmScreen.confirmButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Möchtest du diesen Spielstand wirklich löschen?",
+        "comment":""
+    },
+    "screens.MainMenuScreen.exitButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Schließen",
+        "comment":""
+    },
+    "screens.ConfirmScreen.declineButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Abbruch",
+        "comment":""
+    },
+    "screens.ConfirmExitScreen.message":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Möchtest du das Spiel wirklich schließen?",
+        "comment":""
+    },
+    "screens.OptionsScreen.modBtn":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Mods",
+        "comment":""
+    },
+    "screens.ModManagerScreen.enableButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Aktivieren",
+        "comment":""
+    },
+    "screens.ModManagerScreen.disableButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Deaktivieren",
+        "comment":""
+    },
+    "screens.ModManagerScreen.wwwButton": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "WWW",
+        "comment": ""
+    },
+    "screens.ModManagerScreen.name": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Name: ",
+        "comment": ""
+    },
+    "screens.ModManagerScreen.author": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Autor: ",
+        "comment": ""
+    },
+    "screens.ModManagerScreen.description": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Info: ",
+        "comment": ""
+    },
+    "screens.ModManagerScreen.version": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Version: ",
+        "comment": ""
+    },
+    "screens.ModManagerScreen.modState": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Status: ",
+        "comment": ""
+    },
+    "screens.ModManagerScreen.backButton": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Zurück",
+        "comment": ""
+    },
+    "screens.ModManagerScreen.modsLabel": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Mods! Um zu bestätigen, starte das Spiel erneut",
+        "comment": ""
+    },
+    "message.jump.notOnFloor":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Du musst dich dem Boden befinden, um zu springen!",
+        "comment":"Message shown when the player isn't on a floor and tries to jump"
+    },
+    "message.general.hasStatusEffects":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Das geht nicht, während du Effekte hast!",
+        "comment":"Message shown when the player tries to jump / sprint whilst having effects active"
+    },
+    "message.general.isAttacking":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Das geht während des Kämpfens nicht!",
+        "comment":"Message shown when the player tries to sprint or jump at the same time as they're in combat"
+    },
+    "items.Platinum.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Platin",
+        "comment":"Text shown when the player looks a platinum item. {0} is the amount."
+    },
+    "items.Platinum.platinumItemText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"{0} Platin",
+        "comment":"Text shown when the player looks a platinum item. {0} is the amount."
+    },
+    "items.Silver.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Silber",
+        "comment":"Text shown when the player looks a silver item. {0} is the amount."
+    },
+    "items.Silver.silverItemText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"{0} Silber",
+        "comment":"Text shown when the player looks a silver item. {0} is the amount."
+    },
+    "items.Copper.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Bronze",
+        "comment":"Text shown when the player looks a copper item. {0} is the amount."
+    },
+    "items.Copper.copperItemText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"{0} Bronze",
+        "comment":"Text shown when the player looks a copper item. {0} is the amount."
+	},
+	"Drifter blade": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Drifter-Klinge",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Guardian sword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Guardian-Schwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Drifter helm": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Drifter-Helm",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Drifter garb": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Drifter-Gewand",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Drifter skirt": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Drifter-Schürze",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Guardian helm": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Guardian-Helm",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Guardian armor": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Guardian-Rüstung",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Guardian greaves": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Guardian-Beinschützer",
+		"form":"plural",
+		"comment":""
+	},
+	"Health kit": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Gesundheitskit",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Drifter blaster": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Drifter-Blaster",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Shotgun": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Schrotflinte",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Shells": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Patronen",
+		"form":"plural",
+		"comment":""
+	},
+	"Box of Shells": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Patronen-Box",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Revolver": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Revolver",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Bullets": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Kugeln",
+		"form":"plural",
+		"comment":""
+	},
+	"Box of Bullets": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Kugel-Box",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Double-Barreled Shotgun": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Doppelläufige Schrotflinte",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Machinegun": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Maschinenpistole",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Cannon": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Kanone",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Triple-Barrel Machinegun": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Dreiläufige Maschinenpistole",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Old Academy Sword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Altes Akademieschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Yewen Staff": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Yewen-Stab",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Wizard Hat": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Zauberer-Hut",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Wizard Robe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Zauberer-Robe",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Wizard Boots": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Zauberer-Stiefel",
+		"form":"plural",
+		"comment":""
+	},
+	"Old Iron Ring": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Alter Eisenring",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Grimoire": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Zauberbuch",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Wooden Club": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Holzkeule",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Quarterstaff": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Viertelstab",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Shovel": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Schaufel",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Iron Spear": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisenspeer",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Iron Stiletto": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisenstiletto",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Iron Hand Axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisen-Handbeil",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Iron Greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisengroßschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Steel Hand Axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahl-Handbeil",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Steel Stiletto": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahlstiletto",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Steel Greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahlgroßschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Steel Spear": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahlspeer",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Gilded Hand Axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldetes Handbeil",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Gilded Stiletto": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldeter Stiletto",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Gilded Greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldetes Großschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Gilded Spear": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldeter Speer",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Obsidian Hand Axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Obsidian-Handbeil",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Obsidian Stiletto": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Obsidianstiletto",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Obsidian Greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Obsidiangroßschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Obsidian Spear": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Obsidianspeer",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Leather Whip": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Leder-Peitsche",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Serrated Whip": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Gezackte Peitsche",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Staff of Explosion": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Explosionsstab",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Staff of blizzard": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Blizzardstab",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Staff of venom": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Giftstab",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Staff of illumination": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Beleuchtungsstab",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Baliset": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Baliset",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Name": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Übersetzung",
+		"form":"masculine singular",
+		"comment":""
+	},
 }
