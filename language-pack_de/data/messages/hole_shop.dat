@@ -1,0 +1,13 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hey Fremder! Willst du ein bisschen was Schützendes kaufen?",
+			"Na dann hast du ja die richtige Person gefunden!",
+			"Ich verkaufe Schutz von Kopf bis Fuß!"
+		],
+		[
+			"Hey Freund! Bist du zurück für noch mehr Leckerbissen?"
+		]
+	]
+}
