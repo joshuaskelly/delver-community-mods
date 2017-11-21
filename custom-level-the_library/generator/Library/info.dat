@@ -1,0 +1,195 @@
+{
+	exitDown: {
+		class: com.interrupt.dungeoneer.entities.Stairs,
+		tex: 7,
+		tileMaterial: { tex: 9, texAtlas: "t1"}
+	},
+	exitUp: {
+		class: com.interrupt.dungeoneer.entities.Stairs,
+		tex: 7,
+		tileMaterial: { tex: 8, texAtlas: "t1"}
+	},
+	spawnLights: [
+        {
+			class: com.interrupt.dungeoneer.entities.Torch,
+			texAnimStart: 0,
+			texAnimEnd: 1,
+			torchAnimateMode: LOOP,
+			fullbrite: true,
+			haloOffset: 0.6,
+			yOffset: 0.1,
+			spriteAtlas: "library_sprite",
+			lightColor: { r: 1.0, g: 0.8, b: 0.2, a: 1.0 },
+		}
+    ],
+	doors: [
+		{ tex: 34, collision:{x:0.1,y:0.5,z:0.96}, doorMesh: "meshes/door_0.obj", doorTexture: "door.png", stuckChance: 10.0, breakSound: "break/break_wood_01.mp3,break/break_wood_02.mp3,break/break_wood_03.mp3" },
+		{ tex: 34, collision:{x:0.1,y:0.5,z:0.96}, doorMesh: "meshes/door_0.obj", doorTexture: "door.png", stuckChance: 10.0, breakSound: "break/break_wood_01.mp3,break/break_wood_02.mp3,break/break_wood_03.mp3" },
+		{ tex: 34, collision:{x:0.1,y:0.5,z:0.96}, doorMesh: "meshes/door_0.obj", doorTexture: "door.png", stuckChance: 10.0, breakSound: "break/break_wood_01.mp3,break/break_wood_02.mp3,break/break_wood_03.mp3" },
+		{ tex: 34, collision:{x:0.1,y:0.5,z:0.96}, doorMesh: "meshes/door_0.obj", doorTexture: "door.png", stuckChance: 10.0, breakSound: "break/break_wood_01.mp3,break/break_wood_02.mp3,break/break_wood_03.mp3" },
+		{ tex: 35, collision:{x:0.1,y:0.5,z:0.96}, doorMesh: "meshes/door_1.obj", doorTexture: "door.png", stuckChance: 10.0, breakSound: "break/break_wood_01.mp3,break/break_wood_02.mp3,break/break_wood_03.mp3" },
+		{ tex: 35, collision:{x:0.1,y:0.5,z:0.96}, doorMesh: "meshes/door_1.obj", doorTexture: "door.png", stuckChance: 10.0, breakSound: "break/break_wood_01.mp3,break/break_wood_02.mp3,break/break_wood_03.mp3" },
+		{ tex: 35, collision:{x:0.1,y:0.5,z:0.96}, doorMesh: "meshes/door_1.obj", doorTexture: "door.png", stuckChance: 10.0, breakSound: "break/break_wood_01.mp3,break/break_wood_02.mp3,break/break_wood_03.mp3" }
+	],
+	decorations: [
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:56,
+			name:"Skull",
+			yOffset:-0.11
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:74,
+			name:"Bones",
+			yOffset:-0.15
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:75,
+			name:"Bones",
+			yOffset:-0.15
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:80,
+			name:"Book",
+			yOffset:-0.11
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:81,
+			name:"Book",
+			yOffset:-0.11
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:82,
+			name:"Book",
+			yOffset:-0.11
+		},
+		{
+			class: com.interrupt.dungeoneer.entities.items.Note,
+			name: "Note",
+			messageFile: "dungeonNotes/castle.dat",
+			calcStepHeight: 0.1,
+			tex: 60
+		}
+	],
+	texturePainters: {
+		"library": {
+			wall: { 
+			"0": [0, 0, 0, 0, 1, 1, 1, 3, 3],
+			"4": [4,4,4,4,4,4,4,20],
+			"2": [2,2,2,2,16,16,16,17,17],
+			"12": [12,12,12,12,12,12,19,19,23],
+			"24": [24,24,24,24,25,25,26,26]
+			 },
+			floor: { 
+			"10": [10,10,10,10,10,9,9,9],
+			"8": [8,8,8,8,8,8,19,19,23,23]
+			 },
+			ceiling: { 
+			"7": [7, 7, 7, 7, 7, 7, 18, 22]
+			 }
+		}
+	},
+	genInfos: [
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Planks",
+			floorTex: 8,
+			textureAtlas: "library",
+			chance: 0.04,
+			clusterCount: 1,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 5,
+				scale: 0.8,
+				yOffset: -0.025,
+				spriteAtlas: library_sprite,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Bookpile",
+			floorTex: 9,
+			textureAtlas: "library",
+			chance: 0.025,
+			clusterCount: 1,
+			clusterSpread: 0.0,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 7,
+				scale: 0.9,
+				yOffset: -0.025,
+				spriteAtlas: library_sprite,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Bookpile",
+			floorTex: 13,
+			textureAtlas: "library",
+			chance: 0.025,
+			clusterCount: 1,
+			clusterSpread: 0.0,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 7,
+				scale: 0.9,
+				yOffset: -0.025,
+				spriteAtlas: library_sprite,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Spiderweb",
+			chance: 0.08,
+			ceilTex: 7,
+			textureAtlas: "library",
+			clusterCount: 1,
+			clusterSpread: 0.45,
+			attachCeiling: true,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				foliagePosition: "CEILING",
+				tex: 4,
+				spriteAtlas: library_sprite,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Big Spiderweb",
+			chance: 0.02,
+			ceilTex: 7,
+			textureAtlas: "library",
+			clusterCount: 1,
+			clusterSpread: 0.45,
+			attachCeiling: true,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				foliagePosition: "CEILING",
+				tex: 6,
+				spriteAtlas: library_sprite,
+				isDynamic: false
+			}]
+		}
+	]
+}

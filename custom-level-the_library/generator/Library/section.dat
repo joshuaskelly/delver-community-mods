@@ -1,0 +1,40 @@
+{
+	difficultyLevel: 3,
+	sortOrder: 3,
+	name: "Library",
+	floors: 2,
+	levelTemplates: [
+		{
+			class:com.interrupt.dungeoneer.game.Level,
+			darkness:1,
+			fogStart:2,
+			fogEnd:18,
+			theme:"LIBRARY",
+			generated:true,
+			roomGeneratorType:DUNGEON_ROOMS,
+			roomGeneratorChance:0.0,
+			music:"01_call_of_adventure.mp3,Nathan-1.mp3",
+			actionMusic:"chase_sewers.mp3,DK-5.mp3",
+			ambientSound:"env_indoor.mp3",
+			ambientSoundVolume:"0.15",
+			spawnRates: { monsters: 0.7, lights: 0.9, loot: 1.0, decor: 1.0 },
+			traps:[]
+		}
+	],
+	transitionLevel: {
+		class:com.interrupt.dungeoneer.game.Level,
+		levelName:"???",
+		darkness:1,
+		fogStart:2,
+		fogEnd:30,
+		viewDistance: 35.0,
+		theme:"CAVE",
+		generated:false,
+		levelFileName:"levels/library-cave.bin",
+		spawnMonsters: false,
+		actionMusic:"chase_sewers.mp3,DK-6.mp3",
+		loopMusic:true,
+		ambientSound:"env_indoor.mp3",
+		ambientSoundVolume:"0.5"
+	}
+}

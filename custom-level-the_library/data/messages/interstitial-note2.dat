@@ -1,0 +1,8 @@
+{
+	repeats: true,
+	messages: [
+		[
+			"It seems like we were right and this path leads further down to something that seems to be some sort of library. Hopefully it's safe down there."
+		]
+	]
+}

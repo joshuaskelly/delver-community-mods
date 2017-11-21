@@ -1,0 +1,8 @@
+{
+	repeats: true,
+	messages: [
+		[
+			"It seems like parts of the mine that we expected to be down here have collapsed. This door here may be another way to get further down. After placing some planks above the dark depths we may proceed."
+		]
+	]
+}
