@@ -1,0 +1,218 @@
+{
+    "screens.OptionsScreen.readableActions.PAUSE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PAUSE",
+        "comment": "Label for key bind action."
+    },
+    "screens.GameOverScreen.tutorialText1": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Death was not the end,\nit was a beginning.",
+        "comment": "Shown on the game over screen once."
+    },
+    "screens.GameOverScreen.tutorialText2": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "",
+        "comment": "Shown on the game over screen once."
+    },
+    "screens.GameOverScreen.secretsStatLabel": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "SECRETS FOUND: ",
+        "comment": ""
+    },
+    "overlays.ShopPause.emptyText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Nothing left for sale right now. Come back later!",
+        "comment": "Empty shop text."
+    },
+    "items.Weapon.damageType.VAMPIRE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "VAMPYRIC",
+        "comment": ""
+    },
+    "statuseffects.DrunkEffect.defaultNameText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Disoriented",
+        "comment": ""
+    },
+    "statuseffects.InvisibilityEffect.defaultNameText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Invisible",
+        "comment": ""
+    },
+    "Iron cap": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Iron cap",
+        "comment": ""
+    },
+    "Ring mail": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Ring mail",
+        "comment": ""
+    },
+    "Ring mail greaves": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Ring mail greaves",
+        "comment": ""
+    },
+    "Iron pot": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Iron pot",
+        "comment": ""
+    },
+    "Chainmail coif": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Chainmail coif",
+        "comment": ""
+    },
+    "Steel armet": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Steel armet",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.health": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Increases maximum health points.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.magic": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Adds additional charges to magic wands.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.speed": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Increases movement speed.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.attack": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Increases attack power with melee and ranged weapons.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.defense": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Reduces amount of damage taken when hit.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.agility": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Increases attack speed and movement speed while charging an attack.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.attack power": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Total amount of damage done for melee and ranged weapons.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.armor class": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Total amount of defense, reduces amount of damage taken when hit.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.level": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Increases maximum health points, increases attack power, and gives a chance to increase stats.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.xp": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Progress to next player level.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.gold": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Can be spent at vendors for items and upgrades. Persists between deaths.",
+        "comment": ""
+    },
+    "stats.xp": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "XP",
+        "comment": "Used in the UI when XP is displayed"
+    },
+    "stats.speed": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Speed",
+        "comment": "Used in the UI when Speed is displayed"
+    },
+    "stats.health": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Health",
+        "comment": "Used in the UI when Health is displayed"
+    },
+    "stats.agility": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Agility",
+        "comment": "Used in the UI when Agility is displayed"
+    },
+    "stats.defense": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Defense",
+        "comment": "Used in the UI when Defense is displayed"
+    },
+    "stats.magic": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Magic",
+        "comment": "Used in the UI when Magic is displayed"
+    },
+    "stats.attack": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Attack",
+        "comment": "Used in the UI when Attack is displayed"
+    },
+    "stats.attack power": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Attack Power",
+        "comment": "Used in the UI when Attack Power is displayed"
+    },
+    "stats.armor class": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Armor Class",
+        "comment": "Used in the UI when Armor Class is displayed"
+    },
+    "screens.OptionsGamepadScreen.title": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Gamepad Controls",
+        "comment": "Used in the Options UI for gamepads"
+    },
+    "screens.OptionsGamepadScreen.entry": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Press / move the gamepad",
+        "comment": "Used in the Options UI for gamepads"
+    },
+    "apple.description": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Somehow, not moldy yet."
+    },
+    "meat.description": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Of unknown origin but looks edible."
+    },
+    "steak.description": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Looks tasty! Preserved with salt."
+    },
+    "ale.description": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Might have gone bad. Still smells of hops."
+    },
+    "bread.description": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Stale but filling."
+    },
+    "cheese.description": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Sharp and pungent."
+    },
+    "message.soulbound": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "A warm feeling touches your soul."
+    },
+    "message.bagupgrade": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Your bag size increased!"
+    },
+    "message.beltupgrade": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Your belt size increased!"
+    }
+}
