@@ -1355,7 +1355,7 @@
 	"Buckler": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Faustschild",
-		"form":"neutral singular",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Quilted leather armor": {
@@ -1403,7 +1403,7 @@
 	"Round Shield": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Rundschild",
-		"form":"neutral singular",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Amulet of Speed": {
@@ -1511,7 +1511,7 @@
 	"Tower Shield": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Turmschild",
-		"form":"neutral singular",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Ring of the Wolf": {
@@ -2769,6 +2769,330 @@
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Baliset",
 		"form":"neutral singular",
+		"comment":""
+	},
+	"Thunder": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Donner",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Iron shortsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisenkurzschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Iron saber": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisensäbel",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Iron axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisenaxt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Iron pike": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisenpike",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Iron katana": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisenkatana",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Iron greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisengroßschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Iron greataxe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisengroßaxt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Iron halberd": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisen-Stabdolch",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Steel pike": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahlpike",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Steel falchion": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahl-Falchion",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Steel axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahlaxt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Steel katana": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahlkatana",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Steel greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahlgroßschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Steel greataxe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahlgroßaxt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Steel halberd": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahl-Stabdolch",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Engraved falchion": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Graviertes Falchion",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Engraved axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Gravierte Axt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Engraved katana": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Graviertes Katana",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Engraved greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Graviertes Großschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Engraved greataxe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Gravierte Großaxt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Engraved halberd": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Gravierter Stabdolch",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Engraved pike": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Gravierte Pike",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Jeweled spiked mace": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetzte Stachelige Keule",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Jeweled falchion": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetztes Falchion",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Jeweled axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetzte Axt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Jeweled katana": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetztes Katana",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Jeweled greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetztes Großschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Jeweled greataxe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetzte Großaxt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Jeweled voulge": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetzte Voulge",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Jeweled pike": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetzte Pike",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Jeweled hammer": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetzter Hammer",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Gilded scimitar": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldetes Krummsäbel",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Gilded sword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldetes Schwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Gilded axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldete Axt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Gilded katana": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldetes Katana",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Gilded greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldetes Großschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Gilded greataxe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldete Großaxt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Gilded glaive": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldete Glefe",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Gilded pike": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldete Pike",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Bone scimitar": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Scimitar",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Bone sword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Schwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Bone axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Axt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Bone mace": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Keule",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Bone spiked mace": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stachelige Knochen-Keule",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Bone hammer": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Hammer",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Bone greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Großschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Bone greataxe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Großaxt",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Bone scythe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Sense",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Bone bow": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Bogen",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Kite Shield": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Kiteschild",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Strange skull": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Komischer Schädel",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Gilded Shield": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldetes Schild",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Bone shield": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Schild",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Name": {
