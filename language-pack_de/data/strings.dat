@@ -3095,6 +3095,126 @@
 		"form":"masculine singular",
 		"comment":""
 	},
+	"Crossbow": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Armbrust",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Entwined Axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Umschlungene Axt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Vine Bow": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Ranken-Bogen",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Jungle armor": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Dschungel-Rüstung",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Fleetleaf boots": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Flinkblatt-Schuhe",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Lifeleaf amulet": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Lebensblatt-Amulett",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Sylvan salve": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Wald-Salbe",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Iron spear": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisen-Speer",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Steel spear": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahl-Speer",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Gilded spear": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldeter Speer",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Spoon": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Löffel",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Baguette": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Baguette",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Ham": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Schinken",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Umbrella": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Regenschirm",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Pencil": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stift",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"1000 degrees knife": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"1000 Grad Messer",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Fidget spinner": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Fidget Spinner",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Mech arm": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Mech-Arm",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Mech shell": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Mech-Panzer",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Mech bullets": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Mech-Kugeln",
+		"form":"plural",
+		"comment":""
+	},
 	"Name": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Übersetzung",
