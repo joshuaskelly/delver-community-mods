@@ -1,0 +1,7 @@
+[
+	{
+        "name": "post_filter_Grayscale",
+        "vertex": "post_filter_grayscale.vert",
+        "fragment": "post_filter_grayscale.frag"
+    }
+]
