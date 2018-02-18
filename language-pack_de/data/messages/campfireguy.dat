@@ -1,14 +1,14 @@
 {
-	"repeats": false,
-	"messages": [
+	repeats: false,
+	messages: [
 		[
-			"Du solltest hier möglicherweise nicht zu lange bleiben. Bei den Ruinen passieren komische Dinge.",
-			"All diese Schatzsucher gingen hinein, aber niemand kommt jemals wieder heraus.",
-			"Sie haben Gerüchte darüber gehört, was dort unten sein soll. Sie hatten nicht genug Geld um mich zu überreden dort hineinzugehen."
+			"Was haben wir den hier, noch einen Schatzjäger?",
+			"Du wirst zwar nicht auf mich hören, machen sie nie, aber das Beste für dich ist einfach wieder zu gehen.",
+			"Nicht viele, die hinein gehen, kommen jemals wieder heraus. Noch weniger sind noch bei Verstand.",
 		],
 		[
-			"Ich wurde von der Gilde hierher geschickt, um herauszufinden was hier vorgeht, aber bis jetzt habe ich nur noch mehr Fragen.",
-			"Was passiert wohl mit all denen, die die Ruinen betreten?",
+			"Ich bin ein Gelehrter, welcher von der Gilde hierher geschickt worden ist, um diesen Ort zu studieren. Aber bis jetzt habe ich nur noch mehr Fragen.",
+			"Was ist mit den Leuten, welche hier gelebt haben, passiert?",
 			"Wieso werden Menschen von diesem Ort angezogen?",
 			"Warum sind meine Träume an diesem Ort so seltsam? Ich konnte fast überhaupt nicht schlafen."
 		],

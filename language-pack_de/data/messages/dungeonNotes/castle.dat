@@ -1,7 +1,7 @@
 {
-	"repeats": true,
-	"pickRandom": true,
-	"messages": [
+	repeats: true,
+	pickRandom: true,
+	messages: [
 		[
 			"Matz, tiefer in den Ruinen scheint alles in Takt zu sein - genauso wie wir es uns erhofften! Dieser Ort ist nicht dort, wo die alten Karten sagten, dass sich der Turm des Magierkönigs befinden würde.",
 			"Außerdem sind nur noch die tieferen Stockwerke und das Untergeschoss intakt, aber all die Dinge die wir finden, zeigen dass dies tatsächlich der Ort ist."

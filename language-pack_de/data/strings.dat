@@ -41,12 +41,12 @@
     },
     "screens.MainMenuScreen.finishedSaveSlot": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"GESCHAFFT",
+        "localizedName":"Hinaufgestiegen",
         "comment":"Text shown on a save slot after successfully beating the game."
     },
     "screens.MainMenuScreen.deadSaveSlot": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"TOT",
+        "localizedName":"Gestorben",
         "comment":"Text shown on a save slot when the character is dead."
     },
     "screens.MainMenuScreen.creatingDungeon": {
@@ -79,6 +79,21 @@
         "localizedName":"ULTRA",
         "comment":"Text shown when the graphics slider is all the way right."
     },
+	"screens.OptionsScreen.postProcessingLabel": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Nachbearbeitungs-Filter",
+        "comment": "Text shown for the post processing filter label"
+    },
+    "screens.OptionsScreen.postProcessingQualityLabel": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Nachbearbeitungs-Qualität",
+        "comment": "Text shown for the post processing quality label"
+    },
+    "screens.OptionsScreen.antiAliasingLabel": {
+       "class": "com.interrupt.dungeoneer.game.LocalizedString",
+       "localizedName": "Kantenglättung (FXAA)",
+       "comment": "FXAA Label"
+   },
     "screens.OptionsScreen.backButton": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Zurück",
@@ -310,54 +325,54 @@
         "comment":"Label shown when game loading the next level."
     },
     "screens.GameOverScreen.win_text_0": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DIESE YITHIDIANER KONNTEN ECHT\nCOOLE ORBS MACHEN.",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_1": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"MIT SEINER KRAFT\nFORMST DU DIE WELT NEU.",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_2": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DAS WAR AUS\nEINEM GRUND VERSTECKT...",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_3": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DER ORB ZEIGT, WAS\nWAR UND WAS SEIN WIRD.",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_4": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"STIMMEN QUÄLEN DICH,\nEINE NEUE WELT WARTET.",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_5": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"ER ÖFFNET DIE TÜRE ZU\nANDEREN REALITÄTEN.",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_6": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DAS NETZ DER WIRKLICHKEITEN SCHREIT\nAUF, ALS REALITÄTEN ZUSAMMENBRECHEN.",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.win_text_7": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DU ERINNERST DICH AN DAS HIER,\n ES IST SCHON EINMAL GESCHEHEN.",
-        "comment":"One of many possibly text snippets shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "",
+        "comment": "One of many possibly text snippets shown on the win screen."
     },
     "screens.GameOverScreen.delverEscapedText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DER DELVER ENTKOMMT!",
-        "comment":"Shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "",
+        "comment": "Shown on the win screen."
     },
     "screens.GameOverScreen.recoveredOrbText": {
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"DU HAST DEN ORB ZURÜCKGEBRACHT!",
-        "comment":"Shown on the win screen."
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "",
+        "comment": "Shown on the win screen."
     },
     "screens.GameOverScreen.goodbyeDelverText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
@@ -368,6 +383,11 @@
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"MEHR GLÜCK IM NÄCHSTEN LEBEN",
         "comment":"Shown on the game over screen."
+    },
+	"screens.GameOverScreen.playtimeStatLabel": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "LEBENSZEIT: ",
+        "comment": ""
     },
     "screens.GameOverScreen.goldStatLabel": {
     	"class":"com.interrupt.dungeoneer.game.LocalizedString",
@@ -464,6 +484,11 @@
         "localizedName":"Verlassen",
         "comment":"Text for the quit button on the pause screen. Returns to the main menu."
     },
+	"overlays.PauseOverlay.optionsButton": {
+      "class": "com.interrupt.dungeoneer.game.LocalizedString",
+      "localizedName": "Optionen",
+      "comment": "Text for the options button on the pause screen. Goes to the options menu."
+    },
     "overlays.PauseOverlay.pauseHeader": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Pausiert",
@@ -493,6 +518,21 @@
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"OK",
         "comment":"Text shown on the shop table for the players total gold."
+	},
+	"overlays.CharacterOverlay.attributesTitle": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Attribute",
+        "comment": "Shown in the character screen for the 'Attributes' title."
+    },
+    "overlays.CharacterOverlay.statisticsTitle": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Statistiken",
+        "comment": "Shown in the character screen for the 'Statistics' title."
+    },
+    "overlays.CharacterOverlay.playerTitle": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Spieler",
+        "comment": "Shown in the character screen for the 'Player' title."
     },
     "overlays.ShopPause.buyText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
@@ -638,6 +678,21 @@
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Angriff",
         "comment":""
+	},
+	"entities.Item.modificationInfoKnockbackText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Rückstoß",
+        "comment": ""
+    },
+    "entities.Item.modificationInfoAttackSpeedText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Angriffsgeschwindigkeit",
+        "comment": ""
+    },
+    "entities.Item.modificationInfoMagicResistText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Magieresistenz",
+        "comment": ""
     },
     "entities.Player.mobileUseText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
@@ -766,7 +821,7 @@
     },
     "items.Elixer.defaultNameText": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Fähigkeit in der Flasche",
+        "localizedName":"Seltsames Elixier",
         "comment":""
     },
     "items.Food.defaultNameText": {
@@ -1732,6 +1787,11 @@
 		"localizedName":"Krug",
 		"comment":""
 	},
+	"Bowl": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Schüssel",
+		"comment":""
+	},
 	"Book": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Buch",
@@ -2119,7 +2179,7 @@
     },
     "screens.GameOverScreen.tutorialText1": {
         "class": "com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName": "Der Tod war nicht das Ende,\ner war der Anfang.",
+        "localizedName": "Der Tod war nicht das Ende,\ner war ein Anfang.",
         "comment": "Shown on the game over screen once."
     },
     "screens.GameOverScreen.tutorialText2": {
@@ -2189,7 +2249,7 @@
     },
     "screens.CharacterScreen.tooltips.magic": {
         "class": "com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName": "Erhöht die Ladungsanzahl von Zauberstäben.",
+        "localizedName": "Erhöht die Ladungsanzahl und den Schaden von Zauberstäben.",
         "comment": ""
     },
     "screens.CharacterScreen.tooltips.speed": {
@@ -2327,11 +2387,35 @@
     "message.beltupgrade": {
         "class": "com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName": "Deine Gürtelgröße wurde erhöht!"
-    }
-	    "screens.ConfirmScreen.message":{
-        "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Möchtest du diesen Spielstand wirklich löschen?",
-        "comment":""
+    },
+	"Skull": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Schädel",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Bones": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen",
+		"form":"plural",
+		"comment":""
+	},
+	"Note": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Notiz",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Lantern": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Laterne",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"screens.ConfirmScreen.message":{
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Möchtest du diesen Spielstand wirklich löschen?",
+		"comment":""
     },
     "screens.ConfirmScreen.confirmButton":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
@@ -3122,7 +3206,7 @@
 	"Fleetleaf boots": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Flinkblatt-Schuhe",
-		"form":"masculine singular",
+		"form":"plural",
 		"comment":""
 	},
 	"Lifeleaf amulet": {
@@ -3135,6 +3219,12 @@
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Wald-Salbe",
 		"form":"feminine singular",
+		"comment":""
+	},
+	"Nomad's Scrawl": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Gekrakel des Nomaden",
+		"form":"neutral singular",
 		"comment":""
 	},
 	"Iron spear": {

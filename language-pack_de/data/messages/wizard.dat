@@ -2,10 +2,10 @@
 	repeats: false,
 	messages: [
 		[
-			"Hallo Reisender, kannst du die geheimnisvolle Energie hier spüren?",
-			"Diese Ruinen müssen große Kraft besitzen, ich spüre wie uralte Zauber die Erde hier erzittern lassen...",
-			"Ich? Dieser Wald hier ist ein großartiger Ort für Menschen, welche die Magie lieben, genauso wie ich. Hier kann man gut Schriftrollen und Artefakte verzaubern.",
-			"Ich habe ein paar Schriftrollen vorbereitet, von denen ich mich für den richtigen Preis trennen könnte."
+			"Hallo Reisender. Ich habe dich gar nicht kommen sehen.",
+			"Dieser Ort war schon immer ein Leuchtfeuer für die mit der richtigen Einstellung. Fühlst du es auch?",
+			"Für die, welche Magie lieben, so wie ich, ist dies ein großartiger Ort um Schriftrollen und Artifakte zu verzaubern.",
+			"Ich habe ein paar Schriftrollen vorbereitet, von denen ich mich für den richtigen Preis trennen könnte. Sonst lass mich bitte weiter meditieren."
 		],
 		[
 			"Ich habe immer noch ein paar Schriftrollen vorbereitet, von denen ich mich für den richtigen Preis trennen könnte."

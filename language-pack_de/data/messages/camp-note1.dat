@@ -1,8 +1,9 @@
 {
-	"repeats": true,
-	"messages": [
+	repeats: true,
+	messages: [
 		[
-			"Gerüchte sagen, dass dieser Ort das größte Artefakt des alten Magierkönigreichs beherbergen soll. Man erzählt sich, es sei machtvoll genug, um die Realität zu biegen und zu verzerren. -N"
+			"Es ist genau dort, wo sie sagten. Diese sehen aus wie alte Ruinen des Magier-Königreiches. Lässt sich auch anhand der Überreste vermuten.",
+			"Gerüchte sagen, dass sie in ihrem ständigen Streben nach Macht hier ihr eigenes Verderben gestaltet haben. Ich sage, mehr für uns. -N"
 		]
 	]
 }
