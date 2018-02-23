@@ -1,0 +1,8 @@
+[
+  {
+    "name": "post_filter_lut",
+    "vertex": "post_filter_lut.vert",
+    "fragment": "post_filter_lut.frag",
+    "textures": [ "textures/lut.png" ]
+  }
+]
