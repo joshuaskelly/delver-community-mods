@@ -2,10 +2,10 @@
 	repeats: false,
 	messages: [
 		[
-			"Hello traveler, can you feel the arcane energy here?",
-			"These ruins must hold great power as I can sense the earth vibrating with ancient magics...",
-			"Me? The woods here are a great place for the magically inclined, such as myself, to enchant scrolls and artifacts.",
-			"I have some scrolls prepared that I could part with, for the right price."
+			"Hello traveler. I didn't see you arrive.",
+			"This place has always been a beacon for those properly attuned. Do you feel it too?"
+			"For the more magically inclined, such as myself, this is a great place to enchant scrolls and artifacts.",
+			"I have some scrolls prepared that I could part with, for the right price. Otherwise, please let me return to my meditations."
 		],
 		[
 			"I have some more scrolls prepared that I could part with, for the right price."

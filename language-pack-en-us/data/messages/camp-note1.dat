@@ -1,8 +1,9 @@
 {
-	"repeats": true,
-	"messages": [
+	repeats: true,
+	messages: [
 		[
-			"Rumor says that this place guards the greatest artifact of the old mage empire. It's said to be powerful enough to bend and warp reality. -N"
+			"It's right where they said it was, these look like old mage empire ruins. Seems likely from what's left anyway.",
+			"Rumor says that in their constant striving for more power, they made their own undoing here. I say, more for us. -N"
 		]
 	]
 }

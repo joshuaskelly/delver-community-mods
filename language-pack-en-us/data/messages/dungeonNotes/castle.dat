@@ -1,7 +1,7 @@
 {
-	"repeats": true,
-	"pickRandom": true,
-	"messages": [
+	repeats: true,
+	pickRandom: true,
+	messages: [
 		[
 			"Matz, things further inside the ruins seem to be intact - it's just as we hoped! The location is off from where the old maps said that the mage king's tower would,",
 			"and only the lower floors and basements are left intact, but all of the things we're finding indicate that this is indeed the place."

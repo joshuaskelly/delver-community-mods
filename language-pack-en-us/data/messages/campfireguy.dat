@@ -1,14 +1,14 @@
 {
-	"repeats": false,
-	"messages": [
+	repeats: false,
+	messages: [
 		[
-			"You probably shouldn't stick around too long. Weird stuff happens around these ruins.",
-			"All those treasure hunters have been going inside, but nobody ever comes back out.",
-			"They heard rumors about what's supposed to be down there. Couldn't pay me enough to go in."
+		    "What do we have here, another treasure hunter?",
+			"You won't listen to me, they never do, but the best thing for you is to leave.",
+			"Not many who go in ever leave that place. Even less with their wits.",
 		],
 		[
-			"I was sent here by the guild to find out what is going on, but I just have more questions so far.",
-			"What happens to everyone that goes inside those ruins?",
+			"I'm a scholar, I was sent here by the guild to study this place but I just have more questions so far.",
+			"What happened to the people that lived here?",
 			"Why are people drawn here?",
 			"Why are my dreams so strange here? I've barely been able to sleep at all."
 		],

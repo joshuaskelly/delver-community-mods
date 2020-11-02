@@ -1,0 +1,13 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hey buddy! Did you meet my brother Joff outside?",
+			"I'm Jeff! The 9th most important rule of business is to be bold, so I'm running our new startup location down here.",
+			"All of our weapons and magical artifacts are locally sourced!"
+		],
+		[
+			"All of our weapons and magical artifacts are locally sourced!"
+		]
+	]
+}

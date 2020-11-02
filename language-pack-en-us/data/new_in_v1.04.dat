@@ -1,0 +1,82 @@
+{
+    "screens.MainMenuScreen.cancelButton": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Cancel",
+        "comment": "Text for the cancel button."
+    },
+    "screens.MainMenuScreen.missingModsWarning": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Missing mods that might be required to play this save.\n\n{0}\nLoad anyway?",
+        "comment": "Text shown in the modal when a save might not be playable."
+    },
+    "screens.MainMenuScreen.eraseSaveWarning": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Are you sure you want to delete this save file?",
+        "comment": "Text shown in the modal when you are erasing a save."
+    },
+    "screens.OptionsScreen.postProcessingLabel": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Post Filter",
+        "comment": "Text shown for the post processing filter label"
+    },
+    "screens.OptionsScreen.postProcessingQualityLabel": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Post Processing Quality",
+        "comment": "Text shown for the post processing quality label"
+    },
+    "screens.OptionsScreen.antiAliasingLabel": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Anti Aliasing (FXAA)",
+        "comment": "FXAA Label"
+    },
+    "screens.OptionsScreen.readableActions.JUMP": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "JUMP",
+        "comment": "Label for key bind action."
+    },
+    "screens.GameOverScreen.playtimeStatLabel": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "LIFETIME: ",
+        "comment": ""
+    },
+    "overlays.PauseOverlay.optionsButton": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Options",
+        "comment": "Text for the options button on the pause screen. Goes to the options menu."
+    },
+    "overlays.CharacterOverlay.attributesTitle": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Attributes",
+        "comment": "Shown in the character screen for the 'Attributes' title."
+    },
+    "overlays.CharacterOverlay.statisticsTitle": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Statistics",
+        "comment": "Shown in the character screen for the 'Statistics' title."
+    },
+    "overlays.CharacterOverlay.playerTitle": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Player",
+        "comment": "Shown in the character screen for the 'Player' title."
+    },
+    "entities.Item.modificationInfoKnockbackText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Knockback",
+        "comment": ""
+    },
+    "entities.Item.modificationInfoAttackSpeedText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Attack Speed",
+        "comment": ""
+    },
+    "entities.Item.modificationInfoMagicResistText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Magic Resist",
+        "comment": ""
+    },
+    "statuseffects.LevitateEffect.defaultNameText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Levitate",
+        "comment": ""
+    }
+}

@@ -1,0 +1,11 @@
+{
+	repeats: true,
+	messages: [
+		[
+			"It has done well to find us. The place is right, but the time is not.",
+			"This place... it is not where things started, but it is here where they were given shape.",
+			"For now the gate holds back the cold and the dark, but no door can stay sealed forever.",
+			"And forever is not that long a wait, for things such as us."
+		]
+	]
+}

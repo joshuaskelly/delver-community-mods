@@ -1,0 +1,14 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hey... Did you ever run into my brother while you were down there?",
+			"We had a bit of a falling out... and he decided to try his luck inside.",
+			"I haven't seen him since then. People that go in there don't tend to leave, like you can.",
+			"It would be nice to see him again someday... Anyway, want to buy something?"
+		],
+		[
+			"It would be nice to see Jeff again someday... Anyway, want to buy something?"
+		]
+	]
+}

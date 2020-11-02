@@ -1,0 +1,12 @@
+{
+	repeats: true,
+	messages: [
+		[
+			"Now you have walked the paths of the many, and learned much. You have seen a multitude of futures that could have been.",
+			"Where is here? Or when? The Yithidians learned to warp and mix the planes of existence.",
+			"Only the knowledge gained here in your trial can leave with you.",
+			"Remember what you have learned, and use it well.",
+			"Because somewhere, in some life, those skills and persistence will be needed again."
+		]
+	]
+}

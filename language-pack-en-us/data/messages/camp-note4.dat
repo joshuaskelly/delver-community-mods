@@ -1,0 +1,9 @@
+{
+	repeats: true,
+	messages: [
+		[
+			"This place is perfect! Even more artifacts than I hoped!",
+			"Getting access to them is going to be difficult though. Maybe we can let these dumb adventurers go collect them for us, and scoop them up off of their valiant corpses."
+		]
+	]
+}

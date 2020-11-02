@@ -1,0 +1,15 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hey buddy! Nice to see you around!",
+			"Don't tell Joff, but it's nice to see anyone around. This place doesn't get a ton of foot traffic.",
+			"Those folk upstairs don't seem to take kindly to my snooping around... and taking their stuff... so I mostly stick around here with the weird robed guy.",
+			"He's not one for conversation. Mostly sticks to his books. Strange fellow, but he hasn't tried to murder me yet!",
+			"Sorry for talking your ear off. Want to buy something?"
+		],
+		[
+			"All of our weapons and magical artifacts are locally sourced!"
+		]
+	]
+}
