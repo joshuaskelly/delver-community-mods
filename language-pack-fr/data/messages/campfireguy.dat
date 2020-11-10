@@ -1,6 +1,6 @@
 {
-	repeats: false,
-	messages: [
+	"repeats": false,
+	"messages": [
 		[
 		    "Eh bien qu'avons-nous la, un autre chasseur de trésors?",
 			"Vous ne m'écouterez pas, ils ne m'écoutent jamais, la meilleure chose pour vous est de quitter ces lieux.",

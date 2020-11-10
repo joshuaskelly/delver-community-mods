@@ -1,6 +1,6 @@
 {
-	repeats: false,
-	messages: [
+	"repeats": false,
+	"messages": [
 		[
 			"A game by Chad Cuddigan",
 			"and Joshua Skelton"

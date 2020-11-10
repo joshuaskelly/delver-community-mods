@@ -1,6 +1,6 @@
 {
-  repeats: true,
-  messages: [
+  "repeats": true,
+  "messages": [
     [
 	  "- quatre jours au nord-ouest, remonter le vieux sentier de montagne\n- ravin au bout du lac, statues et ruines \n- acheteur de retour à Kyr?"
     ]

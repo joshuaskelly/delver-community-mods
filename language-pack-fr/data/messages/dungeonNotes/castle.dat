@@ -1,7 +1,7 @@
 {
-	repeats: true,
-	pickRandom: true,
-	messages: [
+	"repeats": true,
+	"pickRandom": true,
+	"messages": [
 		[
 			"Matz, les gravures plus loin à l'intérieur des ruines semblent être intactes - c'est exactement ce que nous espérions! Leur emplacement est éloigné du lieu où les anciennes cartes indiquaient la tour du roi mage",
 			"et seuls les étages inférieurs et les sous-sols sont restés intacts, cependant tous les indices que nous découvrons nous indiquent que nous sommes au bon endroit."

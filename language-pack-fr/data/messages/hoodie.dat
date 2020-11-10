@@ -1,6 +1,6 @@
 {
-	repeats: false,
-	messages: [
+	"repeats": false,
+	"messages": [
 		[
 			"Ahhhh ... il semble que nous avons un visiteur. Oui, nous l'avons.",
 			"Il ne ressemble pas à un voyageur des profondeurs... mais il n'est pas soumis à l'emprise comme les autres ici n'est-ce pas? C'est étrange.",

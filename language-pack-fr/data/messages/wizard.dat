@@ -1,6 +1,6 @@
 {
-	repeats: false,
-	messages: [
+	"repeats": false,
+	"messages": [
 		[
 			"Bonjour voyageur. Je ne vous ai pas vu arriver.",
 			"Cet endroit a toujours été une sorte de phare pour ceux qui sont en parfaite harmonie. Le ressentez-vous aussi?"

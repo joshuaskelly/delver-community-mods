@@ -1,6 +1,6 @@
 {
-	repeats: false,
-	messages: [
+	"repeats": false,
+	"messages": [
 		[
 			"Ahhhh... il semble que nous l'ayons rencontré à nouveau.",
 			"Ce doit être quelque chose de tenace pour parvenir aussi loin sous terre.",

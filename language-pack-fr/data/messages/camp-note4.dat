@@ -1,6 +1,6 @@
 {
-	repeats: true,
-	messages: [
+	"repeats": true,
+	"messages": [
 		[
 			"Cet endroit est parfait! Il renferme encore plus d'artefacts que je ne l'espérais!",
 			"Mais y avoir accès sera difficile. Peut-être pourrions nous laisser ces aventuriers stupides aller les chercher pour ensuite les ramasser sur leurs vaillantes dépouilles."		

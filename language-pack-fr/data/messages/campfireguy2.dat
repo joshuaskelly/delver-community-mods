@@ -1,6 +1,6 @@
 {
-	repeats: false,
-	messages: [
+	"repeats": false,
+	"messages": [
 		[
 			"Vous êtes de retour! Vous êtes plus solide qu'il n'y paraît.",
 			"Nos archives semblent indiquer que les habitants des lieux ont exporté un cristal unique en son genre, et que ce commerce les a rendus extrêmement riches.",

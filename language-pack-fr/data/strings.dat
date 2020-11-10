@@ -1956,11 +1956,6 @@
         "localizedName": "UTILISER",
         "comment": ""
     },
-	"triggers.Trigger.useVerbs.PRESS": {
-        "class": "com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName": "APPUYER",
-        "comment": ""
-    },
     "triggers.Trigger.useVerbs.READ": {
         "class": "com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName": "LIRE",
@@ -3387,8 +3382,22 @@
         "class": "com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName": "Note abandonnée"
 	},
-	"Secret Area": {
+	"Torn Page": {
         "class": "com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName": "Un secret a été révélé!"
-	}
+        "localizedName": "Page déchirée"
+	},
+	"YITHIDIAN ORB": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "ORBE YITHIDIANNE"
+	},
+	"A secret has been revealed!": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Un secret a été révélé!",
+		"comment": "TODO - Impossible to translate as for now"
+	},
+	"triggers.Trigger.useVerbs.PRESS": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "APPUYER",
+        "comment": "TODO - Impossible to translate as for now"
+    }
 }

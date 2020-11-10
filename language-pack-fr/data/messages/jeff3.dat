@@ -1,6 +1,6 @@
 {
-	repeats: false,
-	messages: [
+	"repeats": false,
+	"messages": [
 		[
 			"Encore vous? Je ne m'attendais pas à vous revoir. Peu de clients reviennent ici.",
 			"Pour être honnête, on se sent seul dans le coin...",

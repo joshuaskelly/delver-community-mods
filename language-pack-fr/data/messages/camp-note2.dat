@@ -1,10 +1,10 @@
 {
-	repeats: true,
-	messages: [
+	"repeats": true,
+	"messages": [
 		[
 			"Notes sur le combat, troisième édition
 
-			1: Une attaque chargée frappera toujours, au combat un minimum de préparation fait toute la différence. ",
+			1: Une attaque chargée touchera toujours sa cible, au combat un minimum de préparation fait toute la différence. ",
 			"(concentrez une attaque en maintenant le bouton d'attaque enfoncé jusqu'à ce qu'il soit complètement chargé, puis relâchez)",
 			"2: Faites le point sur votre équipement avant de foncer tête baissée. Mettez des objets dans votre ceinture pour y accéder facilement au combat.",
 			"(faites glisser les éléments vers votre ceinture en haut de l'écran pour y accéder rapidement)",

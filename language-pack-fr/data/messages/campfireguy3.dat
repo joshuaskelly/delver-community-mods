@@ -1,6 +1,6 @@
 {
-	repeats: false,
-	messages: [
+	"repeats": false,
+	"messages": [
 		[
 			"Re-bonjour. Cela fait longtemps... et je dois avouer que je craignais le pire.",
 			"Puisque vous êtes ici, je peux vous tenir au courant de nos recherches.",

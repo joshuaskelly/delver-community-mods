@@ -1,6 +1,6 @@
 {
-	repeats: false,
-	messages: [
+	"repeats": false,
+	"messages": [
 		[
 			"Hé aventurier! Vous envisagez d'aller dans ces ruines? C'est dangereux!",
 			"Si j'étais vous, je voudrais être équipé avant d'entrer dans cet endroit...",

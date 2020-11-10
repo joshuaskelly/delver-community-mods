@@ -1,6 +1,6 @@
 {
-	repeats: false,
-	messages: [
+	"repeats": false,
+	"messages": [
 		[
 			"Tiens tiens. Bon retour parmis nous, chercheur.",
 			"Vous poursuivez toujours vos investigations savantes à la pointe de l'épée?",

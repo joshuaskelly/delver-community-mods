@@ -1,6 +1,6 @@
 {
-	repeats: false,
-	messages: [
+	"repeats": false,
+	"messages": [
 		[
 			"Le voyageur est de retour... Peut-être a-t-il besoin de notre aide?",
 			"Nous avons parcouru nous-même la multitude. Je peux offrir ces connaissances, pour un prix bien sûr."

@@ -1,6 +1,6 @@
 {
-	repeats: false,
-	messages: [
+	"repeats": false,
+	"messages": [
 		[
 			"Hé l'ami! Ravi de vous revoir!",
 			"Ne le dites pas à Joff, mais c'est agréable de voir quelqu'un par ici. Cet endroit est peu fréquenté.",

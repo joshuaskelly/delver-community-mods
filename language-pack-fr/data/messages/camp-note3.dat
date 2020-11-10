@@ -1,6 +1,6 @@
 {
-	repeats: true,
-	messages: [
+	"repeats": true,
+	"messages": [
 		[
 			"Les autres ont pénétré à l'intérieur, sans tenir compte de mes mises en garde pour avancer avec plus de prudence. Je crains le pire. La seule chose à faire désormais est d'attendre leur retour.",
 			"Je n'ai pas encore de nouvelles des autres mais j'ai essayé de continuer mes recherches en leur absence. Jusqu'à présent, rien ne m'apparait cohérent, aucune observation n'est concordante."

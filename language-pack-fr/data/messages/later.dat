@@ -1,6 +1,6 @@
 {
-	repeats: true,
-	messages: [
+	"repeats": true,
+	"messages": [
 		[
 			"Il a bien fait de nous trouver. L'endroit est bon, mais le moment ne l'est pas.",
 			"Cet endroit... ce n'est pas là que les choses ont commencé, mais c'est ici où elles ont pris forme.",

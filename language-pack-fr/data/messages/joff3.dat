@@ -1,6 +1,6 @@
 {
-	repeats: false,
-	messages: [
+	"repeats": false,
+	"messages": [
 		[
 			"Hé... As-tu déjà rencontré mon frère pendant que tu étais là-dessous?",
 			"Nous nous sommes un peu brouillés... et il a décidé de tenter sa chance à l'intérieur.",
