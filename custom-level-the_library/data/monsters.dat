@@ -228,6 +228,40 @@
 				hurtAnimation: { start: 4, end: 6, speed: 35 },
 				dieAnimation: { start: 14, end: 16, speed: 28 },
 				spriteAtlas: "bookling"
+			},
+			{
+				class:com.interrupt.dungeoneer.entities.Monster,
+				tex:0,
+				name:"MIRROR",
+				speed:0.001,
+				atk:2,
+				ranged:true,
+				floating:true,
+				chasetarget:true,
+				bloodType:Bone,
+				bloodPoolDecal:{isActive:false},
+				bloodSplatterDecal:{isActive:false},
+				maxHp:4,
+				spells: [
+					{
+						class:com.interrupt.dungeoneer.entities.spells.MagicMissile,
+						mpCost:8,
+						baseDamage:2,
+						randDamage:2,
+						spellColor:{ class:com.badlogic.gdx.graphics.Color, r: 0.1, g: 0.8, b: 0 },
+						damageType:MAGIC,
+						castSound:"magic/mg_fire_shoot_01.mp3,magic/mg_fire_shoot_02.mp3,magic/mg_fire_shoot_03.mp3,magic/mg_fire_shoot_04.mp3",
+						hitSound:"magic/mg_fire_impact_01.mp3,magic/mg_fire_impact_02.mp3,magic/mg_fire_impact_03.mp3,magic/mg_fire_impact_04.mp3"
+					}]
+				walkAnimation: { start: 0, end: 3, speed: 30 },
+				attackAnimation: { start: 8, end: 13, speed: 30, actions:{"11":[{class:com.interrupt.dungeoneer.gfx.animation.DamageAction}]} },
+				castAnimation: { start: 8, end: 13, speed: 30, actions:{
+					"9":[{class:com.interrupt.dungeoneer.gfx.animation.LightAnimationAction, startColor: {r:0.0, g:0.0, b:0.0}, endColor: {r: 0.1, g: 0.8, b: 0}, lightTime: 25.0}],
+					"11":[{class:com.interrupt.dungeoneer.gfx.animation.SpellCastAction}]
+				} },
+				hurtAnimation: { start: 4, end: 7, speed: 30 },
+				dieAnimation: { start: 14, end: 20, speed: 30 },
+				spriteAtlas: "mirror"
 			}
 		]
 	}

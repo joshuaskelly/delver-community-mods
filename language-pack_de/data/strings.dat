@@ -126,7 +126,7 @@
     },
     "screens.OptionsScreen.particleDensityLabel": {
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
-        "localizedName":"Partikeldichte",
+        "localizedName":"Partikelanzahl",
         "comment":"Label for particle density slider."
     },
     "screens.OptionsScreen.shadowsLabel":{
@@ -416,32 +416,32 @@
     },
     "overlays.LevelUpOverlay.ATTACK": {
     	"class":"com.interrupt.dungeoneer.game.LocalizedString",
-    	"localizedName":"ANGRIFF",
+    	"localizedName":"+1 ANGRIFF",
     	"comment":""
     },
     "overlays.LevelUpOverlay.SPEED": {
     	"class":"com.interrupt.dungeoneer.game.LocalizedString",
-    	"localizedName":"GESCHWINDIGKEIT",
+    	"localizedName":"+1 GESCHWINDIGKEIT",
     	"comment":""
     },
     "overlays.LevelUpOverlay.HEALTH": {
     	"class":"com.interrupt.dungeoneer.game.LocalizedString",
-    	"localizedName":"GESUNDHEIT",
+    	"localizedName":"+1 GESUNDHEIT",
     	"comment":""
     },
     "overlays.LevelUpOverlay.MAGIC": {
     	"class":"com.interrupt.dungeoneer.game.LocalizedString",
-    	"localizedName":"MAGIE",
+    	"localizedName":"+1 MAGIE",
     	"comment":""
     },
     "overlays.LevelUpOverlay.AGILITY": {
     	"class":"com.interrupt.dungeoneer.game.LocalizedString",
-    	"localizedName":"BEWEGLICHKEIT",
+    	"localizedName":"+1 BEWEGLICHKEIT",
     	"comment":""
     },
     "overlays.LevelUpOverlay.DEFENSE": {
     	"class":"com.interrupt.dungeoneer.game.LocalizedString",
-    	"localizedName":"VERTEIDIGUNG",
+    	"localizedName":"+1 VERTEIDIGUNG",
     	"comment":""
     },
     "overlays.MessageOverlay.nextButton": {
@@ -1355,7 +1355,7 @@
 	"Buckler": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Faustschild",
-		"form":"neutral singular",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Quilted leather armor": {
@@ -1403,7 +1403,7 @@
 	"Round Shield": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Rundschild",
-		"form":"neutral singular",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Amulet of Speed": {
@@ -1492,26 +1492,26 @@
 	},
 	"Jeweled platemail": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Juwelenbesetzter Plattenbrustpanzer",
+		"localizedName":"Vergoldeter Plattenbrustpanzer",
 		"form":"masculine singular",
 		"comment":""
 	},
 	"Jeweled greaves": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Juwelenbesetzte Beinschützer",
+		"localizedName":"Vergoldete Beinschützer",
 		"form":"plural",
 		"comment":""
 	},
 	"Jeweled helmet": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
-		"localizedName":"Juwelenbesetzter Helm",
+		"localizedName":"Vergoldeter Helm",
 		"form":"masculine singular",
 		"comment":""
 	},
 	"Tower Shield": {
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Turmschild",
-		"form":"neutral singular",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Ring of the Wolf": {
@@ -2112,6 +2112,222 @@
 		"localizedName":"Des Hexers",
 		"comment":""
 	},
+	"screens.OptionsScreen.readableActions.PAUSE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "PAUSE",
+        "comment": "Label for key bind action."
+    },
+    "screens.GameOverScreen.tutorialText1": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Der Tod war nicht das Ende,\ner war der Anfang.",
+        "comment": "Shown on the game over screen once."
+    },
+    "screens.GameOverScreen.tutorialText2": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "",
+        "comment": "Shown on the game over screen once."
+    },
+    "screens.GameOverScreen.secretsStatLabel": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "GEHEIMNISSE GEFUNDEN: ",
+        "comment": ""
+    },
+    "overlays.ShopPause.emptyText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Nichts mehr zu verkaufen. Komm später wieder!",
+        "comment": "Empty shop text."
+    },
+    "items.Weapon.damageType.VAMPIRE": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "VAMPIRISCH",
+        "comment": ""
+    },
+    "statuseffects.DrunkEffect.defaultNameText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Verwirrt",
+        "comment": ""
+    },
+    "statuseffects.InvisibilityEffect.defaultNameText": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Unsichtbar",
+        "comment": ""
+    },
+    "Iron cap": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Eisenkappe",
+        "comment": ""
+    },
+    "Ring mail": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Ringpanzer",
+        "comment": ""
+    },
+    "Ring mail greaves": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Ringbeinschützer",
+        "comment": ""
+    },
+    "Iron pot": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Eisenpott",
+        "comment": ""
+    },
+    "Chainmail coif": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Kettenhaube",
+        "comment": ""
+    },
+    "Steel armet": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Stahlarmet",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.health": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Erhöht maximale Gesundheit.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.magic": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Erhöht die Ladungsanzahl von Zauberstäben.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.speed": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Erhöht die Laufgeschwindigkeit.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.attack": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Erhöht die Angriffsstärke von Nah- und Fernkampfwaffen.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.defense": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Reduziert erhaltenen Schaden.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.agility": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Erhöht die Angriffs- und Laufgeschwindigkeit während des Vorbereitens eines Angriffs.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.attack power": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Insgesamter Schaden für Nah- und Fernkampfwaffen.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.armor class": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Insgesamte Verteidigung, senkt die erhaltene Anzahl an Schaden bei einem Treffer.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.level": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Erhöht die maximale Gesundheit, den Angriff, und gibt eine Chance Statuswerte zu erhöhen.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.xp": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Fortschritt zur nächsten Spieler-Stufe.",
+        "comment": ""
+    },
+    "screens.CharacterScreen.tooltips.gold": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Kann bei Händlern für Items und Upgrades ausgegeben werden. Bleibt nach dem Tod erhalten.",
+        "comment": ""
+    },
+    "stats.xp": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "XP",
+        "comment": "Used in the UI when XP is displayed"
+    },
+    "stats.speed": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Geschwindigkeit",
+        "comment": "Used in the UI when Speed is displayed"
+    },
+    "stats.health": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Gesundheit",
+        "comment": "Used in the UI when Health is displayed"
+    },
+    "stats.agility": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Beweglichkeit",
+        "comment": "Used in the UI when Agility is displayed"
+    },
+    "stats.defense": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Verteidigung",
+        "comment": "Used in the UI when Defense is displayed"
+    },
+    "stats.magic": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Magie",
+        "comment": "Used in the UI when Magic is displayed"
+    },
+    "stats.attack": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Angriff",
+        "comment": "Used in the UI when Attack is displayed"
+    },
+    "stats.attack power": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Angriffsstärke",
+        "comment": "Used in the UI when Attack Power is displayed"
+    },
+    "stats.armor class": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Rüstungsklasse",
+        "comment": "Used in the UI when Armor Class is displayed"
+    },
+    "screens.OptionsGamepadScreen.title": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Gamepad-Steuerung",
+        "comment": "Used in the Options UI for gamepads"
+    },
+    "screens.OptionsGamepadScreen.entry": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Drücke / bewege das Gamepad",
+        "comment": "Used in the Options UI for gamepads"
+    },
+    "apple.description": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Irgendwie noch nicht verschimmelt."
+    },
+    "meat.description": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Zwar von unbekannter Herkunft, sieht jedoch essbar aus."
+    },
+    "steak.description": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Sieht lecker aus! Konserviert durch Salz."
+    },
+    "ale.description": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Könnte schlecht geworden sein. Riecht immer noch nach Hopfen."
+    },
+    "bread.description": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Fade, aber sätigend."
+    },
+    "cheese.description": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Scharf und stechend."
+    },
+    "message.soulbound": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Ein warmes Gefühl berührt deine Seele."
+    },
+    "message.bagupgrade": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Deine Rucksackgröße wurde erhöht!"
+    },
+    "message.beltupgrade": {
+        "class": "com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName": "Deine Gürtelgröße wurde erhöht!"
+    }
 	    "screens.ConfirmScreen.message":{
         "class":"com.interrupt.dungeoneer.game.LocalizedString",
         "localizedName":"Möchtest du diesen Spielstand wirklich löschen?",
@@ -2553,6 +2769,330 @@
 		"class":"com.interrupt.dungeoneer.game.LocalizedString",
 		"localizedName":"Baliset",
 		"form":"neutral singular",
+		"comment":""
+	},
+	"Thunder": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Donner",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Iron shortsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisenkurzschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Iron saber": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisensäbel",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Iron axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisenaxt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Iron pike": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisenpike",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Iron katana": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisenkatana",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Iron greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisengroßschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Iron greataxe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisengroßaxt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Iron halberd": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Eisen-Stabdolch",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Steel pike": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahlpike",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Steel falchion": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahl-Falchion",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Steel axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahlaxt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Steel katana": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahlkatana",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Steel greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahlgroßschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Steel greataxe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahlgroßaxt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Steel halberd": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stahl-Stabdolch",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Engraved falchion": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Graviertes Falchion",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Engraved axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Gravierte Axt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Engraved katana": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Graviertes Katana",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Engraved greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Graviertes Großschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Engraved greataxe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Gravierte Großaxt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Engraved halberd": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Gravierter Stabdolch",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Engraved pike": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Gravierte Pike",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Jeweled spiked mace": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetzte Stachelige Keule",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Jeweled falchion": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetztes Falchion",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Jeweled axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetzte Axt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Jeweled katana": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetztes Katana",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Jeweled greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetztes Großschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Jeweled greataxe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetzte Großaxt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Jeweled voulge": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetzte Voulge",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Jeweled pike": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetzte Pike",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Jeweled hammer": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Juwelenbesetzter Hammer",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Gilded scimitar": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldetes Krummsäbel",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Gilded sword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldetes Schwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Gilded axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldete Axt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Gilded katana": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldetes Katana",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Gilded greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldetes Großschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Gilded greataxe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldete Großaxt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Gilded glaive": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldete Glefe",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Gilded pike": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldete Pike",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Bone scimitar": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Scimitar",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Bone sword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Schwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Bone axe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Axt",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Bone mace": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Keule",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Bone spiked mace": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Stachelige Knochen-Keule",
+		"form":"feminine singular",
+		"comment":""
+	},
+	"Bone hammer": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Hammer",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Bone greatsword": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Großschwert",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Bone greataxe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Großaxt",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Bone scythe": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Sense",
+		"form":"neutral singular",
+		"comment":""
+	},
+	"Bone bow": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Bogen",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Kite Shield": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Kiteschild",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Strange skull": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Komischer Schädel",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Gilded Shield": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Vergoldetes Schild",
+		"form":"masculine singular",
+		"comment":""
+	},
+	"Bone shield": {
+		"class":"com.interrupt.dungeoneer.game.LocalizedString",
+		"localizedName":"Knochen-Schild",
+		"form":"masculine singular",
 		"comment":""
 	},
 	"Name": {

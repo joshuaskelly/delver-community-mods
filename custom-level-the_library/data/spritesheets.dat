@@ -12,6 +12,12 @@
         "name": "bookling"
     },
 	{
+        "columns": 8,
+        "filename": "mirror.png",
+        "scale": 0.9,
+        "name": "mirror"
+    },
+	{
         "columns": 16,
         "filename": "spiders.png",
         "scale": 0.8,
