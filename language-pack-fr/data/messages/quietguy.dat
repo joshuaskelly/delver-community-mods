@@ -1,8 +1,8 @@
 {
-	"repeats": true,
-	"messages": [
+	repeats: true,
+	messages: [
 		[
-			"      ..."
+			"..."
 		]
 	]
 }

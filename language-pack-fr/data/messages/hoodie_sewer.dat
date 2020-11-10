@@ -1,0 +1,18 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Ahhhh... il semble que nous l'ayons rencontré à nouveau.",
+			"Ce doit être quelque chose de tenace pour parvenir aussi loin sous terre.",
+			"De toutes façons, ce n'est pas le genre à rêver... Peut-être voudrait-il marchander à la place?",
+			"Nous vendons des mots d'étoiles mortes. Même disparues, leurs histoires sont puissantes."
+		],
+		[
+			"Est-ce un gardien? Il y a des histoires sur des mondes qui disparaissent et sur ceux qui ont essayé de les y aider.",
+			"Peu probable. Les énergies sont fausses. Enfin, a-t-il besoin de plus d'histoires?",
+		],
+		[
+        	"Ahhh... il revient. A-t-il besoin de plus d'histoires?"
+        ]
+	]
+}

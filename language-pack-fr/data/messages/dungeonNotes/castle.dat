@@ -1,75 +1,75 @@
 {
-	"repeats": true,
-	"pickRandom": true,
-	"messages": [
+	repeats: true,
+	pickRandom: true,
+	messages: [
 		[
-			"Matz, les objets plus loins dans les ruines semblent être intactes. C'est comme on l'espérait! Ce n'est pas loin d'ou les vieilles cartes mentionnent la tour du Roi sorcier,",
-			"et seulement les sous-sols sont intactes. Toutes les indications confirment qu'on s'approche."
+			"Matz, les gravures plus loin à l'intérieur des ruines semblent être intactes - c'est exactement ce que nous espérions! Leur emplacement est éloigné du lieu où les anciennes cartes indiquaient la tour du roi mage",
+			"et seuls les étages inférieurs et les sous-sols sont restés intacts, cependant tous les indices que nous découvrons nous indiquent que nous sommes au bon endroit."
 		],
 		[
-			"Envoyez mot aux Heralds, les érudits ont bien raison sur la location. On va continuer sans le groupe principal. Si la tour est ici, ça veut dire qu'un artefact est probablement ici aussi."
+			"Faites savoir aux Hérauts que les savants ont trouvé l’emplaçement que nous cherchions. Nous allons nous faufiler en avant du groupe principal, si cette tour est ici, cela signifie que l’un des artéfacts est probablement ici aussi."
 		],
 		[
-			"Personne n'est venu dans ces ruines depuis des siècles, quelle découverte! Les montagnes autour de la tour one gardé le monde au loin. Le royaume avait probablement des portails pour se rendre plus facilement."
-		],
-		[
-			"Envoyez des hommes à la surface pour déplacer les fournitures de l'expédition, ils seront plus en sécurité ici que de s'asseoir dehors sous la pluie."
+			"Personne n'a parcouru ces ruines depuis des siècles, quelle découverte! Les montagnes entourant la tour ont tenu les gens à l'écart, le royaume disposait probablement de portails pour arriver ici plus facilement que nous."
 		],
 		[ 
-			"Nous avons trouvé des bibliothèques intactes, mais les livres sont écrits dans quelque chose qui ressemble à Oldhand, la traduction va lentement."
+			"Renvoyez quelques hommes pour déplacer notre matériel d'expédition, ils seront plus en sécurité ici que de rester assis dehors sous la pluie."
+		],
+		[ 
+			"Nous avons trouvé des bibliothèques intactes mais les livres qu'elle contiennent sont rédigés dans ce qui semble être de l'Oldhand, la traduction sera lente."
 		],
 		[
-			"Jeran, certains de nos porteurs ont disparu. Les avez-vous envoyés à une mission? Nous allons en avoir besoin pour nettoyer certains de ces décombres."
+			"Jeran, certains de nos porteurs ont disparu. Les avez-vous envoyés faire une course? Nous allons avoir besoin d'eux pour nettoyer certains de ces décombres."
 		],
 		[
-			"Décompte de l'expédition: cinq caisses de porc salé, six paquets de pain de piste et quatre caisses d'ale d'orge."
+			"Revue d'approvisionnement de l'expédition: 5 caisses de porc salé, 6 fournées de pain de campagne et 4 caisses de bière d'orge."
 		],
 		[
-			"L'exploration des ruines a été lente jusqu'à présent. Je crains que nous avons poussé les hommes trop dur. Certains nous ont déjà quittés, probablement pour retourner chez eux.",
-			"Si seulement nous pouvions avoir une bonne nuit de sommeil, les choses iraient plus vite. Tout le monde est tellement sur le bord qu'ils sautent à l'ombre."
+			"L'exploration des ruines a été lente jusqu'a présent, je crains que nous poussions trop les hommes. Certains nous ont déjà quittés, probablement pour rentrer chez eux.",
+			"Si seulement nous pouvions avoir de bonnes nuits de sommeil, les choses iraient plus vite. Tout le monde est tellement nerveux qu'il a peur de son ombre."
+		],
+		[			
+			"Je me fiche de ce que dit ce prétendu savant Matz, il y a quelque chose de vivant ici et je ne parle pas de ces chauves-souris insupportables.",
+			"Hier soir, j'ai entendu des grattements à la porte de la caserne dans laquelle nous nous étions installés, mais quoi que ce fut, ça a disparu dès que je suis sorti pour voir."
 		],
 		[
-			"Peu m'importe ce que dit le savant Matz, il y a quelque chose de vivant ici. Et je ne parle pas de ces chauves-souris insupportables.",
-			"Hier soir, j'ai entendu gratter à la porte de la caserne que nous avions installée. Ce qui causait le bruit est disparu dès que j'ai envoyé des hommes pour enquêter."
+			"Commencez à allumer les torches au fur et à mesure, l'exploration sera plus facile si nous pouvons voir sans ces lanternes et que nous pouvons garder la trace d'où nous sommes venus."
 		],
 		[
-			"Commencer à allumer les torches dans le chemin. L'exploration sera plus facile si nous pouvons voir sans ces lanternes. Et nous pourrons garder une trace de l'endroit où nous avons été."
+			"Je n'ai pas eu une seule bonne nuit de sommeil depuis que j'ai posé les pieds dans cet endroit, je suis tellement effrayé que j'entends des chuchotements, même quand il n'y a personne."
 		],
 		[
-			"Je n'ai pas eu une bonne nuit de sommeil que nous avons mis le pied dans cet endroit. Je suis tellement épuisé que je continue à entendre des chuchotements, même quand personne n'est autour."
+			"Jeran, l'un des gardes est devenu fou! Il a commencé à crier que nous allions tous mourir, et il a abattu deux hommes avant de s'échapper plus profondément dans les ruines.",
+			"L'une des victimes est immédiatement décédée, nous avons bandé les plaies l'autre mais il va avoir besoin d'une des potions des fournitures d'urgence pour stopper l'infection."
 		],
 		[
-			"Jeran, un des gardes est devenu fou! Il a commencé à crier que allions tous mourir, et a tué deux hommes avant de s'enfuir plus loin dans les ruines.",
-			"Une des victimes est décédée immédiatement, nous avons traité l'autre, mais il va avoir besoin d'une de ces potions d'urgence pour garder les infections au loin."
+			"Nous avions raison! Ces imbéciles de l'Imperium peuvent manger leurs bottes, ce roi-mage a bien régné sur toutes les villes libres de l'époque.",
+			"Il devait y avoir des portails ouverts dans toutes les villes, faisant de cette tour le coeur du commerce de l'époque."
 		],
 		[
-			"Nous avions raison! Ces imbéciles à l'Imperium peuvent aller se promener, ce roi mage a régné sur toutes les villes libres de l'époque.",
-			"Il doit y avoir des portails ouverts vers toutes les villes, faisant de cette tour un centre de commerce."
+			"L'équipe de Jeran a découvert l'entrée de ce qui semble être des mines dans les sous-sols. Celles-ci mériteront probablement d'être explorées plus tard.",
+			"Pour l'instant, concentrons-nous sur les zones qui étaient habitées. Il y a déja assez à faire pour nous occuper pendant des semaines."
 		],
 		[
-			"L'équipe de Jeran a trouvé l'entrée de ce qui semble être les mines sous les sous-sols. Ceux-ci vaudront probablement la peine d'explorer plus tard.",
-			"Pour l'instant, concentrons-nous sur les zones qui étaient habitées. Il y en a assez pour nous tenir occupés pendant des semaines."
+			"Attention aux pièges! Certains de ces passages sont truffés de plaques au sol liées à une sorte de système de sécurité mystérieux.",
+			"Bron a marché sur l'une d'entre elles et a disparu dans un flash de lumière, heureusement nous l'avons rencontré plus tard indemne et juste très confus."
 		],
 		[
-			"Attention aux pièges! Certains de ces passages ont des plaques sur le plancher liées à une sorte de système de sécurité arcane.",
-			"Bron a marché sur un des pièges et a disparu dans un éclair de lumière. Heureusement nous l'avons revu plus tard indemne et très confus."
+			"Des nouvelles du groupe disparu? Nous avons vérifié à l'extérieur et tout semblait normal, peut-être qu'ils sont rentrés chez eux."
 		],
 		[
-			"Des nouvelles sur le groupe disparu? Nous avons cherché sur la surface et ils ne sont pas là, peut-être sont-ils partis chez-eux."
+			"Cet endroit soulève tellement de questions, l'université sera présente ici pendant longtemps une fois que la nouvelle sera diffusée."
 		],
 		[
-			"Cet endroit suscite tant de questions, l'université aura une présence pour longtemps une fois que les nouvelles sortira."
+			"Nous avons trouvé des traces de la première expédition, ils sont définitivement passé par ici. Nous avons trouvé des bribes de leurs notes éparpillées et certaines de leurs fournitures, mais pas de corps pour l'instant. C'est comme s'ils avaient totalement disparus."
 		],
 		[
-			"Nous avons trouvé quelques traces de la première expédition. Ils sont définitivement venus ici. Nous avons trouvé des feuilles de leurs notes éparpillées et certaines de leurs resources, mais pas de corps pour le moment. C'est comme s'ils ont disparus."
+			"Restez à l'écart! Cet endroit est un cauchemar, nous n'aurions jamais dû venir. Les choses que nous remuons ici auraient dû rester enfouies pour toujours.",
+			"La majorité de l'expédition est manquante désormais, le reste d'entre nous perd lentement la raison. Nous avons essayé de faire demi-tour, mais les passages eux-mêmes nous barrent la route désormais."
 		],
 		[
-			"Restez loin d'ici! Cet endroit est un cauchemar. Nous n'aurions jamais dû venir. Les choses que nous trouvons ici auraient dû rester enfouies à jamais.",
-			"La plupart des membres l'expédition est manquante maintenant. Le reste est lentement entrain de devenir fou. Nous avons essayé de retourner, mais les couloirs eux-mêmes nous moquent."
-		],
-		[
-			"Toutes nos cartes sont inutiles! Nous avons soigneusement marqué le trajet sur les cartes, mais sur le chemin du retour rien ne correspond.",
-			"Cet endroit ne veut pas qu'on parte!"
+			"Toutes nos cartes sont inutiles! Nous avons soigneusement noté notre chemin en entrant, mais en revenant, plus rien ne correspond.",
+			"Cet endroit ne veut pas que nous partions!"
 		]
 	]
 }

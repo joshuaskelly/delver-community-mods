@@ -1,9 +1,9 @@
 {
-	"repeats": true,
-	"messages": [
+	repeats: true,
+	messages: [
 		[
-			"Je pense que le barde joue avec mon inventaire. Un livre que j'ai emmené a été remplacé par un tout autre livre. Comme si je ne m'en serais pas rendu compte. Je vous dis le culot de certains.",
-			"Même ma nourriture a changé. Tous mes cakes sont maintenant des buns sucrés!"
+			"Les autres ont pénétré à l'intérieur, sans tenir compte de mes mises en garde pour avancer avec plus de prudence. Je crains le pire. La seule chose à faire désormais est d'attendre leur retour.",
+			"Je n'ai pas encore de nouvelles des autres mais j'ai essayé de continuer mes recherches en leur absence. Jusqu'à présent, rien ne m'apparait cohérent, aucune observation n'est concordante."
 		]
 	]
 }

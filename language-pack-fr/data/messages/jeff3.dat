@@ -1,0 +1,14 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Encore vous? Je ne m'attendais pas à vous revoir. Peu de clients reviennent ici.",
+			"Pour être honnête, on se sent seul dans le coin...",
+			"J'aurais aimé pouvoir parler à nouveau à Joff. Il savait toujours quoi dire. J'ai un peu gâché ça.",
+			"Je n'ai trouvé aucun moyen de sortir d'ici, pourriez-vous me le faire savoir si vous trouvez une issue?"
+		],
+		[
+			"Je n'ai trouvé aucun moyen de sortir d'ici, pourriez-vous me le faire savoir si vous trouvez une issue?"
+		]
+	]
+}

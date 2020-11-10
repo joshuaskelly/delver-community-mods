@@ -1,0 +1,12 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Content de vous revoir.",
+			"J’ai préparé d’autres parchemins, si vous avez besoin d’un peu de magie."
+		],
+		[
+			"J’ai préparé d’autres parchemins, si vous avez besoin d’un peu de magie."
+		]
+	]
+}

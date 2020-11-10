@@ -1,0 +1,12 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hé aventurier, tu n'es pas entré dans ces ruines?",
+			"Enfin peu importe, bon retour! Tu ferais mieux de faire le plein tant que tu es ici."
+		],
+		[
+			"La chance sourit à ceux qui sont préparés! Mes fournitures sont limitées."
+		]
+	]
+}

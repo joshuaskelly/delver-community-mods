@@ -2,13 +2,13 @@
 	repeats: false,
 	messages: [
 		[
-			"Bonjour voyageur, pouvez-vous sentir l'énergie arcane de ces lieux?",
-			"Ces ruines doivent avoir un grand pouvoir car je peux sentir la terre vibrer d'anciens pouvoirs magiques...",
-			"Moi? Les bois autour de nous sont un endroit idéal pour les savants de magie comme moi. Ici je peux enchanter les rouleaux et les artefacts.",
-			"J'ai des parchemins que je pourrais vous offrir, pour le bon prix."
+			"Bonjour voyageur. Je ne vous ai pas vu arriver.",
+			"Cet endroit a toujours été une sorte de phare pour ceux qui sont en parfaite harmonie. Le ressentez-vous aussi?"
+			"Pour les plus enclins à la magie, comme moi, c'est un endroit idéal pour enchanter les parchemins et les artefacts.",
+			"J'ai préparé des parchemins dont je pourrais me séparer, pour un juste prix. Sinon, permettez-moi de retourner à mes méditations."
 		],
 		[
-			"J'ai encore des parchemins que je pourrais vous offrir, pour le bon prix."
+			"J'ai préparé d'autres parchemins dont je pourrais me séparer, pour un juste prix."
 		]
 	]
 }
