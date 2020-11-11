@@ -1,0 +1,15 @@
+{
+	"repeats": false,
+	"messages": [
+		[
+			"Hé l'ami! Ravi de vous revoir!",
+			"Ne le dites pas à Joff, mais c'est agréable de voir quelqu'un par ici. Cet endroit est peu fréquenté.",
+			"Ces types à l'étage ne semblent pas apprécier mes fouilles... ni que l'on emporte leurs biens... alors je reste principalement ici avec l'étrange gars en robe.",
+			"Il n'est pas du genre à converser, il s'en tient principalement à ses livres. Un étrange camarade, mais au moins il n'a pas encore essayé de me tuer!"
+			"Désolé de te casser les oreilles avec mes histoires. Tu veux acheter quelque chose?"
+		],
+		[
+			"Toutes nos armes et artefacts magiques sont d'origine locale!"
+		]
+	]
+}

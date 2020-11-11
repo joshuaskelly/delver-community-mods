@@ -1,0 +1,14 @@
+{
+	"repeats": false,
+	"messages": [
+		[
+			"Hé... As-tu déjà rencontré mon frère pendant que tu étais là-dessous?",
+			"Nous nous sommes un peu brouillés... et il a décidé de tenter sa chance à l'intérieur.",
+			"Je ne l'ai pas revu depuis. Les gens qui y entrent n'ont pas tendance à en sortir comme vous.",
+			"Ce serait bien de le revoir un jour... Enfin bon, tu veux acheter quelque chose?
+		],
+		[
+			"Ce serait bien de revoir Jeff un jour... Enfin bon, tu veux acheter quelque chose?
+		]
+	]
+}

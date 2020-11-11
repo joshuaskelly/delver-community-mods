@@ -1,14 +1,15 @@
 {
-	repeats: false,
-	messages: [
+	"repeats": false,
+	"messages": [
 		[
-            "Aaaah... on dirait qu'on a un étranger. Ah oui.",
-            "L'étranger n'a pas l'air de connaître les rues profondes... mais il n'est pas sous servitude comme les autres, n'est-ce pas? C'est très curieux.",
-            "Il y a longtemps, j'ai regardé des étrangers comme vous creuser dans la terre profonde, réveillant ce qui aurait dû être oublié.",
-			"L'étranger n'est pas ici pour mes histoires... Peut-être pour acheter quelque chose?"
+			"Ahhhh ... il semble que nous avons un visiteur. Oui, nous l'avons.",
+			"Il ne ressemble pas à un voyageur des profondeurs... mais il n'est pas soumis à l'emprise comme les autres ici n'est-ce pas? C'est étrange.",
+			"Il y a longtemps, j'ai regardé ceux comme vous creuser profondément la terre ici, dérangeant ce qui aurait dû rester oublié. Leurs chantiers se trouvent plus loin sur ce chemin.",
+			"De toute façon, il n'est pas ici pour entendre des histoires... Peut-être voudrait-il marchander à la place?",
+			"Nous avons étudié des magies perdues bien au-delà de cette dimension. Je peux lui offrir cela, pour un prix bien sûr."
 		],
 		[
-			"Aaaah... L'étranger revient. Peut-être pour acheter quelque chose?"
+			"Ahhh ... il revient. A-t-il besoin de percer les voiles des mondes?"
 		]
 	]
 }
