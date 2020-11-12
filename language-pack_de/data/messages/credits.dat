@@ -1,0 +1,65 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Ein Spiel von Chad Cuddigan",
+			"und Joshua Skelton"
+		],
+		[
+			"Spiel-Engine, Spiel-Design und Programmierung von",
+			"Chad Cuddigan"
+		],
+		[
+			"Kunst, Programmierung, und Community-Management",
+			"Joshua Skelton"
+		],
+		[
+			"Musik von",
+			"White Wolf",
+			"Nathan Antony",
+			"Gordon McGladdery"
+		],
+		[
+			"Geräusche von",
+			"Power Up Audio"
+		],
+		[
+			"Charakter-Animation von",
+			"Hunter Russel"
+		],
+		[
+			"Grafik-Design von",
+			"SamCube"
+		],
+		[
+			"Besonderen Dank an",
+			"The Unofficial Delver Discord",
+			"TigSource",
+			"Andy Sum",
+			"Ben Porter"
+		],
+		[
+			"siskavard",
+			"Arsenio Dev",
+			"Hawaii_Beach",
+			"Pixel Profligate",
+			"Drakensin",
+			"Mike Ratzlaff"
+		],
+		[
+			"Und noch vielen mehr, als wir hier erwähnen können."
+		],
+		[
+			"Aber am Wichtigsten, dir!"
+		],
+		[
+			"Danke fürs Spielen! <",
+		],
+		[
+			"",
+		],
+		[
+			"Das Verlies wird wütender..."
+		]
+	]
+}

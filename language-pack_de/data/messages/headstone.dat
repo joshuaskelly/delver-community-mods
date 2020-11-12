@@ -1,0 +1,10 @@
+{
+	messages: [
+		[
+			"Die Inschrift ist zu abgenutzt, um sie zu entzifferen."
+		],
+		[
+			"Wer war das wohl?"
+		]
+	]
+}

@@ -1,0 +1,12 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Der Reisende ist zurück... Vielleicht benötigt es unsere Unterstützung?",
+			"Wir haben die Vielzahl der Welten selbst bereist. Ich kann dieses Wissen anbieten, natürlich gegen eine Bezahlung."
+		],
+		[
+			"Ahhh... es ist zurück. Hat es das Verlangen, die Schleier der Welten zu durchstechen?"
+		]
+	]
+}

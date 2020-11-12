@@ -1,0 +1,12 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hey Abenteurer, bist du nicht in diese Ruinen gegangen?",
+			"Wie auch immer, willkommen zurück! Du solltest besser deine Vorräte auffüllen, während du hier bist."
+		],
+		[
+			"Das Glück bevorzugt die Vorbereiteten! Die Vorräte sind begrenzt."
+		]
+	]
+}

@@ -1,0 +1,15 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Irgendwie gelingt es dir immer zu uns zurückzukehren.",
+			"Während deiner Abwesenheit habe ich noch mehr Nachforschungen betrieben. Und das mit faszinierenden Entdeckungen.",
+			"Es ist nur eine Theorie, aber ich habe das Gefühl, dass dies hier der Standort der verlorenen Stadt von Vyr war. Es gibt jedoch keine Erwähnungen, dass sich die Stadt in den Bergen befand.",
+			"Meine Überlegung ist, dass diese Berge eine neuere Ergänzung zu dieser Landschaft sind. Es muss jedoch etwas sehr Großes passiert sein, um solch eine Bergkette entstehen zu lassen."
+		],
+		[
+			"Was wir über Vyr wissen ist, dass es auf einer Insel in einem See lag.",
+			"Wenn das hier wirklich der Ort ist, dann war, was auch immer es war, wohl etwas sehr Heftiges."
+		]
+	]
+}

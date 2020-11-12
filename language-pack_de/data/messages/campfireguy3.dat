@@ -1,0 +1,17 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Nochmal hallo. Es ist schon eine Weile her... und ich muss sagen, dass ich das Schlimmste befürchtet habe.",
+			"Wenn du schon hier bist kann ich dich auf den neusten Stand unserer Nachforschungen bringen.",
+			"Wir vermuten, dass die Konzentration an magischen Energien, welche hier vorherrscht, wohl als Leuchtfeuer für diejenigen, welche empfindlich für Arkanes sind, dienen muss.",
+			"Ältere unserer Bücher lassen darauf scließen, dass dieser Ort schon viel länger bewohnt ist, als nur das Schloss hier.",
+			"Könntest du nach Hinweisen auf ältere Bauwerke unter dem Schloss achten?",
+			"Solche mächtigen Orte waren wohl über die Jahrhunderte mehrmals bewohnt."
+		],
+		[
+			"Könntest du nach Hinweisen auf ältere Bauwerke unter dem Schloss achten?",
+			"Solche mächtigen Orte waren wohl über die Jahrhunderte mehrmals bewohnt."
+		]
+	]
+}

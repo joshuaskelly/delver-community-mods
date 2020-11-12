@@ -1,0 +1,13 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hey Kumpel! Hast du draußen meinen Bruder Joff getroffen?",
+			"Mein Name ist Jeff! Die neunt wichtigste Geschäfts-Regel ist es, mutig zu sein. Also leite ich unseren neuen Vertriebsstandort hier unten.",
+			"All unsere Waffen und magischen Artifakte sind lokal bezogen!"
+		],
+		[
+			"All unsere Waffen und magischen Artifakte sind lokal bezogen!"
+		]
+	]
+}

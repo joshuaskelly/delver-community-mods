@@ -1,0 +1,13 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Du bist zurück! Da hat es wohl mehr mit dir auf sich, als es scheint.",
+			"Unsere Aufzeichnungen deuten an, dass die Bewohner dieses Ortes einen besonderen Kristall exportierten. Dieses Geschäft machte sie sehr reich.",
+			"Hast du diese Minen gefunden? Ich kann mir vorstellen, dass dort ziemlich viel von diesem Kristall sein muss."
+		],
+		[
+			"Hast du diese Minen gefunden? Ich kann mir vorstellen, dass es wohl ein sehr großes Netzwerk von ihnen geben muss."
+		]
+	]
+}

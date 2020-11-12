@@ -1,0 +1,15 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hey Kumpel! Nett dich hier zu sehen!",
+			"Erzähls nicht Joff, aber es ist nett überhaupt jemanden zu sehen. Dieser Ort hat nicht gerade viel Fuß-Verkehr.",
+			"Diese Leute dort oben scheinen mein Herumschnüffeln nicht zu mögen... oder das Nehmen ihrer Sachen... also bin ich die meiste Zeit hier unten mit diesem komisch gekleideten Typen.",
+			"Er ist nicht der Typ zum Reden. Bleibt die meiste Zeit bei seinen Büchern. Komischer Bursche, aber er hat bis jezt noch nicht versucht mich umzubringen!",
+			"Entschuldige, dass ich dir dein Ohr ablabber. Willst du etwas kaufen?"
+		],
+		[
+			"All unsere Waffen und magischen Artifakte sind lokal bezogen!"
+		]
+	]
+}

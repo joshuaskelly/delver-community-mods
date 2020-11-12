@@ -1,0 +1,18 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Ahhhh... sieht so aus, als treffen wir uns wieder.",
+			"Es muss ja ein hartnäckiges Ding, um es so tief in die Erde vorzudringen.",
+			"Wie auch immer, es ist keines fürs sinnieren... Vielleicht will es aber handeln?",
+			"Im Angebot haben wir die Worte toter Sterne. Selbst vergangen sind ihre Geschichten mächtig."
+		],
+		[
+			"Ist es ein Wächter? Es gibt Geschichten von schwindenden Welten und denjenigen, die versuchten ihnen zu helfen.",
+			"Unwahrscheinlich. Die Energien sind falsch. Wie auch immer, hat es das Verlangen nach mehr Geschichten?",
+		],
+		[
+        	"Ahhh... es ist zurück. Hat es das Verlangen nach mehr Geschichten?"
+        ]
+	]
+}

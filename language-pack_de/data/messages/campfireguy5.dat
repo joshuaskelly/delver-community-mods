@@ -1,0 +1,17 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"So, so. Willkommen zurück, Delver.",
+			"Immer noch an deinen wissenschaftliche Nachforschungen bei gezogenem Schwert?",
+			"Ich wäre vorsichtig, noch weiter in die Tiefe vorzudringen, als du es schon bist. Etwas Schlimmes ist dort in der Vergangenheit passiert. Etwas Mächtiges.",
+			"Und das nicht nur ein Mal. Es gibt ein spezielles Muster bei diesen Disastern.",
+			"Meine Meinung zu diesem Thema hat sich geändert. Jetzt denke ich, dass das Beste, was wir tun können, ist, diesen Ort zu verlassen.",
+			"Wir sollten gehen solange wir können und niemals zurückschauen."
+		],
+		[
+			"Es gibt ein spezielles Muster bei diesen Disastern hier.",
+			"Wir sollten diesen Ort womöglich verlassen und niemals zurückkommen."
+		]
+	]
+}

@@ -1,0 +1,12 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Willkommen zurück.",
+			"Ich habe noch mehr Schriftrollen vorbereitet, falls du etwas arkane Kraft benötigst."
+		],
+		[
+			"Ich habe noch mehr Schriftrollen vorbereitet, falls du etwas arkane Kraft benötigst."
+		]
+	]
+}

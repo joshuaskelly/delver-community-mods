@@ -1,0 +1,49 @@
+{
+	repeats: true,
+	pickRandom: true,
+	messages: [
+		[
+			"Endlich, meine Augen haben sich auf diese Düsterheit eingestellt. Die Dschungel von Junii würden oft solche dunklen Höhlungen beherbergen, Ruinen der alten Welt.",
+			"Ich muss weiter gehen, dieser Ort ist noch nicht sicher."
+		],
+		[
+			"Ich habe eine Gruppe Banditen entdeckt, welche meiner Spur folgten, als ich mein Lager verlassen habe. Sie werden sich schon bald in diesen Tiefen herumtreiben. Die Höhlen, ja, dort könnte ich sie los werden."
+		],
+		[
+			"Mein blödes Glück, in meiner Eile, diese Fledermäuse zu umgehen, habe ich meine Axt fallen gelassen. Dieser Ort war danach voll mit denen, der Missklang muss ein Nest von ihnen aufgeweckt haben.",
+			"Ich werde für sie zurückgehen. Später. Muss jezt etwas zu Essen finden. So hungrig..."
+		],
+		[
+			"Ich wundere mich ob es dieser Förster geschafft hat? Es macht jetzt keinen Sinn näher darauf einzugehen. Aber wenn er Junii's Gefahren überlebt haben sollte, hätte er es sicher bis hierher geschafft."
+		],
+		[
+			"Wenn ich aus diesen Tunneln wieder heraus bin, werde ich zu meinem Lager gehen. Vielleicht kann ich dort etwas verwerten...",
+			"Zwischen diesen Banditen und diesen Dimoni zu sein ist nicht hilfreich."
+		],
+		[
+			"Ich hoffe zum hohen Himmel, dass ich jetzt weit genug vom Dschungel entfernt bin. Wenn die Wurzeln bis hierher reichen... Ich habe Angst einem weiteren Dimoni in diesen verschleierten Tiefen gegenüberzustehen."
+		],
+		[
+			"Was war ich nur für ein Dummkopf. Ich habe nach Feuerholz geschaut, ein gefährliches Unternehmen in Junii's schattigem Grund, ich weiß, aber die Nacht kam mit einer tödlichen Ruhe.",
+			"Ich hätte die Zeichen für einen Dämonen-Baum erkennen müssen. Nachdem ich diesen Ast gehackt hatte, strömte der große, schwarze Umhang der Dimoni aus der Kluft. Ich rannte.",
+			"Ich hörte die geisteraufschreckende, grenzenlose Gewalt hinter mir. Ich habe mich nicht getraut zurückzuschauen. Ich habe meinen Weg hierher gefunden, blind, verloren in diesen Gängen. Was jetzt?"
+		],
+		[
+			"Sind diese Passagen hier die Überbleibsel des Gladius-Projekts oder etwas anderes? Ich kann keine mir bekannte Steinarbeit erkennen, auch denke ich nicht, dass die Druan diese Tiefen durchforschten."
+		],
+		[
+			"Was würde ich jetzt nicht alles für ein heißes Bad in einem Druanischem Dampfhaus tun. Natürlich würde das durch das Exil nicht gehen, aber ich kann ja träumen."
+		],
+		[
+			"Habe ich eine meiner Wald-Salben verloren? Ich dachte ich hätte vier... aber habe ich nicht zwei getrunken? Oder drei? Ich bin verwirrt... und durstig."
+		],
+		[
+			"Glücklicherweise war ich gerade vor meinem Feuerholz-Missgeschick auf Jagd und hatte immer noch meine Ausrüstung dabei, darunter mein Ranken-Bogen und ein bisschen Fleisch.",
+			"Ich werde jedoch mehr Essen finden müssen wenn dieses zu Neige geht. Die Fledermäuse sehen nach einer guten Mahlzeit aus."
+		],
+		[
+			"Ich hatte vorhin eine Auseinandersetzung mit einem Magier. Einem Magier! Ich dachte der Äther wäre vor Jahren versiegt. Vieleicht befindet sich ein bisschen übrig gebliebener Äther noch im Untergrund.",
+			"Würden die Aldii diesen Ort finden, könnten sie wieder an die Macht gelangen. Vielleicht ist es das Beste, wenn es ein Geheimnis bleibt."
+		]
+	]
+}
