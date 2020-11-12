@@ -1,0 +1,17 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hello again. It's been awhile... and I must say that I feared the worst.",
+			"While you are here, I can catch you up on our research.",
+			"We think that the convergence of magic energies here must act as a beacon to those sensitive in the arcane.",
+			"Older books of ours indicate that this place has been inhabited for much longer than just this castle here.",
+			"Could you look for evidence of there being older structures here, under the castle?",
+			"Places this powerful have likely been inhabited multiple times over the ages."
+		],
+		[
+			"Could you look for evidence of there being older structures here, under the castle?",
+			"Places this powerful have likely been inhabited multiple times over the ages."
+		]
+	]
+}

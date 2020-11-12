@@ -1,0 +1,12 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hey adventurer, Didn't you go into those ruins?",
+			"Anyways, welcome back! You better stock up while you are here."
+		],
+		[
+			"Fortune favors the prepared! Supplies are limited."
+		]
+	]
+}

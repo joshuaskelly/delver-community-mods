@@ -1,9 +1,9 @@
 {
-	"repeats": true,
-	"messages": [
+	repeats: true,
+	messages: [
 		[
-			"I think the bard is messing with my stuff. A book I brought with was replaced with another entirely, like I wouldn't even notice. The nerve of some people.",
-			"Even my food was switched out. All of my scones are sweetrolls now!"
+			"The others went inside, against my arguments to proceed more cautiously. I fear for the worst. The only thing to do now is to wait for their return.",
+			"No word yet from the rest but I've been trying to continue my studies in their absence. So far nothing seems fixed here, no observations have remained stable."
 		]
 	]
 }

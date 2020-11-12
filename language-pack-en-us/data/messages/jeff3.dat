@@ -1,0 +1,14 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"You again? I didn't expect to see you. Not many return customers around here.",
+			"To be honest, it's kind of lonely down here...",
+			"I wish I could talk to Joff again. He always knew what to say. I kind of messed that up though.",
+			"But there's no way out of here that I've found, could you let me know if you find a way?",
+		],
+		[
+			"There's no way out of here that I've found, could you let me know if you find a way?",
+		]
+	]
+}

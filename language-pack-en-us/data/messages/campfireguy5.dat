@@ -1,0 +1,17 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Well well. Welcome back to us, delver.",
+			"Doing any more of your scholarly research at swordpoint?",
+			"I would be careful proceeding any further than you have. Something bad happened here in the past. Something powerful.",
+			"It wasn't just one time either. There is a unique pattern of disasters happening here.",
+			"My opinion in this matter is changing. Now I think the best thing we could probably do is to leave this place.",
+			"We should leave while we can, and never look back."
+		],
+		[
+			"There is a unique pattern of disasters happening here.",
+			"We should probably leave this place and never come back."
+		]
+	]
+}

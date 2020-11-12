@@ -1,0 +1,12 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Welcome back.",
+			"I have some more scrolls prepared, if you're in need of some arcane intervention."
+		],
+		[
+			"I have some more scrolls prepared, if you're in need of some arcane intervention."
+		]
+	]
+}

@@ -1,0 +1,15 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Somehow, you always manage to return to us.",
+			"I've been doing more research in your absence, with some intriguing findings.",
+			"It's just a theory, but I have a feeling that this was the location of the lost city of Vyr. That city has no mention of being in the mountains, however.",
+			"My thinking is that these mountains are a more recent addition to this landscape. It would take quite an event to raise a mountain chain like this though."
+		],
+		[
+			"What we know of Vyr is that it rested on an island in a lake.",
+			"If this is the place, then whatever happened here was an extremely violent event."
+		]
+	]
+}

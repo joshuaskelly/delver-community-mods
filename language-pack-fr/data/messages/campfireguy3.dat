@@ -1,0 +1,17 @@
+{
+	"repeats": false,
+	"messages": [
+		[
+			"Re-bonjour. Cela fait longtemps... et je dois avouer que je craignais le pire.",
+			"Puisque vous êtes ici, je peux vous tenir au courant de nos recherches.",
+			"Nous pensons que la convergence des énergies arcaniques en ces lieux attire tous ceux qui sont sensibles à la magie.",
+			"D'anciens livres nous indiquent que cet endroit était habité bien avant la construction de ce château.",
+			"Pourriez-vous chercher des preuves de l'existence de structures plus anciennes ici, sous le château?",
+			"Des lieux aussi puissants ont probablement été habités plusieurs fois au cours des âges."
+		],
+		[
+			"Pourriez-vous chercher des preuves de l'existence de structures plus anciennes ici, sous le château?",
+			"Des lieux aussi puissants ont probablement été habités plusieurs fois au cours des âges."
+		]
+	]
+}

@@ -1,0 +1,12 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"The traveler is back... Perhaps it is in need of our assistance?",
+			"We have traveled the multitudes ourselves. I can offer this knowledge, for a price of course."
+		],
+		[
+			"Ahhh... it returns. Does it have need to pierce the veils of worlds?"
+		]
+	]
+}

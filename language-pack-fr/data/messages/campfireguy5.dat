@@ -1,0 +1,17 @@
+{
+	"repeats": false,
+	"messages": [
+		[
+			"Tiens tiens. Bon retour parmis nous, chercheur.",
+			"Vous poursuivez toujours vos investigations savantes à la pointe de l'épée?",
+			"Je me garderai de poursuivre d'avantage si j'étais vous. Un malheur s'est abattu ici par le passé. Une chose terrible.",
+			"Ce n'était pas non plus la première fois. De nombreux désastres se produisent en ces lieux.",
+			"Mon point de vue à ce sujet est en train d'évoler. Désormais, je suis convaincu que la meilleure chose à faire pour nous est de quitter ces lieux.",
+			"Nous devrions partir tant que nous le pouvons encore et ne jamais regarder en arrière."
+		],
+		[
+			"De nombreux désastres se produisent en ces lieux.",
+			"Nous devrions partir tant que nous le pouvons encore et ne jamais regarder en arrière."
+		]
+	]
+}

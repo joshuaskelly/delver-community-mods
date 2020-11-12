@@ -1,0 +1,18 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Ahhhh... it seems we have met it again.",
+			"It must be a tenacious thing to make it this far into the earth.",
+			"Anyway, it is not one for musing... Perhaps it would like to trade instead?",
+			"We have for sale words from dead stars. Even gone their stories are powerful."
+		],
+		[
+			"Is it a Guardian? There are stories of fading worlds and those who tried to help them.",
+			"Unlikely. The energies are wrong. Anyway, does it have need of more stories?",
+		],
+		[
+        	"Ahhh... it returns. Does it have need of more stories?"
+        ]
+	]
+}

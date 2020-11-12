@@ -15,6 +15,7 @@ A collection of community mods for the game Delver.
 
 ## Contributors
 - Elias Ball - [blue1stone](https://github.com/blue1stone)
+- Felix Siebeneicker - [PythooonUser](http://github.com/PythooonUser)
 - Javier Leal Cortés - [JavierLealCortes](http://github.com/JavierLealCortes)
 - Chad Cuddigan - [Interrupt](http://github.com/Interrupt)
 - Louis Carl Pepin - [louiscarl](http://github.com/louiscarl)

@@ -1,0 +1,13 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"You're back! There is more to you than it appears it seems.",
+			"Our records seem to indicate that the inhabitants of this place exported a unique crystal, and this business made them extremely wealthy.",
+			"Did you find those mines? I would expect there to be quite a large network of them."
+		],
+		[
+			"Did you find the mines? I would expect there to be quite a large network of them."
+		]
+	]
+}

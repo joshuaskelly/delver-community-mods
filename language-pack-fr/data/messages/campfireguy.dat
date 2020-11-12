@@ -2,23 +2,23 @@
 	"repeats": false,
 	"messages": [
 		[
-			"Vous ne devriez pas rester ici longtems. Des événements étranges se passent autour de ces ruines.",
-			"Beaucoup de chasseurs de trésors sont entrés, mais aucun n'est sorti.",
-			"On entend des rumeurs à propos de ce qui se passe en bas. Il n'y a pas assez d'argent dans le monde pour me convaincre d'y aller."
+		    "Eh bien qu'avons-nous la, un autre chasseur de trésors?",
+			"Vous ne m'écouterez pas, ils ne m'écoutent jamais, la meilleure chose pour vous est de quitter ces lieux.",
+			"Peu de gens qui y entrent parviennent à quitter cet endroit. Et encore moins avec la tête sur les épaules.",
 		],
 		[
-			"J'ai été envoyé par la guilde pour enquêter, mais aujourd'ui je n'ai que des questions.",
-			"Que ce passe-t-il à ceux et celles qui entre ces ruines?",
-			"Pourquoi tant de gens sont portés à ces lieux?",
-			"Pourquoi mes rêves son-t-ils si étranges dans ces lieux? Je peux à peine dormir."
+			"Je suis un érudit, j'ai été envoyé ici par ma guilde pour étudier cet endroit, pour l'heure j'ai de nombreuses questions.",
+			"Qu'est-il arrivé aux gens qui vivaient ici?",
+			"Pourquoi les gens sont-ils attirés à cet endroit?",
+			"Pourquoi mes rêves sont-ils si agités ces derniers temps? J'arrive à peine à dormir."
 		],
 		[
-			"Allez-vous y entrer?",
-			"Je ne vais pas vous empêcher, mais ce n'est pas une bonne idée."
+			"Vous voulez y pénétrer?",
+			"Je ne vous en empècherai pas, vous êtes prévenu."
 		],
 		[
 			"Vous me semblez familier...",
-			"Êst-ce la première fois que vous êtes sur les lieux?"
+			"Nous serions nous déja rencontré auparavant?"
 		]
 	]
 }
